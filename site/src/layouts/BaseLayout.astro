@@ -21,7 +21,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
-<html lang="en" class="lang-en">
+<html lang="my" class="lang-my">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -56,11 +56,17 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <!-- Language toggle logic -->
     <script>
       const html = document.documentElement;
-      const stored = localStorage.getItem('ecbt-lang') || 'en';
-      if (stored === 'my') html.classList.replace('lang-en', 'lang-my');
+      const stored = localStorage.getItem('ecbt-lang') || 'my';
+      if (stored === 'en') {
+        html.classList.replace('lang-my', 'lang-en');
+        html.lang = 'en';
+        const btn = document.getElementById('lang-toggle-btn');
+        if (btn) btn.textContent = 'မြန်မာ';
+      }
 
       window.setLang = (lang: string) => {
         html.className = html.className.replace(/lang-(en|my)/, `lang-${lang}`);
+        html.lang = lang;
         localStorage.setItem('ecbt-lang', lang);
         const btn = document.getElementById('lang-toggle-btn');
         if (btn) btn.textContent = lang === 'en' ? 'မြန်မာ' : 'English';
