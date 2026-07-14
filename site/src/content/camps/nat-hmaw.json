@@ -1,7 +1,7 @@
 {
   "slug": "nat-hmaw",
   "name_en": "Nat Hmaw Elephant Conservation Camp",
-  "name_my": null,
+  "name_my": "နတ်မှော်ဆင်စခန်း",
   "region": "Yangon",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 18.759444,
@@ -14,10 +14,10 @@
   },
   "hours": "8:30 AM to 5:30 PM",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
+    "entrance_local_mmk": 500,
+    "entrance_foreigner_mmk": 10000,
     "riding_local_mmk": 2000,
-    "riding_foreigner_mmk": null
+    "riding_foreigner_mmk": 10000
   },
   "activities": [
     "Elephant Riding",
@@ -36,5 +36,20 @@
   "facebook": "https://www.facebook.com/profile.php?id=100070486263734",
   "source_dir": "NatHmaw_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Nat Hmaw is a family-friendly camp known for its beautiful sunflower and aster gardens. In addition to elephant activities, it features a children's playground and pre-wedding photography services among the flowers.",
+  "description_my": "နတ်မှော်ဆင်စခန်းသည် လှပသော နေကြာနှင့် မေမြို့ပန်းစိုက်ခင်းများကြောင့် မိသားစုများ အပန်းဖြေရန် သင့်တော်သော နေရာတစ်ခု ဖြစ်ပါသည်။ ဆင်များနှင့် ပတ်သက်သော လှုပ်ရှားမှုများအပြင် ကလေးကစားကွင်းနှင့် ပန်းခင်းများအတွင်း မင်္ဂလာဦးဓာတ်ပုံရိုက်ကူးရေး ဝန်ဆောင်မှုများလည်း ရှိပါသည်။",
+  "services_en": [
+    "Sunflower Allotment",
+    "Children Playground",
+    "Elephant Museum"
+  ],
+  "services_my": [
+    "နေကြာပန်းစိုက်ခင်း",
+    "ကလေးကစားကွင်း",
+    "ဆင်ပြတိုက်"
+  ],
+  "region_my": "ပြည်၊ ပဲခူးတိုင်းဒေသကြီး",
+  "address_en": "Milepost 174/3 Yangon-Pyay Highway",
+  "address_my": "ရန်ကုန်-ပြည်လမ်း၊ မိုင်တိုင် ၁၇၄/၃"
 }

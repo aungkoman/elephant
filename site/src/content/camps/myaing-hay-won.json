@@ -1,7 +1,7 @@
 {
   "slug": "myaing-hay-won",
   "name_en": "Myaing Hay Won Elephant Conservation Camp",
-  "name_my": null,
+  "name_my": "မြိုင်ဟေဝန်ဆင်စခန်း",
   "region": "Yangon",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 17.293096,
@@ -14,10 +14,10 @@
   },
   "hours": "7:00 AM – 6:00 PM",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
-    "riding_local_mmk": 3000,
-    "riding_foreigner_mmk": null
+    "entrance_local_mmk": 1000,
+    "entrance_foreigner_mmk": 10000,
+    "riding_local_mmk": 5000,
+    "riding_foreigner_mmk": 10000
   },
   "activities": [
     "Elephant Riding",
@@ -36,5 +36,20 @@
   "facebook": null,
   "source_dir": "MyaingHayWon_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Tucked away in the Okkan Reserve, Myaing Hay Won serves as a center for wild elephant study. Using trained 'Conji' elephants, the Emergency Response Unit monitors wild elephant populations, offering visitors a rare opportunity to observe these majestic animals in their natural habitat.",
+  "description_my": "ဥက္ကံကြိုးဝိုင်းအတွင်း တည်ရှိသော မြိုင်ဟေဝန်သည် တောဆင်ရိုင်းများကို လေ့လာရာ ဗဟိုဌာနတစ်ခု ဖြစ်ပါသည်။ 'ကွန်ဂျီ' ဟုခေါ်သော လေ့ကျင့်ပေးထားသည့် ဆင်များကို အသုံးပြု၍ အရေးပေါ်တုံ့ပြန်ရေးအဖွဲ့က တောဆင်ရိုင်းများကို စောင့်ကြည့်လေ့လာကြပြီး ဧည့်သည်များအနေဖြင့် သဘာဝအတိုင်း နေထိုင်သော ဆင်ရိုင်းများကို မြင်တွေ့နိုင်သော အခွင့်အရေး ရရှိပါသည်။",
+  "services_en": [
+    "Wild Elephant Study via Conji",
+    "Emergency Response Unit",
+    "Jungle Resorts"
+  ],
+  "services_my": [
+    "တောဆင်လေ့လာရေး",
+    "အရေးပေါ်တုံ့ပြန်ရေးအဖွဲ့",
+    "တောတွင်းအပန်းဖြေစခန်း"
+  ],
+  "region_my": "တိုက်ကြီး၊ ရန်ကုန်တိုင်းဒေသကြီး",
+  "address_en": "Okkan Reserve, Milepost 60 Yangon-Pyay Rd",
+  "address_my": "ဥက္ကံကြိုးဝိုင်း၊ ရန်ကုန်-ပြည်လမ်း၊ မိုင်တိုင် ၆၀"
 }

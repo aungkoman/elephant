@@ -41,7 +41,7 @@ const grad = GRADIENTS[gradIdx];
 
 <a
   href={`/camps/${camp.slug}`}
-  class="group block rounded-3xl overflow-hidden bg-white border border-[--color-forest-100] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300"
+  class="group block rounded-3xl overflow-hidden bg-white border border-forest-100 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300"
 >
   <!-- Hero -->
   <div class={`relative h-48 bg-gradient-to-br ${grad} overflow-hidden`}>
@@ -71,11 +71,11 @@ const grad = GRADIENTS[gradIdx];
 
     <!-- Name overlay at bottom — stronger scrim + text-shadow for contrast -->
     <div class="absolute bottom-0 left-0 right-0 px-4 py-3 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
-      <h2 class="font-[Outfit] font-bold text-white text-base leading-snug group-hover:text-[--color-amber-300] transition-colors lang-en-only line-clamp-2"
+      <h2 class="font-[Outfit] font-bold text-white text-base leading-snug group-hover:text-amber-300 transition-colors lang-en-only line-clamp-2"
         style="text-shadow: 0 1px 4px rgba(0,0,0,0.9), 0 2px 8px rgba(0,0,0,0.6);">
         {camp.name_en}
       </h2>
-      <h2 class="font-bold text-white text-base leading-snug group-hover:text-[--color-amber-300] transition-colors lang-my-only font-myanmar line-clamp-2"
+      <h2 class="font-bold text-white text-base leading-snug group-hover:text-amber-300 transition-colors lang-my-only font-myanmar line-clamp-2"
         style="text-shadow: 0 1px 4px rgba(0,0,0,0.9), 0 2px 8px rgba(0,0,0,0.6);">
         {camp.name_my ?? camp.name_en}
       </h2>
@@ -90,7 +90,7 @@ const grad = GRADIENTS[gradIdx];
       <div class="flex flex-wrap gap-1.5">
         {topActivities.map(a => <ActivityBadge activity={a} size="sm" />)}
         {(camp.activities?.length ?? 0) > 3 && (
-          <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs bg-[--color-forest-100] text-[--color-forest-500]">
+          <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs bg-forest-100 text-forest-500">
             +{camp.activities!.length - 3} more
           </span>
         )}
@@ -98,7 +98,7 @@ const grad = GRADIENTS[gradIdx];
     )}
 
     <!-- Info row -->
-    <div class="flex items-center justify-between text-xs text-[--color-forest-500]">
+    <div class="flex items-center justify-between text-xs text-forest-500">
       {camp.hours && (
         <span class="flex items-center gap-1">
           <span>🕐</span>
@@ -106,7 +106,7 @@ const grad = GRADIENTS[gradIdx];
           <span class="lang-my-only font-myanmar">ဖွင့်ချိန်ရှိ</span>
         </span>
       )}
-      <span class="ml-auto flex items-center gap-1 text-[--color-forest-700] font-semibold group-hover:text-[--color-amber-600] transition-colors">
+      <span class="ml-auto flex items-center gap-1 text-forest-700 font-semibold group-hover:text-amber-600 transition-colors">
         <span class="lang-en-only">Explore</span>
         <span class="lang-my-only font-myanmar">ကြည့်ရှုရန်</span>
         <span class="group-hover:translate-x-1 transition-transform">→</span>

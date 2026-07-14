@@ -10,7 +10,7 @@ const { lat, lon, campName, zoom = 13 } = Astro.props;
 const mapId = `map-${Math.random().toString(36).slice(2, 8)}`;
 ---
 
-<div id={mapId} class="w-full h-72 rounded-2xl overflow-hidden border border-[--color-forest-200] shadow-sm z-0"></div>
+<div id={mapId} class="w-full h-72 rounded-2xl overflow-hidden border border-forest-200 shadow-sm z-0"></div>
 
 <!-- Leaflet CSS + JS -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />

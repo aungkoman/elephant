@@ -8,35 +8,14 @@ import { join } from 'path';
 
 export async function getStaticPaths() {
   const campsDir = join(process.cwd(), 'src/content/camps');
-  const allFiles = readdirSync(campsDir).filter(f => f.endsWith('.json'));
-
-  // Build rich data lookup from 001.json
-  const richLookup: Record<string, any> = {};
-  const raw001 = JSON.parse(readFileSync(join(campsDir, '001.json'), 'utf-8').replace(/^\uFEFF/, ''));
-  if (Array.isArray(raw001)) {
-    raw001.forEach((c: any) => {
-      const key = (c.name?.en ?? '').toLowerCase().replace(/[^a-z]/g, '');
-      richLookup[key] = c;
-    });
-  }
-
-  // Only slug-named files become pages
-  const slugFiles = allFiles.filter(f => f !== '001.json');
-  return slugFiles.map(f => {
+  const files = readdirSync(campsDir)
+    .filter(f => f.endsWith('.json') && f !== '001.json');
+  return files.map(f => {
     const camp = JSON.parse(readFileSync(join(campsDir, f), 'utf-8'));
-    const nameKey = (camp.name_en ?? '').toLowerCase().replace(/[^a-z]/g, '');
-    const rich = richLookup[nameKey];
-    const merged = {
-      ...camp,
-      name_my: rich?.name?.my ?? camp.name_my ?? null,
-      description_en: rich?.description?.en ?? null,
-      description_my: rich?.description?.my ?? null,
-      services_en: rich?.services?.en ?? null,
-      services_my: rich?.services?.my ?? null,
-    };
-    return { params: { slug: camp.slug }, props: { camp: merged } };
+    return { params: { slug: camp.slug }, props: { camp } };
   });
 }
+
 
 
 const { camp } = Astro.props;
@@ -261,16 +240,22 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
 
         <!-- Contact card -->
         {(camp.contacts?.length > 0 || camp.facebook) && (
-          <div class="bg-[--color-forest-900] rounded-3xl text-white p-6 space-y-4">
-            <h3 class="font-[Outfit] font-bold text-lg lang-en-only">📞 Contact</h3>
-            <h3 class="font-bold text-lg lang-my-only font-myanmar">📞 ဆက်သွယ်ရန်</h3>
+          <div
+            class="rounded-3xl p-6 space-y-4 border border-[--color-forest-100] shadow-sm"
+            style="background-color: var(--color-forest-900); color: white;"
+          >
+            <h3 class="font-[Outfit] font-bold text-lg text-white lang-en-only">📞 Contact</h3>
+            <h3 class="font-bold text-lg text-white lang-my-only font-myanmar">📞 ဆက်သွယ်ရန်</h3>
 
             {camp.contacts?.length > 0 && (
               <div class="space-y-2">
                 {camp.contacts.slice(0, 4).map((phone: string) => (
                   <a
                     href={`tel:${phone}`}
-                    class="flex items-center gap-2 text-sm text-[--color-forest-200] hover:text-[--color-amber-300] transition-colors"
+                    class="flex items-center gap-2 text-sm transition-colors"
+                    style="color: var(--color-forest-200);"
+                    onmouseover="this.style.color='var(--color-amber-300)'"
+                    onmouseout="this.style.color='var(--color-forest-200)'"
                   >
                     <span>📱</span> {phone}
                   </a>
@@ -283,7 +268,10 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
                 href={camp.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="flex items-center gap-2 text-sm text-[--color-forest-200] hover:text-[--color-amber-300] transition-colors break-all"
+                class="flex items-center gap-2 text-sm transition-colors break-all"
+                style="color: var(--color-forest-200);"
+                onmouseover="this.style.color='var(--color-amber-300)'"
+                onmouseout="this.style.color='var(--color-forest-200)'"
               >
                 <span>👍</span>
                 <span class="lang-en-only">Facebook Page</span>

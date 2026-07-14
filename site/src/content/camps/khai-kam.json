@@ -1,8 +1,8 @@
 {
   "slug": "khai-kam",
   "name_en": "Khai Kam Elephant Camp",
-  "name_my": null,
-  "region": null,
+  "name_my": "ခိုင်ကမ်းဆင်စခန်း",
+  "region": "Kalay",
   "ministry": null,
   "latitude": 23.247893,
   "longitude": 93.894237,
@@ -14,15 +14,30 @@
   },
   "hours": null,
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
-    "riding_local_mmk": null,
-    "riding_foreigner_mmk": null
+    "entrance_local_mmk": 1000,
+    "entrance_foreigner_mmk": 10000,
+    "riding_local_mmk": 3000,
+    "riding_foreigner_mmk": 10000
   },
   "activities": [],
   "contacts": [],
   "facebook": null,
   "source_dir": "KhaiKam_ECBT Camp Information",
   "has_en_pdf": false,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Set in the mountainous landscapes of Chin State, Khai Kam offers breathtaking views and a fresh climate. It focuses on traditional interactions, where visitors can bathe with elephants and enjoy local delicacies while overlooking the scenic hills.",
+  "description_my": "ချင်းပြည်နယ်၏ တောင်တန်းရှုခင်းများအကြား တည်ရှိသော ခိုင်ကမ်းဆင်စခန်းသည် လှပသော မြင်ကွင်းနှင့် လတ်ဆတ်သော ရာသီဥတုကို ပေးစွမ်းပါသည်။ ဆင်များနှင့်အတူ ရေချိုးခြင်း၊ တောင်တန်းရှုခင်းများကို ကြည့်ရှုရင်း ဒေသစာသောက်ဖွယ်ရာများကို သုံးဆောင်နိုင်ခြင်းတို့ကြောင့် ထူးခြားသော အတွေ့အကြုံကို ရရှိစေပါသည်။",
+  "services_en": [
+    "Mountainous Scenery",
+    "Elephant Bathing",
+    "Traditional Food"
+  ],
+  "services_my": [
+    "တောင်တန်းရှုခင်းများ",
+    "ဆင်ရေချိုးခြင်း",
+    "ဒေသအစားအသောက်များ"
+  ],
+  "region_my": "ကလေး၊ ချင်းပြည်နယ်",
+  "address_en": "15 miles from Kalay, 6 miles from Khai Kam",
+  "address_my": "ကလေးမြို့မှ ၁၅ မိုင်၊ ခိုင်ကမ်းမြို့မှ ၆ မိုင်"
 }

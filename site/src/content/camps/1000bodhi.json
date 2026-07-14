@@ -1,11 +1,11 @@
 {
   "slug": "1000bodhi",
   "name_en": "1000 Bodhi Elephant Conservation Camp",
-  "name_my": null,
-  "region": null,
+  "name_my": "ဗောဓိတထောင်ဆင်ထိန်းသိမ်းစောင့်ရှောက်ရေးစခန်း",
+  "region": "Monywa",
   "ministry": null,
-  "latitude": 22.0,
-  "longitude": 95.0,
+  "latitude": 22.112,
+  "longitude": 95.286,
   "area": null,
   "elephants": {
     "total": null,
@@ -14,10 +14,10 @@
   },
   "hours": null,
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
-    "riding_local_mmk": null,
-    "riding_foreigner_mmk": null
+    "entrance_local_mmk": 1000,
+    "entrance_foreigner_mmk": 10000,
+    "riding_local_mmk": 5000,
+    "riding_foreigner_mmk": 10000
   },
   "activities": [
     "Wedding",
@@ -27,5 +27,20 @@
   "facebook": null,
   "source_dir": "1000Bodhi_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Located within the grounds of the famous Bodhi Ta Htaung Pagoda in Monywa, this camp combines religious pilgrimage with nature study. It offers a peaceful environment for family visits, complete with a playground and opportunities to see elephants in a sacred setting.",
+  "description_my": "မုံရွာမြို့ရှိ ကျော်ကြားလှသော ဗောဓိတထောင် ဘုရားဝန်းအတွင်း တည်ရှိပြီး ဘုရားဖူးခရီးစဉ်နှင့် သဘာဝပတ်ဝန်းကျင် လေ့လာရေးကို ပေါင်းစပ်ပေးထားပါသည်။ မိသားစုများ အပန်းဖြေရန် အေးချမ်းသော ပတ်ဝန်းကျင်ရှိပြီး ကလေးကစားကွင်းနှင့် ဘုရားဝန်းအတွင်း ဆင်များကို ကြည့်ရှုနိုင်သော အခွင့်အရေးများ ရရှိနိုင်ပါသည်။",
+  "services_en": [
+    "Pagoda Visitation",
+    "Nature Study",
+    "Children Playground"
+  ],
+  "services_my": [
+    "ဘုရားဖူးရင်းလေ့လာနိုင်ခြင်း",
+    "သဘာဝပတ်ဝန်းကျင်လေ့လာရေး",
+    "ကလေးကစားကွင်း"
+  ],
+  "region_my": "မုံရွာ၊ စစ်ကိုင်းတိုင်းဒေသကြီး",
+  "address_en": "Near Bodhi Ta Htaung Pagoda, Monywa",
+  "address_my": "ဗောဓိတထောင်ဘုရားဝန်းအတွင်း၊ မုံရွာ"
 }

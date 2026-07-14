@@ -1,7 +1,7 @@
 {
   "slug": "hmaw-yaw-gyi",
   "name_en": "Hmaw Yaw Gyi Elephant Conservation Camp",
-  "name_my": null,
+  "name_my": "မှော်ယောကြီးဆင်စခန်း",
   "region": "Bago",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 18.412344,
@@ -14,10 +14,10 @@
   },
   "hours": "7:00AM-6:00PM",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
+    "entrance_local_mmk": 1000,
+    "entrance_foreigner_mmk": 10000,
     "riding_local_mmk": 5000,
-    "riding_foreigner_mmk": null
+    "riding_foreigner_mmk": 20000
   },
   "activities": [
     "Elephant Riding",
@@ -33,5 +33,20 @@
   "facebook": null,
   "source_dir": "HmawYawGyi_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Hmaw Yaw Gyi is famous for its twin baby elephants and engaging performance shows. Located in the Bago Region, it offers a deep dive into the livelihood of mahouts and provides a friendly environment to interact with a large herd of 17 elephants.",
+  "description_my": "မှော်ယောကြီးဆင်စခန်းသည် အမွှာဆင်ကလေးများနှင့် စိတ်ဝင်စားဖွယ် ဆင်သရုပ်ပြပွဲများကြောင့် ကျော်ကြားပါသည်။ ပဲခူးတိုင်းတွင် တည်ရှိပြီး ဆင်ဦးစီးများ၏ ဘဝနေထိုင်မှုကို လေ့လာနိုင်ကာ စုစုပေါင်း ဆင် ၁၇ ကောင်နှင့်အတူ ရင်းနှီးစွာ ထိတွေ့နိုင်သော ပတ်ဝန်းကျင်ကို ဖန်တီးပေးထားပါသည်။",
+  "services_en": [
+    "Twin Baby Elephants",
+    "Elephant Performance Show",
+    "Mahout Life Study"
+  ],
+  "services_my": [
+    "အမွှာဆင်ကလေးများ",
+    "ဆင်သရုပ်ပြပွဲ",
+    "ဆင်ဦးစီးဘဝလေ့လာရေး"
+  ],
+  "region_my": "ပဲခူးတိုင်းဒေသကြီး",
+  "address_en": "West of Milepost 105/4 Yangon-Mandalay Expressway",
+  "address_my": "ရန်ကုန်-မန္တလေးအမြန်လမ်း၊ မိုင်တိုင် ၁၀၁/၄ အနောက်ဘက်"
 }

@@ -1,7 +1,7 @@
 {
   "slug": "wanet",
   "name_en": "Wanet Elephant Conservation Camp",
-  "name_my": null,
+  "name_my": "ဝါးနက်ဆင်ထိန်းသိမ်းစောင့်ရှောက်ရေးစခန်း",
   "region": "Mandalay",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 21.784555,
@@ -14,10 +14,10 @@
   },
   "hours": "7:00 AM – 6:00 PM",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
-    "riding_local_mmk": null,
-    "riding_foreigner_mmk": null
+    "entrance_local_mmk": 1000,
+    "entrance_foreigner_mmk": 10000,
+    "riding_local_mmk": 3000,
+    "riding_foreigner_mmk": 10000
   },
   "activities": [
     "Elephant Riding",
@@ -32,5 +32,20 @@
   "facebook": "https://www.facebook.com/profile.php?id=100064898881474",
   "source_dir": "Wanet_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Situated on the road to the Yeywa Hydropower plant, Wanet offers a mix of scenic beauty and educational tours. It is well-known for its teak plantation tours and is a popular spot for pre-wedding photography and children's recreation.",
+  "description_my": "ရဲရွာရေအားလျှပ်စစ်စက်ရုံသွားလမ်းတွင် တည်ရှိပြီး ရှုခင်းအလှအပနှင့် ပညာပေးခရီးစဉ်များကို ပေါင်းစပ်ပေးထားပါသည်။ ကျွန်းစိုက်ခင်း လေ့လာရေးခရီးစဉ်များကြောင့် လူသိများပြီး မင်္ဂလာဦးဓာတ်ပုံရိုက်ကူးသူများနှင့် ကလေးများအတွက် ကစားကွင်းများဖြင့် စည်ကားသော နေရာဖြစ်ပါသည်။",
+  "services_en": [
+    "Teak Plantation Tour",
+    "Pre-wedding Shooting",
+    "Elephant Museum"
+  ],
+  "services_my": [
+    "ကျွန်းစိုက်ခင်းလေ့လာရေး",
+    "မင်္ဂလာဦးဓာတ်ပုံရိုက်ခြင်း",
+    "ဆင်ပြတိုက်"
+  ],
+  "region_my": "မန္တလေး/ပြင်ဦးလွင်",
+  "address_en": "Mile 5 Furlong 5 on Yeywa Hydropower Rd",
+  "address_my": "ရဲရွာရေအားလျှပ်စစ်သွားလမ်း၊ ၅ မိုင် ၅ ဖာလုံ"
 }

@@ -1,7 +1,7 @@
 {
   "slug": "kyun-taw",
   "name_en": "Kyun Taw Elephant Conservation Camp",
-  "name_my": null,
+  "name_my": "ကျွန်းတောဆင်စခန်း",
   "region": "Yangon",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 18.794167,
@@ -14,10 +14,10 @@
   },
   "hours": "8:00 AM to 5:30 PM",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
+    "entrance_local_mmk": 500,
+    "entrance_foreigner_mmk": 30000,
     "riding_local_mmk": 5000,
-    "riding_foreigner_mmk": null
+    "riding_foreigner_mmk": 30000
   },
   "activities": [
     "Elephant Riding",
@@ -36,5 +36,20 @@
   "facebook": "https://www.facebook.com/profile.php?id=100070486263734",
   "source_dir": "KyunTaw_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Kyun Taw is famous for its 78-acre lush environment featuring massive 160-year-old teak trees. It is an ideal spot for jungle walks and studying traditional teak plantations while observing the camp's elephants.",
+  "description_my": "ကျွန်းတောဆင်စခန်းသည် ဧရိယာ ၇၈ ဧက ကျယ်ဝန်းပြီး နှစ်ပေါင်း ၁၆၀ ကျော် သက်တမ်းရှိသော ကျွန်းပင်ကြီးများကြောင့် ကျော်ကြားပါသည်။ တောတွင်းလမ်းလျှောက်ခြင်းနှင့် ရှေးဟောင်းကျွန်းစိုက်ခင်းများကို လေ့လာရင်း ဆင်များ၏ သဘာဝကို ကြည့်ရှုနိုင်ရန် အကောင်းဆုံးနေရာ ဖြစ်ပါသည်။",
+  "services_en": [
+    "160-year-old Teak Trees",
+    "Jungle Walk",
+    "Teak Plantation Study"
+  ],
+  "services_my": [
+    "နှစ် ၁၆၀ ကျော်ကျွန်းပင်ကြီးများ",
+    "တောတွင်းလမ်းလျှောက်ခြင်း",
+    "ကျွန်းစိုက်ခင်းလေ့လာရေး"
+  ],
+  "region_my": "ပြည်၊ ပဲခူးတိုင်းဒေသကြီး",
+  "address_en": "Alongside Yangon-Pyay Highway, 1 mile from Pyay",
+  "address_my": "ရန်ကုန်-ပြည်လမ်းမကြီးဘေး၊ ပြည်မြို့မှ ၁ မိုင်အကွာ"
 }

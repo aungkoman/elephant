@@ -1,7 +1,7 @@
 {
   "slug": "sarni-taung",
   "name_en": "Sarni Taung Elephant Conservation Camp",
-  "name_my": null,
+  "name_my": "စာနီတောင်ဆင်ထိန်းသိမ်းစောင့်ရှောက်ရေးစခန်း",
   "region": "Rakhine",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 18.456816,
@@ -14,10 +14,10 @@
   },
   "hours": "8 AM – 5:30 PM",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
-    "riding_local_mmk": null,
-    "riding_foreigner_mmk": null
+    "entrance_local_mmk": 1000,
+    "entrance_foreigner_mmk": 15000,
+    "riding_local_mmk": 5000,
+    "riding_foreigner_mmk": 15000
   },
   "activities": [
     "Elephant Riding",
@@ -36,5 +36,20 @@
   "facebook": null,
   "source_dir": "SarniTaung_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Close to Ngapali Beach, Sarni Taung is perfect for travelers looking to experience Rakhine culture. The camp serves traditional Rakhine food, offers memorial tree planting, and provides insights into the unique bond between mahouts and their elephants.",
+  "description_my": "ငပလီကမ်းခြေနှင့် နီးကပ်စွာ တည်ရှိပြီး ရခိုင်ယဉ်ကျေးမှုကို ခံစားလိုသော ခရီးသွားများအတွက် အကောင်းဆုံးနေရာ ဖြစ်ပါသည်။ ရခိုင်ရိုးရာ အစားအသောက်များကို သုံးဆောင်နိုင်ပြီး အမှတ်တရ သစ်ပင်စိုက်ပျိုးခြင်းနှင့် ဆင်ဦးစီးများ၏ ဘဝနေထိုင်မှုများကို လေ့လာနိုင်ပါသည်။",
+  "services_en": [
+    "Rakhine Traditional Food",
+    "Memorial Tree Planting",
+    "Mahout Lifestyle Study"
+  ],
+  "services_my": [
+    "ရခိုင်ရိုးရာအစားအသောက်",
+    "အမှတ်တရသစ်ပင်စိုက်ခြင်း",
+    "ဆင်ဦးစီးဘဝလေ့လာရေး"
+  ],
+  "region_my": "သံတွဲ၊ ရခိုင်ပြည်နယ်",
+  "address_en": "6 miles from Ngapali, 2 miles from Thandwe",
+  "address_my": "ငပလီမှ ၆ မိုင်၊ သံတွဲမှ ၂ မိုင်"
 }

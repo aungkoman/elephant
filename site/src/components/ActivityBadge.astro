@@ -34,10 +34,10 @@ const info = ACTIVITY_MAP[activity] ?? { label: activity, icon: '✨' };
 ---
 
 <span
-  class={`inline-flex items-center gap-1.5 rounded-full font-medium whitespace-nowrap border border-[--color-forest-300]/30
+  class={`inline-flex items-center gap-1.5 rounded-full font-medium whitespace-nowrap border border-forest-300/30
     ${size === 'sm'
-      ? 'px-2 py-0.5 text-xs bg-[--color-forest-100] text-[--color-forest-700]'
-      : 'px-3 py-1 text-sm bg-[--color-forest-50] text-[--color-forest-800]'
+      ? 'px-2 py-0.5 text-xs bg-forest-100 text-forest-700'
+      : 'px-3 py-1 text-sm bg-forest-50 text-forest-800'
     }`}
 >
   <span aria-hidden="true">{info.icon}</span>

@@ -1,7 +1,7 @@
 {
   "slug": "phoe-kyar",
   "name_en": "Phoe Kyar Elephant Camp",
-  "name_my": null,
+  "name_my": "ဖိုးကျားဆင်စခန်း",
   "region": "Bago",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": null,
@@ -14,10 +14,10 @@
   },
   "hours": "8:00 AM – 8:30 PM",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
+    "entrance_local_mmk": 1000,
+    "entrance_foreigner_mmk": 10000,
     "riding_local_mmk": 3000,
-    "riding_foreigner_mmk": null
+    "riding_foreigner_mmk": 10000
   },
   "activities": [
     "Elephant Riding",
@@ -34,5 +34,20 @@
   "facebook": null,
   "source_dir": "PhoeKyar_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Located in the Bago Yoma mountain range, Phoe Kyar is one of the premier elephant camps for eco-tourism. It offers complete services including luxury jungle resorts for overnight stays, baby elephant shows, and extensive jungle trekking options.",
+  "description_my": "ပဲခူးရိုးမ တောင်တန်းပေါ်တွင် တည်ရှိသော ဖိုးကျားဆင်စခန်းသည် ဂေဟစနစ်ခရီးသွားလုပ်ငန်းအတွက် ထိပ်တန်းစခန်းတစ်ခု ဖြစ်ပါသည်။ ညအိပ်တည်းခိုနိုင်သော တောတွင်းအပန်းဖြေစခန်းများ၊ ဆင်ကလေးများ၏ ဖျော်ဖြေပွဲများနှင့် တောတွင်းခရီးရှည် ထွက်နိုင်သော ဝန်ဆောင်မှုများ ပြည့်စုံစွာ ရရှိနိုင်ပါသည်။",
+  "services_en": [
+    "Overnight Resorts",
+    "Elephant Museum",
+    "Baby Elephant Show"
+  ],
+  "services_my": [
+    "ညအိပ်တည်းခိုဆောင်",
+    "ဆင်ပြတိုက်",
+    "ဆင်ကလေးများပြပွဲ"
+  ],
+  "region_my": "တောင်ငူ၊ ပဲခူးတိုင်းဒေသကြီး",
+  "address_en": "Thagarakopin Road, Milepost 10/2",
+  "address_my": "သာဂရကိုးပင်လမ်း၊ မိုင်တိုင် ၁၀/၂"
 }

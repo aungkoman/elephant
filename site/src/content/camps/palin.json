@@ -1,7 +1,7 @@
 {
   "slug": "palin",
   "name_en": "Palin Elephant Camp",
-  "name_my": null,
+  "name_my": "ပုလင်းဆင်စခန်း",
   "region": "Mandalay",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 21.215839,
@@ -14,10 +14,10 @@
   },
   "hours": "8:00 AM – 5:00 PM",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
+    "entrance_local_mmk": 1000,
+    "entrance_foreigner_mmk": 10000,
     "riding_local_mmk": 5000,
-    "riding_foreigner_mmk": null
+    "riding_foreigner_mmk": 10000
   },
   "activities": [
     "Elephant Riding",
@@ -36,5 +36,20 @@
   "facebook": "https://www.facebook.com/Palin.Bagan",
   "source_dir": "Palin_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Located on the banks of the Ayeyarwaddy River near Bagan, Palin offers stunning sunset views and river activities. It features a 136-foot River View Bridge and a floating barge, providing a peaceful environment to watch elephants bathe in the river.",
+  "description_my": "ပုဂံအနီး ဧရာဝတီမြစ်ကမ်းဘေးတွင် တည်ရှိပြီး လှပသော နေဝင်ဆည်းဆာနှင့် မြစ်ကမ်းနား ရှုခင်းများကို ခံစားနိုင်ပါသည်။ ၁၃၆ ပေရှည်သော မြစ်ရှုခင်းကြည့်တံတားနှင့် ရေပေါ်ဖောင်တို့ ပါရှိကာ မြစ်အတွင်း ဆင်များ ရေချိုးသည်ကို ကြည့်ရှုရင်း အပန်းဖြေနိုင်ပါသည်။",
+  "services_en": [
+    "River Sunset View",
+    "Floating Barge",
+    "River View Bridge"
+  ],
+  "services_my": [
+    "မြစ်ကမ်းနားနေဝင်ဆည်းဆာ",
+    "ရေပေါ်ဖောင်",
+    "မြစ်ရှုခင်းကြည့်တံတား"
+  ],
+  "region_my": "ညောင်ဦး၊ ပုဂံ",
+  "address_en": "Bank of Ayeyarwaddy River, Near Palin Village",
+  "address_my": "ဧရာဝတီမြစ်ကမ်းဘေး၊ ပုလင်းရွာအနီး"
 }

@@ -1,7 +1,7 @@
 {
   "slug": "shan-yoma",
   "name_en": "Shan Yoma Elephant Camp",
-  "name_my": null,
+  "name_my": "ရှမ်းရိုးမဆင်စခန်း",
   "region": "Shan",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 20.733333,
@@ -14,10 +14,10 @@
   },
   "hours": "9 AM to 5 PM (Every Day)",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
+    "entrance_local_mmk": 1000,
+    "entrance_foreigner_mmk": 10000,
     "riding_local_mmk": 3000,
-    "riding_foreigner_mmk": null
+    "riding_foreigner_mmk": 10000
   },
   "activities": [
     "Elephant Riding",
@@ -32,5 +32,20 @@
   "facebook": null,
   "source_dir": "ShanYoma_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Located in the Wetphyuye Reserve Forest near Taunggyi, Shan Yoma emphasizes conservation through its memorial tree-planting program. Guests can feed elephants with rice and sugarcane and learn about Asian elephant facts in the cool Shan highlands.",
+  "description_my": "တောင်ကြီးမြို့အနီး ဝက်ဖြူရေကြိုးဝိုင်းအတွင်း တည်ရှိပြီး အမှတ်တရ သစ်ပင်စိုက်ပျိုးရေး အစီအစဉ်ဖြင့် သဘာဝပတ်ဝန်းကျင် ထိန်းသိမ်းရေးကို အလေးထားသော စခန်းဖြစ်ပါသည်။ ရှမ်းကုန်းပြင်မြင့်၏ အေးမြသော ရာသီဥတုတွင် ဆင်များကို စပါးနှင့် ကြံများ ကျွေးမွေးရင်း အာရှဆင်များအကြောင်း လေ့လာနိုင်ပါသည်။",
+  "services_en": [
+    "Wetphyuye Reserve Forest",
+    "Memorial Tree Planting",
+    "Elephant Bathing"
+  ],
+  "services_my": [
+    "ဝက်ဖြူရေကြိုးဝိုင်း",
+    "အမှတ်တရသစ်ပင်စိုက်ခြင်း",
+    "ဆင်ရေချိုးခြင်း"
+  ],
+  "region_my": "တောင်ကြီး၊ ရှမ်းပြည်နယ်",
+  "address_en": "Milepost 54/3 Taunggyi-Meiktila Rd",
+  "address_my": "တောင်ကြီး-မိတ္ထီလာလမ်း၊ မိုင်တိုင် ၅၄/၃"
 }

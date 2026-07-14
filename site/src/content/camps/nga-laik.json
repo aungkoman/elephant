@@ -1,7 +1,7 @@
 {
   "slug": "nga-laik",
   "name_en": "Ngalaik Sa Khan Thar Elephant Conservation Camp",
-  "name_my": null,
+  "name_my": "ငလိုက်စခန်းသာဆင်ထိန်းသိမ်းစောင့်ရှောက်ရေးစခန်း",
   "region": "Yangon",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 19.876121,
@@ -14,10 +14,10 @@
   },
   "hours": "8 AM – 5:30 PM",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
+    "entrance_local_mmk": 2000,
+    "entrance_foreigner_mmk": 10000,
     "riding_local_mmk": 3000,
-    "riding_foreigner_mmk": null
+    "riding_foreigner_mmk": 10000
   },
   "activities": [
     "Elephant Riding",
@@ -39,5 +39,20 @@
   "facebook": null,
   "source_dir": "NgaLaik_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Ngalaik is one of the most developed camps in Naypyitaw, featuring a 327-foot Canopy Walk and a nearly 5,000-foot Jungle Walk. Visitors can enjoy boat rides on the Ngalaik Dam, cross the floating bridge, and explore diverse plantations of Teak and Pine.",
+  "description_my": "ငလိုက်ဆည်အနီးတွင် တည်ရှိပြီး ၃၂၇ ပေရှည်သော ရွက်အုပ်ဖြတ်လျှောက်လမ်းနှင့် ၄၈၁၇ ပေရှည်သော တောတွင်းဖြတ်လျှောက်လမ်းတို့ကြောင့် ထင်ရှားပါသည်။ ဧည့်သည်များသည် ဆည်အတွင်း စက်လှေစီးခြင်း၊ ရေပေါ်တံတားကို ဖြတ်သန်းခြင်းနှင့် ကျွန်း၊ ထင်းရှူးစိုက်ခင်းများကို လေ့လာနိုင်ပါသည်။",
+  "services_en": [
+    "Canopy Walk (327 ft)",
+    "Floating Bridge",
+    "Boat Ride in Dam"
+  ],
+  "services_my": [
+    "ရွက်အုပ်ဖြတ်လျှောက်လမ်း",
+    "ရေပေါ်တံတား",
+    "ဆည်အတွင်းစက်လှေစီးခြင်း"
+  ],
+  "region_my": "နေပြည်တော်",
+  "address_en": "Milepost 217/0 Yangon-Mandalay Highway",
+  "address_my": "ရန်ကုန်-မန္တလေးအမြန်လမ်း၊ မိုင်တိုင် ၂၁၇/၀"
 }

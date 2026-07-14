@@ -1,7 +1,7 @@
 {
   "slug": "nay-pyi-taw",
   "name_en": "Royal White Elephants Conservation Garden",
-  "name_my": null,
+  "name_my": "ရတနာဆင်ဖြူတော်ထိန်းသိမ်းစောင့်ရှောက်ရေးဥယျာဉ်",
   "region": "Naypyitaw",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": null,
@@ -30,5 +30,20 @@
   "facebook": null,
   "source_dir": "NayPyiTaw_RoyalWhiteElephant",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Home to the revered Royal White Elephants of Myanmar, this garden is located at the foot of the Uppatassanti Pagoda in Naypyitaw. Visitors can observe several white elephants, each possessing unique physical traits such as pearl eyes and golden-white hair, which are traditionally considered symbols of peace and prosperity.",
+  "description_my": "နေပြည်တော်၊ ဥပ္ပါတသန္တိ စေတီတော်ခြေရင်းတွင် တည်ရှိပြီး မြန်မာနိုင်ငံ၏ တန်ဖိုးထားအပ်သော ရတနာဆင်ဖြူတော်များ ရှိရာနေရာ ဖြစ်ပါသည်။ ပုလဲရောင်မျက်လုံးနှင့် ရွှေဖြူရောင်အမွှေးအမျှင်များကဲ့သို့သော ထူးခြားသည့် ကြန်အင်လက္ခဏာများနှင့် ပြည့်စုံသည့် ဆင်ဖြူတော်များကို ဖူးမြော်လေ့လာနိုင်သော နေရာဖြစ်ပါသည်။",
+  "services_en": [
+    "White Elephant Observation",
+    "Spiritual Tours",
+    "Photography"
+  ],
+  "services_my": [
+    "ဆင်ဖြူတော်များဖူးမြော်ခြင်း",
+    "ဘာသာရေးနှင့်ယဉ်ကျေးမှု",
+    "ဓာတ်ပုံရိုက်ကူးခြင်း"
+  ],
+  "region_my": "နေပြည်တော်",
+  "address_en": "Uppatassanti Pagoda, Naypyitaw",
+  "address_my": "ဥပ္ပါတသန္တိစေတီတော်၊ နေပြည်တော်"
 }

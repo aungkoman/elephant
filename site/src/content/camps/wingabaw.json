@@ -1,7 +1,7 @@
 {
   "slug": "wingabaw",
   "name_en": "Wingabaw Elephant Conservation Camp",
-  "name_my": null,
+  "name_my": "ဝါးဂယက်ဗောဆင်စခန်း",
   "region": "Bago",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 17.473564,
@@ -14,10 +14,10 @@
   },
   "hours": "7:00AM-6:00PM",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
+    "entrance_local_mmk": 1000,
+    "entrance_foreigner_mmk": 10000,
     "riding_local_mmk": 5000,
-    "riding_foreigner_mmk": null
+    "riding_foreigner_mmk": 20000
   },
   "activities": [
     "Elephant Riding",
@@ -37,5 +37,20 @@
   "facebook": "https://www.facebook.com/profile.php?id=100057363942905&mibextid=ZbWKwL",
   "source_dir": "Wingabaw_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Wingabaw is a popular destination near Phayagyi known for its twin baby elephants and educational elephant museum. The camp provides overnight guest house facilities and a lively atmosphere with regular elephant performance shows.",
+  "description_my": "ဘုရားကြီးမြို့အနီးတွင် တည်ရှိသော ဝါးဂယက်ဗောဆင်စခန်းသည် အမွှာဆင်ကလေးများနှင့် ပညာပေးဆင်ပြတိုက်ကြောင့် လူသိများပါသည်။ ညအိပ်တည်းခိုနိုင်သော ဧည့်ရိပ်သာများ ရှိပြီး ပုံမှန်ပြုလုပ်လေ့ရှိသော ဆင်သရုပ်ပြပွဲများကြောင့် စည်ကားလှပသော စခန်းတစ်ခု ဖြစ်ပါသည်။",
+  "services_en": [
+    "Twin Baby Elephants",
+    "Elephant Museum",
+    "Night-stay Guest House"
+  ],
+  "services_my": [
+    "အမွှာဆင်ကလေးများ",
+    "ဆင်ပြတိုက်",
+    "ညအိပ်တည်းခိုဆောင်"
+  ],
+  "region_my": "ဘုရားကြီး၊ ပဲခူးတိုင်းဒေသကြီး",
+  "address_en": "1 mile from Milepost 39/0 Yangon-Mandalay Expressway",
+  "address_my": "ရန်ကုန်-မန္တလေးအမြန်လမ်း၊ မိုင်တိုင် ၃၉/၀ မှ ၁ မိုင်"
 }

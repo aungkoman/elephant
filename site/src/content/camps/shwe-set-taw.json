@@ -1,11 +1,11 @@
 {
   "slug": "shwe-set-taw",
   "name_en": "Shwe Set Taw Elephant Camp",
-  "name_my": null,
-  "region": null,
+  "name_my": "ရွှေစက်တော်မန်းချောင်းဆင်စခန်း",
+  "region": "Minbu",
   "ministry": null,
-  "latitude": null,
-  "longitude": null,
+  "latitude": 20.086,
+  "longitude": 94.549,
   "area": null,
   "elephants": {
     "total": null,
@@ -14,15 +14,30 @@
   },
   "hours": null,
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
-    "riding_local_mmk": null,
-    "riding_foreigner_mmk": null
+    "entrance_local_mmk": 1000,
+    "entrance_foreigner_mmk": 10000,
+    "riding_local_mmk": 5000,
+    "riding_foreigner_mmk": 10000
   },
   "activities": [],
   "contacts": [],
   "facebook": null,
   "source_dir": "ShweSetTaw_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": false
+  "has_my_pdf": false,
+  "description_en": "Located near the sacred Shwesettaw Pagoda, this camp is known for its riverside activities on the Man Chaung. It is a major pilgrimage stop where visitors can enjoy water activities, stay in overnight resorts, and participate in elephant bathing.",
+  "description_my": "တန်ခိုးကြီး ရွှေစက်တော်ဘုရားအနီးတွင် တည်ရှိပြီး မန်းချောင်းအတွင်း ရေကစားခြင်းနှင့် အပန်းဖြေခြင်းတို့ကြောင့် ကျော်ကြားပါသည်။ ဘုရားဖူးခရီးစဉ်များတွင် အဓိကဝင်ရောက်ရာ နေရာဖြစ်ပြီး ညအိပ်တည်းခိုနိုင်သော အပန်းဖြေစခန်းများရှိကာ ဆင်များနှင့်အတူ ရေကစားနိုင်သော အခွင့်အရေးများ ရရှိပါသည်။",
+  "services_en": [
+    "Man Chaung River Activities",
+    "Pagoda Visitation",
+    "Overnight Resorts"
+  ],
+  "services_my": [
+    "မန်းချောင်းအတွင်းရေကစားခြင်း",
+    "ဘုရားဖူးလေ့လာရေး",
+    "ညအိပ်တည်းခိုဆောင်"
+  ],
+  "region_my": "မင်းဘူး၊ မကွေးတိုင်းဒေသကြီး",
+  "address_en": "Milepost 5/0-5/3 Shwesettaw Pagoda Rd",
+  "address_my": "ရွှေစက်တော်ဘုရားလမ်း၊ မိုင်တိုင် ၅/၀-၅/၃"
 }

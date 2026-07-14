@@ -1,7 +1,7 @@
 {
   "slug": "moemaka",
   "name_en": "Moe Ma Kha Elephant Camp",
-  "name_my": null,
+  "name_my": "မိုးမခဆင်စခန်း",
   "region": "Ayeyarwady",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 16.80779,
@@ -14,10 +14,10 @@
   },
   "hours": "8 AM – 5:30 PM",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
+    "entrance_local_mmk": 1000,
+    "entrance_foreigner_mmk": 6000,
     "riding_local_mmk": 5000,
-    "riding_foreigner_mmk": null
+    "riding_foreigner_mmk": 12000
   },
   "activities": [
     "Elephant Riding",
@@ -37,5 +37,20 @@
   "facebook": null,
   "source_dir": "Moemaka_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Moe Ma Kha is a charming camp located just 4 miles from Ngwe Saung. It is popular for its proximity to Lover's Island and offers interactive experiences such as bathing with elephants and watching cultural performances like the Pathein Umbrella show.",
+  "description_my": "မိုးမခဆင်စခန်းသည် ငွေဆောင်းမြို့မှ ၄ မိုင်ခန့်အကွာတွင် တည်ရှိသော သာယာလှပသည့် စခန်းတစ်ခု ဖြစ်ပါသည်။ ချစ်သူများကျွန်းနှင့် နီးကပ်စွာ တည်ရှိပြီး ဆင်များနှင့်အတူ ရေချိုးခြင်း၊ ပုသိမ်ထီးအလှပြပွဲကဲ့သို့သော ယဉ်ကျေးမှု ဖျော်ဖြေရေးများကို ကြည့်ရှုနိုင်ပါသည်။",
+  "services_en": [
+    "Elephant Bathing",
+    "Pathein Umbrella Show",
+    "Lover's Island Access"
+  ],
+  "services_my": [
+    "ဆင်ရေချိုးပေးခြင်း",
+    "ပုသိမ်ထီးကိုင်အလှပြခြင်း",
+    "ချစ်သူများကျွန်းအနီး"
+  ],
+  "region_my": "ငွေဆောင်း၊ ဧရာဝတီတိုင်းဒေသကြီး",
+  "address_en": "Near Bhuu Kwal Village, 4 miles from Ngwe Saung",
+  "address_my": "ဘူးကွဲရွာအနီး၊ ငွေဆောင်းမြို့မှ ၄ မိုင်အကွာ"
 }

@@ -1,7 +1,7 @@
 {
   "slug": "ngwe-saung",
   "name_en": "Ngwe Saung Elephant Conservation Camp",
-  "name_my": null,
+  "name_my": "ငွေဆောင်းဆင်ထိန်းသိမ်းစောင့်ရှောက်ရေးစခန်း",
   "region": "Ayeyarwady",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 16.81067,
@@ -14,10 +14,10 @@
   },
   "hours": "6 AM – 6:00 PM",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
+    "entrance_local_mmk": 1000,
+    "entrance_foreigner_mmk": 6000,
     "riding_local_mmk": 5000,
-    "riding_foreigner_mmk": null
+    "riding_foreigner_mmk": 12000
   },
   "activities": [
     "Elephant Riding",
@@ -37,5 +37,22 @@
   "facebook": "https://www.facebook.com/profile.php?id=6156754577660mibextid=ZbWKwL",
   "source_dir": "NgweSaung_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Located near Ngwe Saung Beach, this camp spans 60 acres and focuses on forest conservation and education. It features a unique suspension bridge and an elephant museum where visitors can study the nature of tropical forests while interacting with elephants in a scenic stream-side environment.",
+  "description_my": "ငွေဆောင်းကမ်းခြေအနီးတွင် တည်ရှိပြီး ဧရိယာ ၆၀ ဧက ကျယ်ဝန်းကာ သစ်တောထိန်းသိမ်းရေးနှင့် ပညာပေးရေးကို အဓိကထားပါသည်။ ထူးခြားသော ကြိုးတံတားနှင့် ဆင်ပြတိုက်တို့ ပါရှိပြီး ဧည့်သည်များသည် ချောင်းဘေး ရှုခင်းသာယာသော ပတ်ဝန်းကျင်တွင် ဆင်များနှင့်အတူ အပူပိုင်းသစ်တော သဘာဝကို လေ့လာနိုင်ပါသည်။",
+  "services_en": [
+    "Elephant Museum",
+    "Elephant Show",
+    "Suspension Bridge",
+    "Guest House"
+  ],
+  "services_my": [
+    "ဆင်ပြတိုက်",
+    "ဆင်သရုပ်ပြပွဲ",
+    "ကြိုးတံတား",
+    "တည်းခိုဆောင်"
+  ],
+  "region_my": "ပုသိမ်၊ ဧရာဝတီတိုင်းဒေသကြီး",
+  "address_en": "Near Pwat Taw Mu Village, Milepost 19/0 Pathein-Ngwe Saung Rd",
+  "address_my": "ပုသိမ်-ငွေဆောင်းကားလမ်း၊ မိုင်တိုင်(၁၉/၀)၊ ပွတ်တော်မူကျေးရွာအနီး"
 }

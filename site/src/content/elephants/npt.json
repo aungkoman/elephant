@@ -1,0 +1,267 @@
+[
+    {
+        "elephant_id": "RWE_001",
+        "name": {
+            "en": "Ngwe Saddan",
+            "my": "ငွေဆဒ္ဒန်"
+        },
+        "attributes": {
+            "sex": {
+                "en": "Male",
+                "my": "ထီး/ဟံ"
+            },
+            "birth_year": "2007 (Estimated)",
+            "physical": {
+                "height": "8 ft 3 in",
+                "body_girth": "12 ft 0 in",
+                "skin_color": {
+                    "en": "Pink",
+                    "my": "ပန်းနုရောင်"
+                },
+                "body_hairs": {
+                    "en": "Golden White",
+                    "my": "အဖြူရောင်"
+                },
+                "eyes": {
+                    "en": "Pearl",
+                    "my": "ပုလဲ"
+                },
+                "tail_length": "4 ft 6 in"
+            },
+            "origin": {
+                "place": {
+                    "en": "Kyein Chaung Village, Maungtaw, Rakhine State",
+                    "my": "ရခိုင်ပြည်နယ်၊ မောင်တောမြို့နယ်၊ ကကိမ်ချောင်းကျေးရွာ"
+                },
+                "arrival_naypyitaw": "Nov 20, 2011"
+            }
+        }
+    },
+    {
+        "elephant_id": "RWE_002",
+        "name": {
+            "en": "Bahdda Waddy",
+            "my": "ဘဒ္ဒဝတီ"
+        },
+        "attributes": {
+            "sex": {
+                "en": "Female",
+                "my": "မ"
+            },
+            "birth_year": "1972 (Estimated)",
+            "physical": {
+                "height": "7 ft 4 in",
+                "body_girth": "11 ft 10 in",
+                "skin_color": {
+                    "en": "Pink",
+                    "my": "ပန်းနုရောင်"
+                },
+                "body_hairs": {
+                    "en": "Golden White",
+                    "my": "အဖြူရောင်"
+                },
+                "eyes": {
+                    "en": "Pearl",
+                    "my": "ပုလဲ"
+                }
+            },
+            "origin": {
+                "place": {
+                    "en": "Pha Wat Chaung Village, Maungtaw, Rakhine State",
+                    "my": "ရခိုင်ပြည်နယ်၊ မောင်တောမြို့နယ်၊ ဖားဝတ်ချောင်းကျေးရွာ"
+                },
+                "arrival_naypyitaw": "Aug 09, 2010"
+            }
+        }
+    },
+    {
+        "elephant_id": "RWE_003",
+        "name": {
+            "en": "Nanda Waddy",
+            "my": "နန္ဒဝတီ"
+        },
+        "attributes": {
+            "sex": {
+                "en": "Female",
+                "my": "မ"
+            },
+            "birth_year": "1992 (Estimated)",
+            "physical": {
+                "height": "7 ft 7 in",
+                "body_girth": "11 ft 0 in",
+                "skin_color": {
+                    "en": "Pink",
+                    "my": "ပန်းနုရောင်"
+                },
+                "body_hairs": {
+                    "en": "Golden White",
+                    "my": "အဖြူရောင်"
+                },
+                "eyes": {
+                    "en": "Pearl",
+                    "my": "ပုလဲ"
+                }
+            },
+            "origin": {
+                "place": {
+                    "en": "Rayan Aung Myin Village, Maungtaw, Rakhine State",
+                    "my": "ရခိုင်ပြည်နယ်၊ မောင်တောမြို့နယ်၊ ရန်အောင်မြင်ကျေးရွာ"
+                },
+                "arrival_naypyitaw": "Oct 21, 2010"
+            }
+        }
+    },
+    {
+        "elephant_id": "RWE_004",
+        "name": {
+            "en": "Hayma Waddy",
+            "my": "ဟေမဝတီ"
+        },
+        "attributes": {
+            "sex": {
+                "en": "Female",
+                "my": "မ"
+            },
+            "birth_year": "1996 (Estimated)",
+            "physical": {
+                "height": "7 ft 10 in",
+                "body_girth": "11 ft 7 in",
+                "skin_color": {
+                    "en": "Pink",
+                    "my": "ပန်းနုရောင်"
+                },
+                "body_hairs": {
+                    "en": "White",
+                    "my": "အဖြူရောင်"
+                },
+                "eyes": {
+                    "en": "Pearl",
+                    "my": "ပုလဲ"
+                }
+            },
+            "origin": {
+                "place": {
+                    "en": "Ale Village, Ngwesaung, Ayeyarwady Region",
+                    "my": "ဧရာဝတီတိုင်းဒေသကြီး၊ ငွေဆောင်မြို့နယ်၊ အလယ်ကျေးရွာ"
+                },
+                "arrival_naypyitaw": "Nov 20, 2011"
+            }
+        }
+    },
+    {
+        "elephant_id": "RWE_005",
+        "name": {
+            "en": "Thiri Marlar",
+            "my": "သီရိမာလာ"
+        },
+        "attributes": {
+            "sex": {
+                "en": "Female",
+                "my": "မ"
+            },
+            "birth_year": "2008 (Estimated)",
+            "physical": {
+                "height": "7 ft 7 in",
+                "body_girth": "11 ft 3 in",
+                "skin_color": {
+                    "en": "Pink",
+                    "my": "ပန်းနုရောင်"
+                },
+                "body_hairs": {
+                    "en": "White",
+                    "my": "အဖြူရောင်"
+                },
+                "eyes": {
+                    "en": "Pearl",
+                    "my": "ပုလဲ"
+                }
+            },
+            "origin": {
+                "place": {
+                    "en": "Ngwesaung Township, Ayeyarwady Region",
+                    "my": "ဧရာဝတီတိုင်းဒေသကြီး၊ ငွေဆောင်မြို့နယ်"
+                },
+                "arrival_naypyitaw": "Apr 06, 2015"
+            }
+        }
+    },
+    {
+        "elephant_id": "RWE_006",
+        "name": {
+            "en": "Zata Kalya",
+            "my": "ဇာတကလျာ"
+        },
+        "attributes": {
+            "sex": {
+                "en": "Female",
+                "my": "မ"
+            },
+            "birth_date": "Nov 27, 2011",
+            "parentage": {
+                "mother": "Bahdda Waddy"
+            },
+            "physical": {
+                "height": "7 ft 9 in",
+                "body_girth": "11 ft 9 in",
+                "skin_color": {
+                    "en": "Pink",
+                    "my": "ပန်းနုရောင်"
+                },
+                "body_hairs": {
+                    "en": "Golden White",
+                    "my": "အဖြူရောင်"
+                },
+                "eyes": {
+                    "en": "Pearl",
+                    "my": "ပုလဲ"
+                }
+            },
+            "origin": {
+                "place": {
+                    "en": "Uppatassanti Pagoda, Royal White Elephant Garden",
+                    "my": "ရတနာဆင်ဖြူတော်ထိန်းသိမ်းစောင့်ရှောက်ရေးဥယျာဉ် (နေပြည်တော်)"
+                }
+            }
+        }
+    },
+    {
+        "elephant_id": "RWE_007",
+        "name": {
+            "en": "Rahta Nandaka",
+            "my": "ရဋ္ဌနန္ဒက"
+        },
+        "attributes": {
+            "sex": {
+                "en": "Male",
+                "my": "ထီး"
+            },
+            "birth_date": "Jul 23, 2022",
+            "parentage": {
+                "mother": "Zar Nann Hla"
+            },
+            "physical": {
+                "height": "4 ft 8 in",
+                "body_girth": "7 ft 4 in",
+                "skin_color": {
+                    "en": "Pink",
+                    "my": "ပန်းနုရောင်"
+                },
+                "body_hairs": {
+                    "en": "White",
+                    "my": "အဖြူရောင်"
+                },
+                "eyes": {
+                    "en": "Pearl",
+                    "my": "ပုလဲ"
+                }
+            },
+            "origin": {
+                "place": {
+                    "en": "Taunggok Township, Rakhine State",
+                    "my": "ရခိုင်ပြည်နယ်၊ တောင်ကုတ်မြို့နယ်"
+                },
+                "arrival_naypyitaw": "Oct 27, 2022"
+            }
+        }
+    }
+]

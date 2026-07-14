@@ -1,7 +1,7 @@
 {
   "slug": "serikestra",
   "name_en": "Srikestra Elephant Conservation Camp",
-  "name_my": null,
+  "name_my": "သီရိခေတ္တရာဆင်စခန်း",
   "region": "Bago",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 18.81,
@@ -15,9 +15,9 @@
   "hours": "9:30 AM to 5:00 PM",
   "fees": {
     "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
-    "riding_local_mmk": 10000,
-    "riding_foreigner_mmk": null
+    "entrance_foreigner_mmk": 0,
+    "riding_local_mmk": 5000,
+    "riding_foreigner_mmk": 10000
   },
   "activities": [
     "Elephant Riding",
@@ -34,5 +34,20 @@
   "facebook": "https://www.facebook.com/profile.php?id=100070486263734",
   "source_dir": "Serikestra_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Situated near the Srikestra Archaeological Museum, this camp offers a unique blend of nature and history. Visitors can take elephant treks to explore the ancient Pyu City ruins, making it a must-visit for history enthusiasts.",
+  "description_my": "သီရိခေတ္တရာ ရှေးဟောင်းသုတေသန ပြတိုက်အနီးတွင် တည်ရှိပြီး သဘာဝနှင့် သမိုင်းကြောင်းကို ပေါင်းစပ်ထားသော စခန်းဖြစ်ပါသည်။ ဧည့်သည်များသည် ရှေးဟောင်းပျူမြို့ဟောင်း အကြွင်းအကျန်များကို ဆင်စီး၍ လေ့လာနိုင်သောကြောင့် သမိုင်းဝါသနာရှင်များအတွက် မဖြစ်မနေ သွားရောက်သင့်သော နေရာဖြစ်ပါသည်။",
+  "services_en": [
+    "Ancient Pyu City Tour",
+    "Elephant Feeding",
+    "Trekking"
+  ],
+  "services_my": [
+    "ပျူမြို့ဟောင်းလေ့လာရေး",
+    "ဆင်စာကျွေးခြင်း",
+    "တောတွင်းခရီးရှည်"
+  ],
+  "region_my": "ပြည်၊ ပဲခူးတိုင်းဒေသကြီး",
+  "address_en": "Near Srikestra Archaeological Museum",
+  "address_my": "သီရိခေတ္တရာရှေးဟောင်းဇုန်ပြတိုက်အနီး"
 }

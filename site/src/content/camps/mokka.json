@@ -1,7 +1,7 @@
 {
   "slug": "mokka",
   "name_en": "Mokkha Waterfall Elephant Conservation Camp",
-  "name_my": null,
+  "name_my": "မုက္ခာရေတံခွန်ဆင်စခန်း",
   "region": "Yangon",
   "ministry": "Ministry of Natural Resources and Environmental Conservation",
   "latitude": 18.002447,
@@ -14,10 +14,10 @@
   },
   "hours": "7:00 AM – 6:00 PM",
   "fees": {
-    "entrance_local_mmk": null,
-    "entrance_foreigner_mmk": null,
+    "entrance_local_mmk": 500,
+    "entrance_foreigner_mmk": 10000,
     "riding_local_mmk": 3000,
-    "riding_foreigner_mmk": null
+    "riding_foreigner_mmk": 10000
   },
   "activities": [
     "Elephant Riding",
@@ -35,5 +35,20 @@
   "facebook": "https://www.facebook.com/share/14NQXxPEBZ/",
   "source_dir": "Mokka_ECBT Camp Information",
   "has_en_pdf": true,
-  "has_my_pdf": true
+  "has_my_pdf": true,
+  "description_en": "Set against the backdrop of the Mokkha Dam and waterfall, this camp offers a refreshing nature experience. Visitors can bathe with elephants in the waterfall and stay at jungle resorts, enjoying the cool forest climate and local menus.",
+  "description_my": "မုက္ခာဆည်နှင့် ရေတံခွန်ကို အခြေခံ၍ တည်ရှိသော ဤစခန်းသည် လန်းဆန်းသော သဘာဝအတွေ့အကြုံကို ပေးစွမ်းပါသည်။ ဧည့်သည်များသည် ရေတံခွန်တွင် ဆင်များနှင့်အတူ ရေချိုးနိုင်ပြီး တောတွင်း အပန်းဖြေစခန်းများ၌ တည်းခိုရင်း ဒေသစာသောက်ဖွယ်ရာများကို သုံးဆောင်နိုင်ပါသည်။",
+  "services_en": [
+    "Waterfall Bathing",
+    "Jungle Resorts",
+    "Traditional Souvenirs"
+  ],
+  "services_my": [
+    "ရေတံခွန်တွင်ရေချိုးခြင်း",
+    "တောတွင်းအပန်းဖြေစခန်း",
+    "ရိုးရာလက်ဆောင်ပစ္စည်းများ"
+  ],
+  "region_my": "မင်းလှ၊ ပဲခူးတိုင်းဒေသကြီး",
+  "address_en": "Near Mokkha Dam, Minhla-Seinkantlant Rd",
+  "address_my": "မုက္ခာဆည်အနီး၊ မင်းလှ-စိန်ကန့်လန့်လမ်း"
 }
