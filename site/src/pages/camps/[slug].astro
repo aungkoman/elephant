@@ -56,14 +56,16 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
     <!-- Content -->
     <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
       <!-- Breadcrumb -->
-      <nav class="mb-6 text-sm text-white/60 flex items-center gap-2">
-        <a href="/" class="hover:text-white transition-colors lang-en-only">Home</a>
-        <a href="/" class="hover:text-white transition-colors lang-my-only font-myanmar">မူလ</a>
-        <span>›</span>
-        <a href="/#camps" class="hover:text-white transition-colors lang-en-only">All Camps</a>
-        <a href="/#camps" class="hover:text-white transition-colors lang-my-only font-myanmar">စခန်းများ</a>
-        <span>›</span>
-        <span class="text-white/80">{camp.name_en}</span>
+      <nav class="mb-6 text-sm text-white/60 flex flex-wrap items-center gap-x-2 gap-y-1">
+        <div class="flex items-center gap-2 shrink-0 whitespace-nowrap">
+          <a href="/" class="hover:text-white transition-colors lang-en-only">Home</a>
+          <a href="/" class="hover:text-white transition-colors lang-my-only font-myanmar">မူလ</a>
+          <span>›</span>
+          <a href="/#camps" class="hover:text-white transition-colors lang-en-only">All Camps</a>
+          <a href="/#camps" class="hover:text-white transition-colors lang-my-only font-myanmar">စခန်းများ</a>
+          <span>›</span>
+        </div>
+        <span class="text-white/80 leading-tight">{camp.name_en}</span>
       </nav>
 
       <!-- Region + ministry chips -->
@@ -101,7 +103,7 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
           </span>
         )}
         {camp.fees?.entrance_local_mmk && (
-          <span class="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-black/50 text-[--color-amber-300] text-sm font-semibold backdrop-blur-sm border border-[--color-amber-500]/40">
+          <span class="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-black/50 text-white text-sm font-semibold backdrop-blur-sm border border-[--color-amber-500]/40">
             🎟️ {camp.fees.entrance_local_mmk.toLocaleString()} MMK
           </span>
         )}
@@ -219,14 +221,20 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
             </h2>
             <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
               {camp.images.slice(1, 10).map((img: string) => (
-                <a href={img} target="_blank" rel="noopener noreferrer" class="block aspect-video overflow-hidden rounded-xl bg-forest-50 hover:opacity-90 transition-opacity">
+                <a href={img} data-fslightbox="gallery" class="block aspect-video overflow-hidden rounded-xl bg-forest-50 hover:opacity-90 transition-opacity cursor-zoom-in">
                   <img src={img} alt={`${camp.name_en} Image`} class="w-full h-full object-cover" loading="lazy" />
                 </a>
               ))}
             </div>
+            
+            {/* Hidden links for the rest of the images so they appear in the lightbox carousel */}
+            {camp.images.slice(10).map((img: string) => (
+              <a href={img} data-fslightbox="gallery" class="hidden"></a>
+            ))}
+
             {camp.images.length > 10 && (
               <p class="text-sm text-forest-500 mt-4 italic lang-en-only">
-                Showing 9 of {camp.images.length - 1} gallery photos.
+                Tap any photo to view all {camp.images.length - 1} gallery images.
               </p>
             )}
           </div>
@@ -313,4 +321,7 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
     </div>
   </section>
 
+  <script>
+    import 'fslightbox';
+  </script>
 </BaseLayout>
