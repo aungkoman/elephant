@@ -1,279 +1,193 @@
-"""Parse extracted PDF texts into a structured JSON of ECBT camp information."""
+"""Parse all ECBT camp PDFs into structured JSON."""
 import os, json, re, glob
 
-def read_text(path):
+def read(path):
     with open(path, 'r', encoding='latin-1') as f:
         return f.read()
 
-def clean_line(s):
-    return s.strip().replace('\f', '')
+def between(text, start, end=None):
+    """Return text between start and end markers (case-insensitive)."""
+    si = text.lower().find(start.lower())
+    if si < 0:
+        return None
+    chunk = text[si + len(start):]
+    if end:
+        ei = chunk.lower().find(end.lower())
+        if ei >= 0:
+            chunk = chunk[:ei]
+    return chunk.strip()
 
-def extract_camp_name(text):
-    """Heuristic: find the camp name line before 'Camp Location' or near top."""
-    lines = [clean_line(l) for l in text.split('\n') if clean_line(l)]
-    # Look for pattern: "<Name> Elephant Conservation Camp" or similar
-    for i, line in enumerate(lines):
-        if 'Elephant Conservation Camp' in line or 'Elephant Camp' in line:
-            return line.strip()
-        if 'Royal White Elephants Conservation Garden' in line:
-            return line.strip()
+def dms_to_decimal(dms):
+    """Convert DMS like '18°24\\'44.44\"N' to decimal."""
+    m = re.search(r"([\d.]+)\s*°\s*([\d.]+)\s*'\s*([\d.]+)\s*\"", dms)
+    if m:
+        return float(m.group(1)) + float(m.group(2))/60 + float(m.group(3))/3600
     return None
 
-def extract_section(text, start_pattern, end_pattern=None):
-    """Extract lines between start_pattern and end_pattern."""
-    lines = text.split('\n')
-    start_idx = None
-    for i, line in enumerate(lines):
-        if start_pattern.lower() in clean_line(line).lower():
-            start_idx = i + 1
-            break
-    if start_idx is None:
-        return []
-    result = []
-    for j in range(start_idx, len(lines)):
-        if end_pattern and end_pattern.lower() in clean_line(lines[j]).lower():
-            break
-        result.append(clean_line(lines[j]))
-    return [r for r in result if r]
+def coord(text):
+    # Try DMS format first
+    lat_dms = re.search(r'Latitude\s*([\d.]+\s*°\s*[\d.]+\s*\'?\s*[\d.]+\s*\"?\s*N)', text, re.I)
+    lon_dms = re.search(r'Longitude\s*([\d.]+\s*°\s*[\d.]+\s*\'?\s*[\d.]+\s*\"?\s*E)', text, re.I)
+    lat = dms_to_decimal(lat_dms.group(1)) if lat_dms else None
+    lon = dms_to_decimal(lon_dms.group(1)) if lon_dms else None
+    if lat and lon:
+        return (str(lat), str(lon))
+    # Fallback: decimal format
+    lat = re.search(r'Latitude.*?([\d.]+)', text, re.I)
+    lon = re.search(r'Longitude.*?([\d.]+)', text, re.I)
+    return (lat.group(1) if lat else None, lon.group(1) if lon else None)
 
-def extract_location(text):
-    """Extract location section."""
-    section = extract_section(text, 'Location', 'Way & Duration')
-    if not section:
-        section = extract_section(text, 'Location', 'Compound Area')
-    if not section:
-        section = extract_section(text, 'Camp Location', 'Way')
-    if not section:
-        section = extract_section(text, '(A)Camp Location', '(B)')
-    return '\n'.join(section) if section else None
-
-def extract_coordinates(text):
-    """Extract lat/long from text."""
-    lat = None
-    lon = None
-    for line in text.split('\n'):
-        line = clean_line(line)
-        lat_m = re.search(r'Latitude.*?(\d+[\.\d]*°?\s*\d*[\.\']*\d*[\.\"]*\s*[N]?)', line, re.IGNORECASE)
-        lon_m = re.search(r'Longitude.*?(\d+[\.\d]*°?\s*\d*[\.\']*\d*[\.\"]*\s*[E]?)', line, re.IGNORECASE)
-        if lat_m:
-            lat = lat_m.group(1).strip()
-        if lon_m:
-            lon = lon_m.group(1).strip()
-    return lat, lon
-
-def extract_access(text):
-    """Extract way/duration for visitation."""
-    section = extract_section(text, 'Way & Duration', 'Compound Area')
-    if not section:
-        section = extract_section(text, 'Way & Duration for visitation', 'Compound')
-    if not section:
-        section = extract_section(text, '(B)Way', '(C)')
-    return '\n'.join(section) if section else None
-
-def extract_compound(text):
-    """Extract compound area and elephant numbers."""
-    section = extract_section(text, 'Compound Area', 'Location map')
-    if not section:
-        section = extract_section(text, 'Compound Area&', 'Location map')
-    if not section:
-        section = extract_section(text, '(C)Compound', '(D)')
-    if not section:
-        section = extract_section(text, '(C)Compound Area', 'Location map')
-
-    area = None
-    total_elephants = None
-    male = None
-    female = None
-    for line in (section or []):
-        area_m = re.search(r'Area\s*[-:]\s*(.+?)(?:$|\.)', line, re.IGNORECASE)
-        if area_m:
-            area = area_m.group(1).strip()
-        ele_m = re.search(r'(?:Total|Camp elephants)\s*[-:].*?(\d+)\s*(?:elephants|head)', line, re.IGNORECASE)
-        if ele_m:
-            total_elephants = int(ele_m.group(1))
-        male_m = re.search(r'(\d+)\s*\(?\s*male', line, re.IGNORECASE)
-        if male_m:
-            male = int(male_m.group(1))
-        female_m = re.search(r'(\d+)\s*\(?\s*female', line, re.IGNORECASE)
-        if female_m:
-            female = int(female_m.group(1))
+def elephants(text):
+    """Parse compound area and elephant numbers."""
+    section = between(text, 'Compound Area', 'Location map') or between(text, 'Compound Area&', 'Location map') or between(text, 'Compound Area', 'Fees') or between(text, 'Compound Area&', 'Fees') or between(text, 'Compound Area', 'Map') or ''
+    area = re.search(r'(?:Camp )?Area\s*[-:]\s*(.+?)(?:\n|$)', section, re.I)
+    total = re.search(r'(?:Total|Camp [Ee]lephants?)\s*[-:].*?(\d+)', section)
+    if not total:
+        total = re.search(r'(\d+)\s*(?:\(?male\)?\s*elephants?|[Ee]lephant)', section)
+    male = re.search(r'(\d+)\s*\(?\s*male', section, re.I)
+    female = re.search(r'(\d+)\s*\(?\s*female', section, re.I)
+    # Also try "X male and Y female"
+    both = re.search(r'(\d+)\s*male\s*(?:and|&)\s*(\d+)\s*female', section, re.I)
     return {
-        'area': area,
-        'total_elephants': total_elephants,
-        'male_elephants': male,
-        'female_elephants': female
+        'area': area.group(1).strip().rstrip('.-') if area else None,
+        'total_elephants': int(total.group(1)) if total else (int(both.group(1)) + int(both.group(2)) if both else None),
+        'male_elephants': int(male.group(1)) if male else (int(both.group(1)) if both else None),
+        'female_elephants': int(female.group(1)) if female else (int(both.group(2)) if both else None),
     }
 
-def extract_activities(text):
-    """Extract activities/services offered."""
-    activities = []
-    # Look for patterns like "Elephant Riding", "Feeding", etc.
-    keywords = [
-        'Elephant Riding', 'Feeding Elephants', 'Elephant Feeding',
-        'Bathing', 'Elephant Bathing', 'Photo', 'Photography',
-        'Trekking', 'Bird Watching', 'Camping', 'Rafting',
-        'Pre Wedding', 'Wedding', 'Relax', 'Shelter',
-        'Elephant Show', 'Canoeing', 'Fishing', 'Sightseeing',
-        'Walking', 'Jungle Walk', 'Nature Walk', 'Boat',
-        'Swimming', 'Shopping', 'Souvenir', 'Restaurant',
-        'Education', 'Conservation', 'Hiking'
-    ]
-    for line in text.split('\n'):
-        line = clean_line(line)
+def fees(text):
+    section = between(text, 'Fees for', 'Monks') or between(text, 'Fees for', 'Opening hours') or ''
+    if not section:
+        return None
+    entry_local = re.search(r'Entrance\s*fee.*?(?:Local|[-–])\s*(\d+)\s*MMK', section, re.I)
+    entry_foreign = re.search(r'Entrance\s*fee.*?(?:Foreigner|Foreign).*?(\d+)\s*MMK', section, re.I)
+    ride_local = re.search(r'(?:Elephant\s*)?Riding\s*fee.*?(?:Local|[-–])\s*(\d+)\s*MMK', section, re.I)
+    ride_foreign = re.search(r'(?:Elephant\s*)?Riding\s*fee.*?(?:Foreigner|Foreign).*?(\d+)\s*MMK', section, re.I)
+    return {
+        'entrance_fee_local_mmk': int(entry_local.group(1)) if entry_local else None,
+        'entrance_fee_foreigner_mmk': int(entry_foreign.group(1)) if entry_foreign else None,
+        'elephant_riding_fee_local_mmk': int(ride_local.group(1)) if ride_local else None,
+        'elephant_riding_fee_foreigner_mmk': int(ride_foreign.group(1)) if ride_foreign else None,
+    }
+
+def activities(text):
+    section = between(text, 'Fees for', None) or text
+    acts = []
+    keywords = ['Elephant Riding', 'Elephant Feeding', 'Elephant Buffet', 'Elephant Bathing',
+                'Elephant Show', 'Photography', 'Trekking', 'Bird Watching', 'Camping',
+                'Rafting', 'Canoeing', 'Fishing', 'Sightseeing', 'Jungle Walk', 'Nature Walk',
+                'Boat', 'Swimming', 'Shopping', 'Souvenir', 'Restaurant', 'Pre Wedding',
+                'Wedding', 'Hiking', 'Relax', 'Shelter', 'Conservation', 'Education',
+                'Elephant Training', 'Video Recording', 'Buffet Feeding', 'Donate']
+    for line in section.split('\n'):
         for kw in keywords:
-            if kw.lower() in line.lower() and kw not in activities:
-                activities.append(kw)
-    return activities[:15]  # cap
+            if kw.lower() in line.lower() and kw not in acts:
+                acts.append(kw)
+    return acts[:20] if acts else None
 
-def extract_management(text):
-    """Extract management/ministry info."""
-    lines = [clean_line(l) for l in text.split('\n')[:15]]
-    ministry = None
-    agency = None
-    for line in lines:
-        if 'Ministry' in line:
-            ministry = line.strip()
-        if 'Extraction Agency' in line or 'Extraction' in line:
-            agency = line.strip()
-        if 'Myanmar Timber Enterprise' in line:
-            agency = line.strip()
-    return {'ministry': ministry, 'agency': agency}
+def contacts(text):
+    phones = re.findall(r'Ph[:\s]*([\d\-\s/]+)', text)
+    # Also match 09-XXXXXXXX patterns
+    more = re.findall(r'09[\-\s]?\d{5,8}', text)
+    return list(set(phones + more)) if (phones or more) else None
 
-def extract_contact(text):
-    """Extract phone numbers."""
-    phones = re.findall(r'(?:Ph|Phone)[:\s]*([\d\-\s/]+(?:\))?)', text)
-    return [p.strip() for p in phones] if phones else []
+def camp_name(text, filename):
+    lines = [l.strip() for l in text.split('\n') if l.strip() and len(l.strip()) > 5]
+    # Prefer lines with "Elephant Camp" or "Elephant Conservation Camp"
+    for l in lines[:30]:
+        if re.search(r'(Elephant (Conservation )?Camp|Elephants? Conservation Garden)', l, re.I) and 'Ministry' not in l and 'Timber' not in l and 'Tourism' not in l:
+            return ' '.join(l.split())
+    # Fallback
+    return filename.split('__')[0].replace('_ECBT Camp Information', '').replace('_', ' ')
 
-def extract_elephant_details(text):
-    """For Royal White Elephant and similar detail-heavy files."""
-    elephants = []
-    # Look for numbered detail blocks
-    current = {}
-    lines = text.split('\n')
-    for line in lines:
-        line = clean_line(line)
-        name_match = re.match(r'\(\d+\)\s*Sex\s+(.+)', line)
-        if name_match:
-            if current:
-                elephants.append(current)
-            current = {'name': name_match.group(1).strip()}
-            continue
-        if not current:
-            continue
-        # Match detail fields
-        field_match = re.match(r'\(\d+\)\s*(\w[\w\s]+?)\s{2,}(.+)', line)
-        if field_match:
-            key = field_match.group(1).strip().lower().replace(' ', '_')
-            val = field_match.group(2).strip()
-            current[key] = val
-        # Handle continuation lines
-        elif current and line and not line.startswith('('):
-            keys = list(current.keys())
-            if keys:
-                last_key = keys[-1]
-                current[last_key] += ' ' + line
-    if current:
-        elephants.append(current)
-    return elephants if elephants else None
-
-def parse_pdf_file(filepath):
-    """Parse a single extracted text file."""
-    text = read_text(filepath)
+def parse_one(filepath):
+    text = read(filepath)
     filename = os.path.basename(filepath)
+    lat, lon = coord(text)
+    ele = elephants(text)
+    fee = fees(text)
+    act = activities(text)
+    ph = contacts(text)
+    name = camp_name(text, filename)
 
-    camp_name = extract_camp_name(text) or filename.replace('.txt', '').replace('__', ' - ')
-    lat, lon = extract_coordinates(text)
-    location = extract_location(text)
-    access = extract_access(text)
-    compound = extract_compound(text)
-    activities = extract_activities(text)
-    management = extract_management(text)
-    contact = extract_contact(text)
-    elephant_details = extract_elephant_details(text)
+    # Ministry / Agency from header
+    header = text[:600]
+    ministry_line = None
+    for line in text.split('\n')[:10]:
+        if 'Ministry' in line:
+            ministry_line = line.strip()
+            break
+    agency = None
+    for line in text.split('\n')[:15]:
+        stripped = line.strip()
+        if 'Extraction Agency' in stripped or 'Region' in stripped:
+            agency = stripped
+            break
+    mte = 'Myanma Timber Enterprise' if 'Myanma Timber Enterprise' in header else None
 
-    # clean up camp name
-    camp_name = camp_name.replace('\\t', '').strip()
+    # Location
+    loc = between(text, 'Camp Location', 'Way & Duration') or \
+          between(text, 'Location', 'Way & Duration') or \
+          between(text, '(A)Camp Location', '(B)')
+
+    # Access
+    acc = between(text, 'Way & Duration', 'Compound Area') or \
+          between(text, '(B)Way', '(C)')
+
+    # Opening hours
+    hours = re.search(r'Opening hours\s*[:\-]\s*(.+?)(?:\n|$)', text, re.I)
 
     return {
-        'camp_name': camp_name,
+        'camp_name': name.strip(),
         'source_file': filename,
-        'ministry': management.get('ministry'),
-        'extraction_agency': management.get('agency'),
-        'location_description': location,
+        'ministry': ministry_line,
+        'extraction_agency': agency or mte,
+        'location_description': loc.strip() if loc else None,
         'latitude': lat,
         'longitude': lon,
-        'access': access,
-        'compound_area': compound['area'],
-        'total_elephants': compound['total_elephants'],
-        'male_elephants': compound['male_elephants'],
-        'female_elephants': compound['female_elephants'],
-        'activities': activities if activities else None,
-        'contact_phones': contact if contact else None,
-        'elephant_details': elephant_details,
-        'raw_text_preview': text[:500].strip() if not management.get('ministry') else None
+        'access': acc.strip() if acc else None,
+        'compound_area': ele['area'],
+        'total_elephants': ele['total_elephants'],
+        'male_elephants': ele['male_elephants'],
+        'female_elephants': ele['female_elephants'],
+        'opening_hours': hours.group(1).strip() if hours else None,
+        'fees': fee,
+        'activities': act,
+        'contact_phones': ph,
     }
 
 def main():
-    base_dir = 'extracted_texts'
-    all_camps = []
-
-    for txt_file in sorted(glob.glob(f'{base_dir}/*.txt')):
+    all_entries = []
+    for f in sorted(glob.glob('extracted_texts/*.txt')):
         try:
-            data = parse_pdf_file(txt_file)
-            all_camps.append(data)
-        except Exception as e:
-            all_camps.append({
-                'camp_name': txt_file,
-                'error': str(e)
-            })
-
-    # Group by camp directory (pairs of English/Myanmar)
-    # Build a summary by camp
-    camps_by_name = {}
-    for entry in all_camps:
-        # Derive camp key from filename
-        fname = entry.get('source_file', '')
-        parts = fname.split('__')
-        if len(parts) >= 1:
-            camp_key = parts[0]  # e.g., "Mokka_ECBT Camp Information"
-        else:
-            camp_key = fname
-
-        if camp_key not in camps_by_name:
-            camps_by_name[camp_key] = {
-                'camp_directory': camp_key,
-                'versions': []
-            }
-        camps_by_name[camp_key]['versions'].append(entry)
-
-    # Determine language for each version
-    for camp in camps_by_name.values():
-        for v in camp['versions']:
-            fname = v.get('source_file', '')
+            entry = parse_one(f)
+            # Determine language
+            fname = os.path.basename(f)
             if 'English' in fname:
-                v['language'] = 'English'
+                entry['language'] = 'English'
             elif 'Myanmar' in fname:
-                v['language'] = 'Myanmar'
+                entry['language'] = 'Myanmar'
             else:
-                v['language'] = 'Bilingual'
+                entry['language'] = 'Bilingual'
+            all_entries.append(entry)
+        except Exception as e:
+            all_entries.append({'source_file': os.path.basename(f), 'error': str(e)})
 
-    # Merge: prefer English version data, fall back to Myanmar
-    final_camps = []
-    for camp_key, camp_data in camps_by_name.items():
-        eng = None
-        mya = None
-        bi = None
-        for v in camp_data['versions']:
-            if v.get('language') == 'English':
-                eng = v
-            elif v.get('language') == 'Myanmar':
-                mya = v
-            elif v.get('language') == 'Bilingual':
-                bi = v
+    # Merge by camp directory: prefer English, fallback Myanmar
+    groups = {}
+    for e in all_entries:
+        key = e.get('source_file','').split('__')[0]
+        groups.setdefault(key, []).append(e)
 
-        best = eng or bi or mya or camp_data['versions'][0]
-        merged = {
-            'camp_directory': camp_key,
+    camps = []
+    for key, entries in groups.items():
+        eng = next((e for e in entries if e.get('language')=='English'), None)
+        mya = next((e for e in entries if e.get('language')=='Myanmar'), None)
+        bi  = next((e for e in entries if e.get('language')=='Bilingual'), None)
+        best = eng or bi or mya or entries[0]
+
+        camps.append({
+            'camp_directory': key,
             'camp_name': best.get('camp_name'),
             'ministry': best.get('ministry'),
             'extraction_agency': best.get('extraction_agency'),
@@ -285,25 +199,17 @@ def main():
             'total_elephants': best.get('total_elephants'),
             'male_elephants': best.get('male_elephants'),
             'female_elephants': best.get('female_elephants'),
+            'opening_hours': best.get('opening_hours'),
+            'fees': best.get('fees'),
             'activities': best.get('activities'),
             'contact_phones': best.get('contact_phones'),
-            'elephant_details': best.get('elephant_details'),
-            'versions_available': [v.get('language') for v in camp_data['versions']],
-            'raw_english_entries': [v for v in camp_data['versions'] if v.get('language') == 'English'],
-            'raw_myanmar_entries': [v for v in camp_data['versions'] if v.get('language') == 'Myanmar'],
-        }
-        final_camps.append(merged)
+            'languages_available': [e.get('language') for e in entries],
+        })
 
-    output = {
-        'total_camps': len(final_camps),
-        'total_pdf_files': len(all_camps),
-        'camps': final_camps
-    }
-
+    output = {'total_camps': len(camps), 'total_pdfs': len(all_entries), 'camps': camps}
     with open('ecbt_camps.json', 'w', encoding='utf-8') as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
-
-    print(f'Done! {len(final_camps)} camps written to ecbt_camps.json')
+    print(f'Done: {len(camps)} camps from {len(all_entries)} PDFs -> ecbt_camps.json')
 
 if __name__ == '__main__':
     main()

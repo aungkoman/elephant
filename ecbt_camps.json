@@ -1,10 +1,10 @@
 {
   "total_camps": 20,
-  "total_pdf_files": 32,
+  "total_pdfs": 32,
   "camps": [
     {
       "camp_directory": "1000Bodhi_ECBT Camp Information",
-      "camp_name": "1000Bodhi_ECBT Camp Information - 1000Bodhi_ECBT_Camp_Information - Myanmar_Vs_English_",
+      "camp_name": "1000Bodhi",
       "ministry": null,
       "extraction_agency": null,
       "location_description": null,
@@ -15,102 +15,49 @@
       "total_elephants": null,
       "male_elephants": null,
       "female_elephants": null,
+      "opening_hours": null,
+      "fees": null,
       "activities": [
         "Pre Wedding",
         "Wedding"
       ],
       "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "languages_available": [
         "English"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "1000Bodhi_ECBT Camp Information - 1000Bodhi_ECBT_Camp_Information - Myanmar_Vs_English_",
-          "source_file": "1000Bodhi_ECBT Camp Information__1000Bodhi_ECBT_Camp_Information__Myanmar_Vs_English_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": "22",
-          "longitude": "95",
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": [
-            "Pre Wedding",
-            "Wedding"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "-    ()  \n           \n          \n           (.)\n      \n\n- Google Map Latitude(N)  22:4494547\n\n  Longitude (E)           95:17217726\n\n  \n\n /                        () \n\n  /  () \n\n   \n\n                          - . \n\n                          - ()()\n\n                           ()\n\n   \n\n     \n\n  ()",
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": []
+      ]
     },
     {
       "camp_directory": "HmawYawGyi_ECBT Camp Information",
       "camp_name": "Hmaw Yaw Gyi Elephant Conservation Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
-      "extraction_agency": "Myanmar Timber Enterprise",
-      "location_description": "To West one mile (1/1) from the Mile Post 105/4 of Yangon-Mandalay Exprress Way.\nGoogle Map Latitude 18 °24'44.44\" N\nLongitude 96 °40'55.56\"E",
-      "latitude": "18",
-      "longitude": "96",
-      "access": "Not far from Moe Yun Gyi Wetlands,it will take 35 miutes from Daw Moe Farm House",
-      "compound_area": "2",
-      "total_elephants": null,
+      "extraction_agency": "Bago Region",
+      "location_description": "To West one mile (1/1) from the Mile Post 105/4 of Yangon-Mandalay Exprress Way.\n        Google Map Latitude 18 °24'44.44\" N\n                         Longitude 96 °40'55.56\"E",
+      "latitude": "18.412344444444443",
+      "longitude": "96.6821",
+      "access": "for visitation\n\n     Not far from Moe Yun Gyi Wetlands,it will take 35 miutes from Daw Moe Farm House",
+      "compound_area": "2.38 Acre",
+      "total_elephants": 17,
       "male_elephants": 12,
       "female_elephants": 5,
+      "opening_hours": "7:00AM-6:00PM",
+      "fees": {
+        "entrance_fee_local_mmk": 1000,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": 5000,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
         "Elephant Riding",
-        "Feeding Elephants",
-        "Shelter",
-        "Photo",
         "Elephant Show",
-        "Bathing",
-        "Elephant Bathing",
-        "Walking"
+        "Elephant Bathing"
       ],
-      "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "contact_phones": [
+        "0944000041",
+        "095380192"
+      ],
+      "languages_available": [
         "English"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Hmaw Yaw Gyi Elephant Conservation Camp",
-          "source_file": "HmawYawGyi_ECBT Camp Information__HmawYawGyi_ECBT_Camp_Information__Myanmar_Vs_English_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": "Myanmar Timber Enterprise",
-          "location_description": "To West one mile (1/1) from the Mile Post 105/4 of Yangon-Mandalay Exprress Way.\nGoogle Map Latitude 18 °24'44.44\" N\nLongitude 96 °40'55.56\"E",
-          "latitude": "18",
-          "longitude": "96",
-          "access": "Not far from Moe Yun Gyi Wetlands,it will take 35 miutes from Daw Moe Farm House",
-          "compound_area": "2",
-          "total_elephants": null,
-          "male_elephants": 12,
-          "female_elephants": 5,
-          "activities": [
-            "Conservation",
-            "Elephant Riding",
-            "Feeding Elephants",
-            "Shelter",
-            "Photo",
-            "Elephant Show",
-            "Bathing",
-            "Elephant Bathing",
-            "Walking"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": []
+      ]
     },
     {
       "camp_directory": "KhaiKam_ECBT Camp Information",
@@ -118,40 +65,19 @@
       "ministry": null,
       "extraction_agency": null,
       "location_description": null,
-      "latitude": "23.247893°",
-      "longitude": "93.894237°",
+      "latitude": "23.247893",
+      "longitude": "93.894237",
       "access": null,
       "compound_area": null,
       "total_elephants": null,
       "male_elephants": null,
       "female_elephants": null,
+      "opening_hours": null,
+      "fees": null,
       "activities": null,
       "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "languages_available": [
         "Myanmar"
-      ],
-      "raw_english_entries": [],
-      "raw_myanmar_entries": [
-        {
-          "camp_name": "Khai Kam Elephant Camp",
-          "source_file": "KhaiKam_ECBT Camp Information__Khai_Kam_ECBT_Camp_Information__MyanmarVersion_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": "23.247893°",
-          "longitude": "93.894237°",
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": null,
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "-  -  -  -  -  -  \n    () () \n   \n\n- Google Map Latitude(N) 23.247893°\n                       Longitude(E) 93.894237°\n\n    \n\n-  /   (:)\n-  /   ()  \n\n   \n\n-     =  () \n-     = () ()\n\n  ()()\n\f                                         \n \n\n                                     \n\f\n         \n\n( )\n\n                                                    \n\n       \n\f     \n\n ()             \n ()             \n                \n\n    ()",
-          "language": "Myanmar"
-        }
       ]
     },
     {
@@ -159,83 +85,36 @@
       "camp_name": "Kyun Taw Elephant Conservation Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
       "extraction_agency": "Pyay Extraction Agency",
-      "location_description": "- Alongside of the Yangon-Pyay Highway Road, (1) mile away from Pyay\n- Google Map Latitude (N) 18° 47' 39\"\nLongitude (E) 95° 13' 15\"\nWay and Duration for visitation\n- Car/Motorcycle driving time (7 minutes) from Pyay\nCompound Area and Elephant Number\nCamp Area      - 78 Acres\nCamp Elephant  - 1 male elephant\nElephant feeding\nElephant riding\nElephant buffet feeding\nClosely study the 160 year old\nplantation teak trees while\nelephant riding\nCan observe nature of Jungle\nwhile Jungle walk\nBeing able to walk and closely\nstudy the 160 year old\nplantation teak trees\nFees for Camp Entrance and Elephant Riding\nEntrance fee (per head)           Local                    Foreigner\n- 500 MMK\n- 30000 MMK\nElephant Riding fee (short trip) (per head) - 5000 MMK  (entrance and\nelephant riding\nElephant Riding fee (long trip) (per head) - 10000 MMK\nfees)\nMonks , nuns and children un-der the age of 5 years\nare allowed fre-e entry !\nOpening hours                - 8:00 AM to 5:30 PM\nElephant riding time         - 9:30 AM to 12:00 PM\n- 3:00 PM to 5:30 PM\nDuration of elephant riding  - About 20 minutes (short trip)\n- About 50 minutes (long trip)\nServices in Kyun Taw Elephant Conservation Camp\nStudying facts and knowledge about Elephants\nSeeing the elephants close under guideline by Oozie up, feed yourself,\nphoto and video recording\nDonating elephants buffet\nTaking photography with elephants for your memorial or your pre-\nwedding (Only in camp area)\nClosely study the 160 year old plantation teak trees while elephant riding\n(or) walking\nCan observe nature of jungle while jungle walk\nMore Informations                   - 09 890478007\nU Than Tun Win (Manager)            - 09 897991719\nU Kyaw Zin Tun (Assistant Manager)\nFacebook Link:\nhttps://www.facebook.com/profile.php?id=100070486263734\nkyawzintun.kzt999@gmail.com",
-      "latitude": "18° 47'",
-      "longitude": "95° 13'",
+      "location_description": "- Alongside of the Yangon-Pyay Highway Road, (1) mile away from Pyay\n   - Google Map Latitude (N) 18° 47' 39\"\n\n                           Longitude (E) 95° 13' 15\"\n\nWay and Duration for visitation\n\n   - Car/Motorcycle driving time (7 minutes) from Pyay\n\nCompound Area and Elephant Number\n\nCamp Area      - 78 Acres\n\nCamp Elephant  - 1 male elephant\n\f                                             Elephant feeding\nElephant riding\n\n                                          Elephant buffet feeding\n\f                                                        Closely study the 160 year old\n                                                          plantation teak trees while\n                                                                 elephant riding\n\nCan observe nature of Jungle\n       while Jungle walk\n\n                                                             Being able to walk and closely\n                                                                   study the 160 year old\n                                                                   plantation teak trees\n\fFees for Camp Entrance and Elephant Riding\n\nEntrance fee (per head)           Local                    Foreigner\n                             - 500 MMK\n                                                        - 30000 MMK\nElephant Riding fee (short trip) (per head) - 5000 MMK  (entrance and\n                                                        elephant riding\nElephant Riding fee (long trip) (per head) - 10000 MMK\n                                                              fees)\n\nMonks , nuns and children un-der the age of 5 years\n                  are allowed fre-e entry !\n\nOpening hours                - 8:00 AM to 5:30 PM\nElephant riding time         - 9:30 AM to 12:00 PM\n                             - 3:00 PM to 5:30 PM\nDuration of elephant riding  - About 20 minutes (short trip)\n                             - About 50 minutes (long trip)\n\f         Services in Kyun Taw Elephant Conservation Camp\n\n Studying facts and knowledge about Elephants\n Seeing the elephants close under guideline by Oozie up, feed yourself,\n\n     photo and video recording\n Donating elephants buffet\n Taking photography with elephants for your memorial or your pre-\n\n     wedding (Only in camp area)\n Closely study the 160 year old plantation teak trees while elephant riding\n\n     (or) walking\n Can observe nature of jungle while jungle walk\n\fMore Informations                   - 09 890478007\nU Than Tun Win (Manager)            - 09 897991719\nU Kyaw Zin Tun (Assistant Manager)\n\n   Facebook Link:\nhttps://www.facebook.com/profile.php?id=100070486263734\n\n   kyawzintun.kzt999@gmail.com",
+      "latitude": "18",
+      "longitude": "95",
       "access": null,
       "compound_area": "78 Acres",
-      "total_elephants": null,
+      "total_elephants": 1,
       "male_elephants": 1,
       "female_elephants": null,
+      "opening_hours": "8:00 AM to 5:30 PM",
+      "fees": {
+        "entrance_fee_local_mmk": null,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": 5000,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
-        "Elephant Feeding",
         "Elephant Riding",
-        "Jungle Walk",
-        "Photo",
+        "Conservation",
+        "Video Recording",
         "Photography",
         "Wedding",
-        "Walking"
+        "Jungle Walk"
       ],
-      "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "contact_phones": [
+        "09 89047800",
+        "09 89799171"
+      ],
+      "languages_available": [
         "English",
         "Myanmar"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Kyun Taw Elephant Conservation Camp",
-          "source_file": "KyunTaw_ECBT Camp Information__KyunTaw_ECBT_Camp_Information_EnglishVersion_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": "Pyay Extraction Agency",
-          "location_description": "- Alongside of the Yangon-Pyay Highway Road, (1) mile away from Pyay\n- Google Map Latitude (N) 18° 47' 39\"\nLongitude (E) 95° 13' 15\"\nWay and Duration for visitation\n- Car/Motorcycle driving time (7 minutes) from Pyay\nCompound Area and Elephant Number\nCamp Area      - 78 Acres\nCamp Elephant  - 1 male elephant\nElephant feeding\nElephant riding\nElephant buffet feeding\nClosely study the 160 year old\nplantation teak trees while\nelephant riding\nCan observe nature of Jungle\nwhile Jungle walk\nBeing able to walk and closely\nstudy the 160 year old\nplantation teak trees\nFees for Camp Entrance and Elephant Riding\nEntrance fee (per head)           Local                    Foreigner\n- 500 MMK\n- 30000 MMK\nElephant Riding fee (short trip) (per head) - 5000 MMK  (entrance and\nelephant riding\nElephant Riding fee (long trip) (per head) - 10000 MMK\nfees)\nMonks , nuns and children un-der the age of 5 years\nare allowed fre-e entry !\nOpening hours                - 8:00 AM to 5:30 PM\nElephant riding time         - 9:30 AM to 12:00 PM\n- 3:00 PM to 5:30 PM\nDuration of elephant riding  - About 20 minutes (short trip)\n- About 50 minutes (long trip)\nServices in Kyun Taw Elephant Conservation Camp\nStudying facts and knowledge about Elephants\nSeeing the elephants close under guideline by Oozie up, feed yourself,\nphoto and video recording\nDonating elephants buffet\nTaking photography with elephants for your memorial or your pre-\nwedding (Only in camp area)\nClosely study the 160 year old plantation teak trees while elephant riding\n(or) walking\nCan observe nature of jungle while jungle walk\nMore Informations                   - 09 890478007\nU Than Tun Win (Manager)            - 09 897991719\nU Kyaw Zin Tun (Assistant Manager)\nFacebook Link:\nhttps://www.facebook.com/profile.php?id=100070486263734\nkyawzintun.kzt999@gmail.com",
-          "latitude": "18° 47'",
-          "longitude": "95° 13'",
-          "access": null,
-          "compound_area": "78 Acres",
-          "total_elephants": null,
-          "male_elephants": 1,
-          "female_elephants": null,
-          "activities": [
-            "Conservation",
-            "Elephant Feeding",
-            "Elephant Riding",
-            "Jungle Walk",
-            "Photo",
-            "Photography",
-            "Wedding",
-            "Walking"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": [
-        {
-          "camp_name": "KyunTaw_ECBT Camp Information - KyunTaw_ECBT_Camp_Information_MyanmarVersion_",
-          "source_file": "KyunTaw_ECBT Camp Information__KyunTaw_ECBT_Camp_Information_MyanmarVersion_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": null,
-          "longitude": null,
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": [
-            "Pre Wedding",
-            "Wedding"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "- -    () \n\n-       (N) 18° 47' 39\"\n        (E) 95° 13' 15\"\n\n       \n\n   - /    ()  \n\n    \n\n     -  \n     - (/)  \n\f                                       \n\n\n                                     \n\f                                                            ()",
-          "language": "Myanmar"
-        }
       ]
     },
     {
@@ -243,83 +122,37 @@
       "camp_name": "Moe Ma Kha Elephant Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
       "extraction_agency": "Pathein Extraction Agency",
-      "location_description": "- Pathein ­ Ngwe Saung Bhuu Kwal Road, near the Bhuu Kwal\nvillage, (34) miles from Pathein. It is located about (4) miles away\nfrom Ngwe Saung Township.\n- Google Map Latitude(N) 16.807790\nLongitude(E) 94.409148",
+      "location_description": "- Pathein ­ Ngwe Saung Bhuu Kwal Road, near the Bhuu Kwal\n      village, (34) miles from Pathein. It is located about (4) miles away\n      from Ngwe Saung Township.\n\n   - Google Map Latitude(N) 16.807790\n                         Longitude(E) 94.409148",
       "latitude": "16.807790",
       "longitude": "94.409148",
-      "access": "- Car/motorcycle driving time (1:45 hours) from Pathein Township\n- Car/motorcycle driving time (15 minutes) from Ngwe Saung\ntownship\n- Car/motorcycle driving time (5 minutes) from Lover's Island",
+      "access": "for visitation\n\n   - Car/motorcycle driving time (1:45 hours) from Pathein Township\n   - Car/motorcycle driving time (15 minutes) from Ngwe Saung\n\n      township\n   - Car/motorcycle driving time (5 minutes) from Lover's Island",
       "compound_area": "U Ko Ko Maung, Private-Plot of land (2) Acres (Rent",
-      "total_elephants": null,
+      "total_elephants": 4,
       "male_elephants": 4,
       "female_elephants": 1,
+      "opening_hours": "8 AM ­ 5:30 PM",
+      "fees": {
+        "entrance_fee_local_mmk": 1000,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": 5000,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
-        "Elephant Feeding",
         "Elephant Riding",
         "Elephant Show",
-        "Photo",
+        "Video Recording",
+        "Elephant Buffet",
         "Photography",
         "Wedding",
         "Relax"
       ],
-      "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "contact_phones": [
+        "09 42958539",
+        "09 25610907"
+      ],
+      "languages_available": [
         "English",
         "Myanmar"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Moe Ma Kha Elephant Camp",
-          "source_file": "Moemaka_ECBT Camp Information__Moemaka_ECBT_Camp_Information__EnglishVersion_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": "Pathein Extraction Agency",
-          "location_description": "- Pathein ­ Ngwe Saung Bhuu Kwal Road, near the Bhuu Kwal\nvillage, (34) miles from Pathein. It is located about (4) miles away\nfrom Ngwe Saung Township.\n- Google Map Latitude(N) 16.807790\nLongitude(E) 94.409148",
-          "latitude": "16.807790",
-          "longitude": "94.409148",
-          "access": "- Car/motorcycle driving time (1:45 hours) from Pathein Township\n- Car/motorcycle driving time (15 minutes) from Ngwe Saung\ntownship\n- Car/motorcycle driving time (5 minutes) from Lover's Island",
-          "compound_area": "U Ko Ko Maung, Private-Plot of land (2) Acres (Rent",
-          "total_elephants": null,
-          "male_elephants": 4,
-          "female_elephants": 1,
-          "activities": [
-            "Conservation",
-            "Elephant Feeding",
-            "Elephant Riding",
-            "Elephant Show",
-            "Photo",
-            "Photography",
-            "Wedding",
-            "Relax"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": [
-        {
-          "camp_name": "Moe Ma Kha Elephant Camp",
-          "source_file": "Moemaka_ECBT Camp Information__Moemaka_ECBT_Camp_Information__MyanmarVersion_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": "16.807790",
-          "longitude": "94.409148",
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": [
-            "Pre Wedding",
-            "Wedding"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "-  -      ()\n       ()   \n\n   - Google Map Latitude(N) 16.807790\n                         Longitude(E) 94.409148\n\n   \n\n-   /    (:)\n-   /    () \n-   /    () \n\n  \n\n-   =   (  ) \n\n    ( () () \n    (/-)\n\n-  = () ()\n\n     ()\n\f                                   \n\n\n\n                                   \n\f   \n           \n\n  ()\n\n                                             \n\n   \n\f    \n\n()             \n  ()           \n               \n\n     ( )\n  \n\n      -( :)(:)\n\n      -  (:) (:)\n\n      (:) (:",
-          "language": "Myanmar"
-        }
       ]
     },
     {
@@ -327,80 +160,35 @@
       "camp_name": "Mokkha Waterfall Elephant Conservation Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
       "extraction_agency": "Tharyarwaddy Extraction Agency",
-      "location_description": "- Nearly Mokkha Dam from the milepost of (103) of Minhla-\nSeinkantlant ­ Myoechaung , Yangon-Pyay Highway Road\n- Google Map Latitude(N) 18.0024472\nLongitude(E) 95.5121573",
+      "location_description": "- Nearly Mokkha Dam from the milepost of (103) of Minhla-\n      Seinkantlant ­ Myoechaung , Yangon-Pyay Highway Road\n\n   - Google Map Latitude(N) 18.0024472\n                         Longitude(E) 95.5121573",
       "latitude": "18.0024472",
       "longitude": "95.5121573",
-      "access": "- Car driving time (4 hours) from Yangon to Minhla Township\n- Car/motorcycle driving time (30 minutes) from Minhla Township\nto Mokkha Dam",
+      "access": "for visitation\n\n   - Car driving time (4 hours) from Yangon to Minhla Township\n   - Car/motorcycle driving time (30 minutes) from Minhla Township\n\n      to Mokkha Dam",
       "compound_area": "3 Acres",
-      "total_elephants": null,
+      "total_elephants": 8,
       "male_elephants": 8,
       "female_elephants": 6,
+      "opening_hours": "7:00 AM ­ 6:00 PM",
+      "fees": {
+        "entrance_fee_local_mmk": 500,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": 3000,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
         "Elephant Riding",
         "Elephant Show",
-        "Walking",
-        "Photo",
         "Photography",
-        "Relax",
-        "Bathing"
+        "Video Recording",
+        "Relax"
       ],
-      "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "contact_phones": [
+        "09 2054330",
+        "09 79932255"
+      ],
+      "languages_available": [
         "English",
         "Myanmar"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Mokkha Waterfall Elephant Conservation Camp",
-          "source_file": "Mokka_ECBT Camp Information__Mokka_ECBT_Camp_Information__EnglishVersion_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": "Tharyarwaddy Extraction Agency",
-          "location_description": "- Nearly Mokkha Dam from the milepost of (103) of Minhla-\nSeinkantlant ­ Myoechaung , Yangon-Pyay Highway Road\n- Google Map Latitude(N) 18.0024472\nLongitude(E) 95.5121573",
-          "latitude": "18.0024472",
-          "longitude": "95.5121573",
-          "access": "- Car driving time (4 hours) from Yangon to Minhla Township\n- Car/motorcycle driving time (30 minutes) from Minhla Township\nto Mokkha Dam",
-          "compound_area": "3 Acres",
-          "total_elephants": null,
-          "male_elephants": 8,
-          "female_elephants": 6,
-          "activities": [
-            "Conservation",
-            "Elephant Riding",
-            "Elephant Show",
-            "Walking",
-            "Photo",
-            "Photography",
-            "Relax",
-            "Bathing"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": [
-        {
-          "camp_name": "Mokka_ECBT Camp Information - Mokka_ECBT_Camp_Information - MyanmarVersion_",
-          "source_file": "Mokka_ECBT Camp Information__Mokka_ECBT_Camp_Information__MyanmarVersion_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": "18.0024472",
-          "longitude": "95.5121573",
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": null,
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "-            \n        (46 Q-025932)\n     \n\n  - Google Map Latitude(N) 18.0024472\n                        Longitude(E) 95.5121573\n\n \n\n   - - () -\n        (/)      \n        () \n\n  \n\n-   =  \n-   =  () ()\n\n       ()\n\f       \n\n                                         \n\n\n        \n\n( )\n\f    \n\n                                  \n()                                \n ()                               \n\n       ()  \n    \n\n      - (:)(:)\n\n      - (:)  (:)\n\n      (:)  (:)\n\n  - () \n\n()    - ()  \n\n (",
-          "language": "Myanmar"
-        }
       ]
     },
     {
@@ -408,82 +196,36 @@
       "camp_name": "Myaing Hay Won Elephant Conservation Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
       "extraction_agency": "Tharyarwaddy Extraction Agency",
-      "location_description": "- Inside the compartment (29) of Okkan Reserve From the milepost\nof (60) of Yangon-Pyay Highway Road\n- Google Map Latitude(N) 17.293096\nLongitude(E) 96.001615",
+      "location_description": "- Inside the compartment (29) of Okkan Reserve From the milepost\n      of (60) of Yangon-Pyay Highway Road\n\n   - Google Map Latitude(N) 17.293096\n                         Longitude(E) 96.001615",
       "latitude": "17.293096",
       "longitude": "96.001615",
-      "access": "- Car/motorcycle driving time (2)hours from Yangon City to Taikyi\nTown , Phalone Street.\n- Car/motorcycle driving time (30)minutes from Phalone to\nKwmteemyaung\n- On Foot (1)hour to Myaing Hay Won Elephant Camp",
+      "access": "for visitation\n\n   - Car/motorcycle driving time (2)hours from Yangon City to Taikyi\n      Town , Phalone Street.\n\n   - Car/motorcycle driving time (30)minutes from Phalone to\n      Kwmteemyaung\n\n   - On Foot (1)hour to Myaing Hay Won Elephant Camp",
       "compound_area": "33 Acres",
-      "total_elephants": null,
+      "total_elephants": 6,
       "male_elephants": 6,
       "female_elephants": 4,
+      "opening_hours": "7:00 AM ­ 6:00 PM",
+      "fees": {
+        "entrance_fee_local_mmk": 500,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": 3000,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
-        "Elephant Feeding",
         "Elephant Riding",
         "Elephant Show",
-        "Bathing",
         "Elephant Bathing",
-        "Photo",
         "Photography",
+        "Video Recording",
         "Relax"
       ],
-      "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "contact_phones": [
+        "09 2054330",
+        "09 79932255"
+      ],
+      "languages_available": [
         "English",
         "Myanmar"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Myaing Hay Won Elephant Conservation Camp",
-          "source_file": "MyaingHayWon_ECBT Camp Information__MyaingHayWon_ECBT_Camp_Information__EnglishVersion_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": "Tharyarwaddy Extraction Agency",
-          "location_description": "- Inside the compartment (29) of Okkan Reserve From the milepost\nof (60) of Yangon-Pyay Highway Road\n- Google Map Latitude(N) 17.293096\nLongitude(E) 96.001615",
-          "latitude": "17.293096",
-          "longitude": "96.001615",
-          "access": "- Car/motorcycle driving time (2)hours from Yangon City to Taikyi\nTown , Phalone Street.\n- Car/motorcycle driving time (30)minutes from Phalone to\nKwmteemyaung\n- On Foot (1)hour to Myaing Hay Won Elephant Camp",
-          "compound_area": "33 Acres",
-          "total_elephants": null,
-          "male_elephants": 6,
-          "female_elephants": 4,
-          "activities": [
-            "Conservation",
-            "Elephant Feeding",
-            "Elephant Riding",
-            "Elephant Show",
-            "Bathing",
-            "Elephant Bathing",
-            "Photo",
-            "Photography",
-            "Relax"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": [
-        {
-          "camp_name": "MyaingHayWon_ECBT Camp Information - MyaingHayWon_ECBT_Camp_Information - MyanmarVersion_",
-          "source_file": "MyaingHayWon_ECBT Camp Information__MyaingHayWon_ECBT_Camp_Information__MyanmarVersion_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": "17.293096",
-          "longitude": "96.001615",
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": null,
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "-    ()\n          (JV-822363) (94C­3F-370255) \n     \n\n  - Google Map Latitude(N) 17.293096\n                        Longitude(E) 96.001615\n\n \n\n   - -  () -  \n      ()    ()\n         ()     \n          ()\n      \n\n  \n\n-   =  \n-   =  () ()\n\n      ()\n\f                                                   \n\n \n\n                                          \n                                                  \n\n                                          ( )\n\f    \n\n               \n               \n()",
-          "language": "Myanmar"
-        }
       ]
     },
     {
@@ -491,88 +233,43 @@
       "camp_name": "Nat Hmaw Elephant Conservation Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
       "extraction_agency": "Pyay Extraction Agency",
-      "location_description": "- Along side of the milepost of (174/3) Yangon-Pyay Highway Road\n- Google Map Latitude (N) 18° 45' 34\"\nLongitude (E) 95° 12' 49\"\nWay and Duration for visitation\n- Car/Motorcycle driving time (30 minutes) from Pyay\n- Car/Motorcycle driving time (15 minutes) from Shwedaung\nCompound Area and Elephant Number\nCamp Area      - 4.2 Acres\nCamp Elephant  - 1 male and 2 female elephants\nElephant Feeding\nElephant Riding\nElephant Buffet Feeding\nElephant Show\n(available in the weekend)\nTour to Elephant Museum\nSunflower allotment\nAster Flower allotment\nEnjoying in the playground\nFees for Camp Entrance & Elephant Riding\nLocal                  Foreigner\nEntrance fee (per head)         - 500 MMK       - 10000 MMK\nElephant Riding fee (per head)  - 2000 MMK      - 10000 MMK\nMonks , nuns and children under the age of 5 years\nare allowed free entry !\nOpening hours                   - 8:30 AM to 5:30 PM\nElephant riding time            - 8:30 AM to 12:00 PM\n- 3:00 PM to 5:30 PM\nDuration of elephant riding - About 10 minutes\nHours of elephant show          - 9:30 AM to 10:30 AM\n(Only available in weekend)\nServices in Nat Hmaw Elephant Conservation Camp\nStudying facts and knowledge about Elephants\nSeeing the elephants close under guideline by Oozie up, feed\nyourself, photo and video recording\nDonating elephants buffet\nLearning about elephant at the elephant's museum\nWatching elephant's show (Only in the weekend)\nTaking photography with elephants for your memorial or your\npre-wedding\nEnjoying in the playground\nMore Informations                   - 09 890478007\nU Than Tun Win (Manager)            - 09 897991719\nU Kyaw Zin Tun (Assistant Manager)\nFacebook Link:\nhttps://www.facebook.com/profile.php?id=100070486263734\nkyawzintun.kzt999@gmail.com",
-      "latitude": "18° 45'",
-      "longitude": "95° 12'",
+      "location_description": "- Along side of the milepost of (174/3) Yangon-Pyay Highway Road\n   - Google Map Latitude (N) 18° 45' 34\"\n\n                          Longitude (E) 95° 12' 49\"\n\nWay and Duration for visitation\n\n   - Car/Motorcycle driving time (30 minutes) from Pyay\n   - Car/Motorcycle driving time (15 minutes) from Shwedaung\n\nCompound Area and Elephant Number\n\nCamp Area      - 4.2 Acres\n\nCamp Elephant  - 1 male and 2 female elephants\n\f                                                        Elephant Feeding\nElephant Riding\n\n                                                     Elephant Buffet Feeding\n\f        Elephant Show\n(available in the weekend)\n\nTour to Elephant Museum\n\fSunflower allotment\nAster Flower allotment\n\fEnjoying in the playground\n\fFees for Camp Entrance & Elephant Riding\n\n                                Local                  Foreigner\n\nEntrance fee (per head)         - 500 MMK       - 10000 MMK\n\nElephant Riding fee (per head)  - 2000 MMK      - 10000 MMK\n\nMonks , nuns and children under the age of 5 years\n                  are allowed free entry !\n\nOpening hours                   - 8:30 AM to 5:30 PM\n\nElephant riding time            - 8:30 AM to 12:00 PM\n\n                                - 3:00 PM to 5:30 PM\n\nDuration of elephant riding - About 10 minutes\n\nHours of elephant show          - 9:30 AM to 10:30 AM\n\n                                (Only available in weekend)\n\f     Services in Nat Hmaw Elephant Conservation Camp\n\n Studying facts and knowledge about Elephants\n Seeing the elephants close under guideline by Oozie up, feed\n\n    yourself, photo and video recording\n Donating elephants buffet\n Learning about elephant at the elephant's museum\n Watching elephant's show (Only in the weekend)\n Taking photography with elephants for your memorial or your\n\n    pre-wedding\n Enjoying in the playground\n\fMore Informations                   - 09 890478007\nU Than Tun Win (Manager)            - 09 897991719\nU Kyaw Zin Tun (Assistant Manager)\n\n   Facebook Link:\nhttps://www.facebook.com/profile.php?id=100070486263734\n\n   kyawzintun.kzt999@gmail.com",
+      "latitude": "18",
+      "longitude": "95",
       "access": null,
-      "compound_area": "4",
-      "total_elephants": null,
+      "compound_area": "4.2 Acres",
+      "total_elephants": 1,
       "male_elephants": 1,
       "female_elephants": 2,
+      "opening_hours": "8:30 AM to 5:30 PM",
+      "fees": {
+        "entrance_fee_local_mmk": 500,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": 2000,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
-        "Elephant Feeding",
         "Elephant Riding",
         "Elephant Show",
-        "Photo",
+        "Conservation",
+        "Video Recording",
         "Photography",
         "Wedding"
       ],
-      "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "contact_phones": [
+        "09 89047800",
+        "09 89799171"
+      ],
+      "languages_available": [
         "English",
         "Myanmar"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Nat Hmaw Elephant Conservation Camp",
-          "source_file": "NatHmaw_ECBT Camp Information__NatHmaw_ECBT_Camp_Information_EnglishVersion_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": "Pyay Extraction Agency",
-          "location_description": "- Along side of the milepost of (174/3) Yangon-Pyay Highway Road\n- Google Map Latitude (N) 18° 45' 34\"\nLongitude (E) 95° 12' 49\"\nWay and Duration for visitation\n- Car/Motorcycle driving time (30 minutes) from Pyay\n- Car/Motorcycle driving time (15 minutes) from Shwedaung\nCompound Area and Elephant Number\nCamp Area      - 4.2 Acres\nCamp Elephant  - 1 male and 2 female elephants\nElephant Feeding\nElephant Riding\nElephant Buffet Feeding\nElephant Show\n(available in the weekend)\nTour to Elephant Museum\nSunflower allotment\nAster Flower allotment\nEnjoying in the playground\nFees for Camp Entrance & Elephant Riding\nLocal                  Foreigner\nEntrance fee (per head)         - 500 MMK       - 10000 MMK\nElephant Riding fee (per head)  - 2000 MMK      - 10000 MMK\nMonks , nuns and children under the age of 5 years\nare allowed free entry !\nOpening hours                   - 8:30 AM to 5:30 PM\nElephant riding time            - 8:30 AM to 12:00 PM\n- 3:00 PM to 5:30 PM\nDuration of elephant riding - About 10 minutes\nHours of elephant show          - 9:30 AM to 10:30 AM\n(Only available in weekend)\nServices in Nat Hmaw Elephant Conservation Camp\nStudying facts and knowledge about Elephants\nSeeing the elephants close under guideline by Oozie up, feed\nyourself, photo and video recording\nDonating elephants buffet\nLearning about elephant at the elephant's museum\nWatching elephant's show (Only in the weekend)\nTaking photography with elephants for your memorial or your\npre-wedding\nEnjoying in the playground\nMore Informations                   - 09 890478007\nU Than Tun Win (Manager)            - 09 897991719\nU Kyaw Zin Tun (Assistant Manager)\nFacebook Link:\nhttps://www.facebook.com/profile.php?id=100070486263734\nkyawzintun.kzt999@gmail.com",
-          "latitude": "18° 45'",
-          "longitude": "95° 12'",
-          "access": null,
-          "compound_area": "4",
-          "total_elephants": null,
-          "male_elephants": 1,
-          "female_elephants": 2,
-          "activities": [
-            "Conservation",
-            "Elephant Feeding",
-            "Elephant Riding",
-            "Elephant Show",
-            "Photo",
-            "Photography",
-            "Wedding"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": [
-        {
-          "camp_name": "NatHmaw_ECBT Camp Information - NatHmaw_ECBT_Camp_Information_MyanmarVersion_",
-          "source_file": "NatHmaw_ECBT Camp Information__NatHmaw_ECBT_Camp_Information_MyanmarVersion_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": null,
-          "longitude": null,
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": [
-            "Pre Wedding",
-            "Wedding"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "- -    (/)  \n   -   (N) 18° 48' 36\"\n\n                              (E) 95° 12' 49\"\n\n       \n\n   - /    ()  \n   - /    ()  \n\n  \n\n   - . \n\n   - (/)    ()  \n\f                                                   \n\n\n                                                \n\f   \n(  )\n\n \n   \n\f \n  \n\f \n\f               \n       -    -  \n   ()  -    -  \n ( )\n\n  ()  \n                        \n\n       -   (:) (:)\n       -  (:)(:)",
-          "language": "Myanmar"
-        }
       ]
     },
     {
       "camp_directory": "NayPyiTaw_RoyalWhiteElephant",
       "camp_name": "Royal White Elephants Conservation Garden (Naypyitaw)",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
-      "extraction_agency": null,
+      "extraction_agency": "Myanma Timber Enterprise",
       "location_description": null,
       "latitude": null,
       "longitude": null,
@@ -581,229 +278,19 @@
       "total_elephants": null,
       "male_elephants": null,
       "female_elephants": null,
+      "opening_hours": null,
+      "fees": null,
       "activities": [
         "Conservation"
       ],
       "contact_phones": [
-        "09-400442146",
-        "067-8024776/067-8022877"
+        "067-8024776/067-8022877\n\f",
+        "09-400442146\n",
+        "09-40044214"
       ],
-      "elephant_details": [
-        {
-          "name": "Ngwe Saddan",
-          "height": "- Male",
-          "body_girth": "- 2007 (estimated)",
-          "back": "- 8 feet 3 inches",
-          "ear": "- 12 feet 0 inch",
-          "eyes": "- Hangs down like the bough of a banana tree",
-          "tail": "- Medium",
-          "toe_nails": "- Pearl",
-          "skin_color": "- 4 feet 6 inches in length with turf bristle",
-          "body_hairs": "- 5 in each front foot and 4 in each near foot - Golden white",
-          "arrival_date": "- Kyein Chaung Village, Maungtaw Township, Rakhine State (15-10-2011) - Arrived in Nay Pyi Taw 20 th November, 2011"
-        },
-        {
-          "name": "Bahdda Waddy",
-          "height": "- Female",
-          "body_girth": "- 1972 (estimated)",
-          "tusks": "- 7 feet 9 inch",
-          "back": "- 11 feet 10 inch",
-          "ear": "- A small pair of tusks",
-          "eyes": "- Straight",
-          "taill": "- Large",
-          "toe_nails": "- Pearl",
-          "skin_color": "- 4 feet in length with turf bristle",
-          "body_hairs": "- 5 in each front foot and 4 in each rear foot - Golden White",
-          "arrival_date": "- Pha wat Chaung Village, Maungtaw Township, Rakhine State (26-6-2010) - Arrived in Nay Pyi Taw on 9th August, 2010"
-        },
-        {
-          "name": "Nanda Waddy",
-          "height": "- Female",
-          "body_girth": "- 1992(Estimated)",
-          "back": "- 7 feet 7 inch",
-          "ear": "- 11 feet",
-          "eyes": "- Hangs down like the bough of a banana tree",
-          "tail": "- Large",
-          "toe_nails": "- Perl",
-          "skin_color": "- 4 feet 5 inches in length with turf bristle",
-          "body": "- 5 in each front foot and 4 in each near foot - Golden white Hairs State (23-9-2010) - Arrived in Nay Pyi Taw 21st October, 20104"
-        },
-        {
-          "name": "Hayma Waddy",
-          "height": "- Female",
-          "body_girth": "- 1996(Estimated)",
-          "back": "- 7 feet 10 inch",
-          "ear": "- 11 feet 7 inches",
-          "eyes": "- Hangs down like the bough of a banana tree",
-          "tail": "- Medium",
-          "toe_nails": "- Perl",
-          "skin_color": "- 4 feet 3 inches in length with turf bristle",
-          "body_hairs": "- 5 in each front foot and 4 in each near foot - White",
-          "arrival_date": "- Ale Village, Ngwesaung Township, Ayeyarwady Region (25-10-2011) - Arrived in Nay Pyi Taw 20th November, 2011"
-        },
-        {
-          "name": "Thiri Marlar",
-          "height": "- Female",
-          "body_girth": "- 27-11-2011",
-          "back": "- 7 feet 9 inches",
-          "ear": "- 11 feet 9 inches",
-          "eyes": "- Hangs down like the bough of a banana tree",
-          "tail": "- Medium",
-          "toe_nails": "- Pearl",
-          "skin_color": "- 3 feet 11 inches in length with turf bristle",
-          "body_hairs": "- 5 in each front foot and 4 in each rear foot",
-          "arrival_date": "- Pink",
-          "date_of_birth": "- Bahdda Waddy",
-          "place": "- Golden white - 27-11-2011 - Uppatassanti Pagoda, Royal White Elephant Garden Rahta Nandaka"
-        },
-        {
-          "name": "- Male",
-          "date_of_birth": "- 23-7-2022",
-          "height": "- 4 feet 8 inch",
-          "body_girth": "- 7 feet 4 inches",
-          "back": "- Hangs down like the bough of banana",
-          "ear": "tree",
-          "eyes": "- Large",
-          "tail": "- Peart",
-          "toe_nails": "- 2 feet 7 inches in length with turf bristle - 5 in each front foot and 4 in each rear",
-          "body_hairs": "foot - White",
-          "arrival_date": "- Latt Yar Style Chaung, Taunggok Township, Rakhine State (23-7-2022) - Arrived in Nay Pyi Taw 27th October, 2022"
-        }
-      ],
-      "versions_available": [
+      "languages_available": [
         "English",
         "Myanmar"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Royal White Elephants Conservation Garden (Naypyitaw)",
-          "source_file": "NayPyiTaw_RoyalWhiteElephant__RoyalWhiteElephant_Information__EnglishVersion_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": null,
-          "longitude": null,
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": [
-            "Conservation"
-          ],
-          "contact_phones": [
-            "09-400442146",
-            "067-8024776/067-8022877"
-          ],
-          "elephant_details": [
-            {
-              "name": "Ngwe Saddan",
-              "height": "- Male",
-              "body_girth": "- 2007 (estimated)",
-              "back": "- 8 feet 3 inches",
-              "ear": "- 12 feet 0 inch",
-              "eyes": "- Hangs down like the bough of a banana tree",
-              "tail": "- Medium",
-              "toe_nails": "- Pearl",
-              "skin_color": "- 4 feet 6 inches in length with turf bristle",
-              "body_hairs": "- 5 in each front foot and 4 in each near foot - Golden white",
-              "arrival_date": "- Kyein Chaung Village, Maungtaw Township, Rakhine State (15-10-2011) - Arrived in Nay Pyi Taw 20 th November, 2011"
-            },
-            {
-              "name": "Bahdda Waddy",
-              "height": "- Female",
-              "body_girth": "- 1972 (estimated)",
-              "tusks": "- 7 feet 9 inch",
-              "back": "- 11 feet 10 inch",
-              "ear": "- A small pair of tusks",
-              "eyes": "- Straight",
-              "taill": "- Large",
-              "toe_nails": "- Pearl",
-              "skin_color": "- 4 feet in length with turf bristle",
-              "body_hairs": "- 5 in each front foot and 4 in each rear foot - Golden White",
-              "arrival_date": "- Pha wat Chaung Village, Maungtaw Township, Rakhine State (26-6-2010) - Arrived in Nay Pyi Taw on 9th August, 2010"
-            },
-            {
-              "name": "Nanda Waddy",
-              "height": "- Female",
-              "body_girth": "- 1992(Estimated)",
-              "back": "- 7 feet 7 inch",
-              "ear": "- 11 feet",
-              "eyes": "- Hangs down like the bough of a banana tree",
-              "tail": "- Large",
-              "toe_nails": "- Perl",
-              "skin_color": "- 4 feet 5 inches in length with turf bristle",
-              "body": "- 5 in each front foot and 4 in each near foot - Golden white Hairs State (23-9-2010) - Arrived in Nay Pyi Taw 21st October, 20104"
-            },
-            {
-              "name": "Hayma Waddy",
-              "height": "- Female",
-              "body_girth": "- 1996(Estimated)",
-              "back": "- 7 feet 10 inch",
-              "ear": "- 11 feet 7 inches",
-              "eyes": "- Hangs down like the bough of a banana tree",
-              "tail": "- Medium",
-              "toe_nails": "- Perl",
-              "skin_color": "- 4 feet 3 inches in length with turf bristle",
-              "body_hairs": "- 5 in each front foot and 4 in each near foot - White",
-              "arrival_date": "- Ale Village, Ngwesaung Township, Ayeyarwady Region (25-10-2011) - Arrived in Nay Pyi Taw 20th November, 2011"
-            },
-            {
-              "name": "Thiri Marlar",
-              "height": "- Female",
-              "body_girth": "- 27-11-2011",
-              "back": "- 7 feet 9 inches",
-              "ear": "- 11 feet 9 inches",
-              "eyes": "- Hangs down like the bough of a banana tree",
-              "tail": "- Medium",
-              "toe_nails": "- Pearl",
-              "skin_color": "- 3 feet 11 inches in length with turf bristle",
-              "body_hairs": "- 5 in each front foot and 4 in each rear foot",
-              "arrival_date": "- Pink",
-              "date_of_birth": "- Bahdda Waddy",
-              "place": "- Golden white - 27-11-2011 - Uppatassanti Pagoda, Royal White Elephant Garden Rahta Nandaka"
-            },
-            {
-              "name": "- Male",
-              "date_of_birth": "- 23-7-2022",
-              "height": "- 4 feet 8 inch",
-              "body_girth": "- 7 feet 4 inches",
-              "back": "- Hangs down like the bough of banana",
-              "ear": "tree",
-              "eyes": "- Large",
-              "tail": "- Peart",
-              "toe_nails": "- 2 feet 7 inches in length with turf bristle - 5 in each front foot and 4 in each rear",
-              "body_hairs": "foot - White",
-              "arrival_date": "- Latt Yar Style Chaung, Taunggok Township, Rakhine State (23-7-2022) - Arrived in Nay Pyi Taw 27th October, 2022"
-            }
-          ],
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": [
-        {
-          "camp_name": "NayPyiTaw_RoyalWhiteElephant - RoyalWhiteElephant_Information - MyanmarVersion_",
-          "source_file": "NayPyiTaw_RoyalWhiteElephant__RoyalWhiteElephant_Information__MyanmarVersion_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": null,
-          "longitude": null,
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": null,
-          "contact_phones": [
-            "09-400442146\n             -",
-            "067-8024776/067-8022877\n\f /-"
-          ],
-          "elephant_details": null,
-          "raw_text_preview": "()\n\n- () Ph: 09-400442146\n             - ()  \n             - Ph: 067-8024776/067-8022877\n\f /-  \n\n()      - /\n() \n        -  \n() \n()      -  (  )\n() \n()      -       \n() \n() /    -  \n\n()      - \n() \n() /    - \n() \n()      - \n\n()      -  \n() \n           \n      \n()      -    \n\n        -    \n\n        -   :     : \n\n        - \n\n        -    \n\n            \n\n        -  --\n\n        - --\n\n        -",
-          "language": "Myanmar"
-        }
       ]
     },
     {
@@ -811,91 +298,39 @@
       "camp_name": "Ngalaik Sa Khan Thar Elephant Conservation Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
       "extraction_agency": "Naypyitaw Extraction Agency",
-      "location_description": "- About two furlongs from the milepost of (217/0) Yangon-\nMandalay Highway Road\n- Inside the compartment(78) of Ngalaik Reserve & near Ngalaik\nDam\n- Google Map Latitude(N) 19.8761210\nLongitude(E) 96.0049577",
+      "location_description": "- About two furlongs from the milepost of (217/0) Yangon-\n      Mandalay Highway Road\n\n   - Inside the compartment(78) of Ngalaik Reserve & near Ngalaik\n      Dam\n\n   - Google Map Latitude(N) 19.8761210\n                         Longitude(E) 96.0049577",
       "latitude": "19.8761210",
       "longitude": "96.0049577",
-      "access": "- Car/motorcycle driving time (45 minutes) from Pyinmana\nTownship\n- Car/motorcycle driving time (30 minutes) from Naypyitaw\n- Boat trip(15 minutes from Ngalaik Kanthar Hotel )",
+      "access": "for visitation\n\n   - Car/motorcycle driving time (45 minutes) from Pyinmana\n      Township\n\n   - Car/motorcycle driving time (30 minutes) from Naypyitaw\n   - Boat trip(15 minutes from Ngalaik Kanthar Hotel )",
       "compound_area": "573 Acre (including 288 acres of elephant grazing land)",
-      "total_elephants": 21,
+      "total_elephants": 5,
       "male_elephants": 5,
       "female_elephants": 16,
+      "opening_hours": "8 AM ­ 5:30 PM",
+      "fees": {
+        "entrance_fee_local_mmk": 2000,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": 3000,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
-        "Boat",
-        "Elephant Feeding",
         "Elephant Riding",
         "Elephant Show",
         "Jungle Walk",
-        "Photo",
+        "Video Recording",
         "Photography",
         "Wedding",
-        "Walking",
-        "Relax"
+        "Boat",
+        "Relax",
+        "Conservation"
       ],
-      "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "contact_phones": [
+        "09 89071196",
+        "09 5021362"
+      ],
+      "languages_available": [
         "English",
         "Myanmar"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Ngalaik Sa Khan Thar Elephant Conservation Camp",
-          "source_file": "NgaLaik_ECBT Camp Information__NgaLaik_ECBT_Camp_Information__English_Version_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": "Naypyitaw Extraction Agency",
-          "location_description": "- About two furlongs from the milepost of (217/0) Yangon-\nMandalay Highway Road\n- Inside the compartment(78) of Ngalaik Reserve & near Ngalaik\nDam\n- Google Map Latitude(N) 19.8761210\nLongitude(E) 96.0049577",
-          "latitude": "19.8761210",
-          "longitude": "96.0049577",
-          "access": "- Car/motorcycle driving time (45 minutes) from Pyinmana\nTownship\n- Car/motorcycle driving time (30 minutes) from Naypyitaw\n- Boat trip(15 minutes from Ngalaik Kanthar Hotel )",
-          "compound_area": "573 Acre (including 288 acres of elephant grazing land)",
-          "total_elephants": 21,
-          "male_elephants": 5,
-          "female_elephants": 16,
-          "activities": [
-            "Conservation",
-            "Boat",
-            "Elephant Feeding",
-            "Elephant Riding",
-            "Elephant Show",
-            "Jungle Walk",
-            "Photo",
-            "Photography",
-            "Wedding",
-            "Walking",
-            "Relax"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": [
-        {
-          "camp_name": "NgaLaik_ECBT Camp Information - NgaLaik_ECBT_Camp_Information - Myanmar_Version_",
-          "source_file": "NgaLaik_ECBT Camp Information__NgaLaik_ECBT_Camp_Information__Myanmar_Version_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": "19.8761210",
-          "longitude": "96.0049577",
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": [
-            "Jungle Walk",
-            "Pre Wedding",
-            "Wedding",
-            "Conservation"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "- -     (/)  \n      ()    ()\n           \n\n   - Google Map Latitude(N) 19.8761210\n                         Longitude(E) 96.0049577\n\n   \n\n-   /    () \n-   /    () \n-        () \n\n   ()\n\n  \n\n-   =  \n\n    (-  )\n\n-  = () ()\n                                    ()\n\f                                            \n\n           \n(/)\n\n                                 \n\f \n        \n\n()\n\n                                            \n                                              \n\f    \n\n()",
-          "language": "Myanmar"
-        }
       ]
     },
     {
@@ -903,229 +338,110 @@
       "camp_name": "Ngwe Saung Elephant Conservation Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
       "extraction_agency": "Pathein Extraction Agency",
-      "location_description": "- Near the Pwat Taw Mu Village and The milepost of (19/0)\nPathein-Ngwe Saung Road\n- Google Map Latitude(N) 16.81067\nLongitude(E) 94.49272",
+      "location_description": "- Near the Pwat Taw Mu Village and The milepost of (19/0)\n      Pathein-Ngwe Saung Road\n\n   - Google Map Latitude(N) 16.81067\n                         Longitude(E) 94.49272",
       "latitude": "16.81067",
       "longitude": "94.49272",
-      "access": "- Car/motorcycle driving time (45 minutes) from Pathein Township\n- Car/motorcycle driving time (30 minutes) from Ngwe Saung\nBeach",
+      "access": "for visitation\n\n   - Car/motorcycle driving time (45 minutes) from Pathein Township\n   - Car/motorcycle driving time (30 minutes) from Ngwe Saung\n\n      Beach",
       "compound_area": "60 Acres (including elephant grazing area)",
-      "total_elephants": null,
+      "total_elephants": 4,
       "male_elephants": 4,
       "female_elephants": 1,
+      "opening_hours": "6 AM ­ 6:00 PM",
+      "fees": {
+        "entrance_fee_local_mmk": 1000,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": 5000,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
-        "Elephant Feeding",
         "Elephant Riding",
         "Elephant Show",
-        "Photo",
+        "Video Recording",
+        "Elephant Buffet",
         "Photography",
         "Wedding",
         "Relax"
       ],
-      "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "contact_phones": [
+        "09 42958539",
+        "09 2050081"
+      ],
+      "languages_available": [
         "English",
         "Myanmar"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Ngwe Saung Elephant Conservation Camp",
-          "source_file": "NgweSaung_ECBT Camp Information__NgweSaung_ECBT_Camp_Information__EnglishVersion_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": "Pathein Extraction Agency",
-          "location_description": "- Near the Pwat Taw Mu Village and The milepost of (19/0)\nPathein-Ngwe Saung Road\n- Google Map Latitude(N) 16.81067\nLongitude(E) 94.49272",
-          "latitude": "16.81067",
-          "longitude": "94.49272",
-          "access": "- Car/motorcycle driving time (45 minutes) from Pathein Township\n- Car/motorcycle driving time (30 minutes) from Ngwe Saung\nBeach",
-          "compound_area": "60 Acres (including elephant grazing area)",
-          "total_elephants": null,
-          "male_elephants": 4,
-          "female_elephants": 1,
-          "activities": [
-            "Conservation",
-            "Elephant Feeding",
-            "Elephant Riding",
-            "Elephant Show",
-            "Photo",
-            "Photography",
-            "Wedding",
-            "Relax"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": [
-        {
-          "camp_name": "NgweSaung_ECBT Camp Information - NgweSaung_ECBT_Camp_Information - MyanmarVersion_",
-          "source_file": "NgweSaung_ECBT Camp Information__NgweSaung_ECBT_Camp_Information__MyanmarVersion_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": "16.81067",
-          "longitude": "94.49272",
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": [
-            "Pre Wedding",
-            "Wedding"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "-  -       ( / ) \n       \n\n  - Google Map Latitude(N) 16.81067\n                        Longitude(E) 94.49272\n\n   \n\n-   /    () \n\n-   / () \n\n  \n\n-   =  \n\n    ()\n\n-  = () ()\n                                    ()\n\f                                             \n\n           \n(/)\n\n                                            \n\f \n \n\n                                                      \n                                                       \n\f    \n\n()             \n  ()",
-          "language": "Myanmar"
-        }
       ]
     },
     {
       "camp_directory": "Palin_ECBT Camp Information",
       "camp_name": "Palin Elephant Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
-      "extraction_agency": null,
-      "location_description": "- About two furlongs from the Northern side of the milepost of (9KM)\nNyaung Oo-Pakokku-Myingyan Highway Road\n- On the Bank of Ayeyarwaddy River, Near Palin Village\n- Google Map   Latitude (N) 21.2158394\nLongitude (E) 94.9728417",
+      "extraction_agency": "Myanma Timber Enterprise",
+      "location_description": "- About two furlongs from the Northern side of the milepost of (9KM)\n\nNyaung Oo-Pakokku-Myingyan Highway Road\n\n- On the Bank of Ayeyarwaddy River, Near Palin Village\n\n- Google Map   Latitude (N) 21.2158394\n\n               Longitude (E) 94.9728417",
       "latitude": "21.2158394",
       "longitude": "94.9728417",
-      "access": "- Car/motorcycle driving time (15 minutes) from Nyaung Oo/Bagan\n- Car/motorcycle driving time (30 minutes) from Pakokku\n- Boat trip of Ayeyarwaddy River (1 hour) from Nyaung Oo Jetty",
-      "compound_area": "4",
-      "total_elephants": null,
+      "access": "for visitation\n\n- Car/motorcycle driving time (15 minutes) from Nyaung Oo/Bagan\n- Car/motorcycle driving time (30 minutes) from Pakokku\n- Boat trip of Ayeyarwaddy River (1 hour) from Nyaung Oo Jetty",
+      "compound_area": "4.18 Acres",
+      "total_elephants": 2,
       "male_elephants": 2,
       "female_elephants": 4,
+      "opening_hours": "8:00 AM ­ 5:00 PM",
+      "fees": {
+        "entrance_fee_local_mmk": 1000,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": 5000,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
-        "Rafting",
-        "Boat",
-        "Elephant Feeding",
         "Elephant Riding",
-        "Bathing",
         "Elephant Bathing",
-        "Photo",
         "Photography",
-        "Walking"
+        "Boat",
+        "Rafting"
       ],
       "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "languages_available": [
         "English"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Palin Elephant Camp",
-          "source_file": "Palin_ECBT Camp Information__Palin_ECBT_Camp_Information__Myanmar_Vs_English_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": null,
-          "location_description": "- About two furlongs from the Northern side of the milepost of (9KM)\nNyaung Oo-Pakokku-Myingyan Highway Road\n- On the Bank of Ayeyarwaddy River, Near Palin Village\n- Google Map   Latitude (N) 21.2158394\nLongitude (E) 94.9728417",
-          "latitude": "21.2158394",
-          "longitude": "94.9728417",
-          "access": "- Car/motorcycle driving time (15 minutes) from Nyaung Oo/Bagan\n- Car/motorcycle driving time (30 minutes) from Pakokku\n- Boat trip of Ayeyarwaddy River (1 hour) from Nyaung Oo Jetty",
-          "compound_area": "4",
-          "total_elephants": null,
-          "male_elephants": 2,
-          "female_elephants": 4,
-          "activities": [
-            "Conservation",
-            "Rafting",
-            "Boat",
-            "Elephant Feeding",
-            "Elephant Riding",
-            "Bathing",
-            "Elephant Bathing",
-            "Photo",
-            "Photography",
-            "Walking"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": []
+      ]
     },
     {
       "camp_directory": "PhoeKyar_ECBT Camp Information",
       "camp_name": "Phoe Kyar Elephant Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
-      "extraction_agency": "Taungngu Extraction",
-      "location_description": "Taungngu Township, Taungngu District,Bago Region within saira circle plot\nNo.82 , Thagarakopin Road Mile point No.(10/2) next to Thay Chaung .From the Yangon ­\nMandalay Expressway milepost (173/1)and the Nay pyi Taw- Yangon Expressway milepost\n(173/3) to the west , it is reached by following the road crossing the Thagra Kopin\nyoma(4Miles). It is(177)miles from Yangon and (32) miles from Nay Pyi Taw.\nLocated at estimated map reference(94A/3597410).",
+      "extraction_agency": "Taungngu Township, Taungngu District,Bago Region within saira circle plot",
+      "location_description": "Taungngu Township, Taungngu District,Bago Region within saira circle plot\nNo.82 , Thagarakopin Road Mile point No.(10/2) next to Thay Chaung .From the Yangon ­\nMandalay Expressway milepost (173/1)and the Nay pyi Taw- Yangon Expressway milepost\n(173/3) to the west , it is reached by following the road crossing the Thagra Kopin\nyoma(4Miles). It is(177)miles from Yangon and (32) miles from Nay Pyi Taw.\nLocated at estimated map reference(94A/3597410).\n\n(B)",
       "latitude": null,
       "longitude": null,
-      "access": "- Car/Motorcycle driving time (1hour 20minutes) from Taungngu Township\n- Car/Motorcycle driving time (1hour 20minutes) from Nay Pyi Taw Township\n- Car/Motorcycle driving time ( 20minutes) from Thagara Township",
+      "access": "for visitation\n\n               - Car/Motorcycle driving time (1hour 20minutes) from Taungngu Township\n               - Car/Motorcycle driving time (1hour 20minutes) from Nay Pyi Taw Township\n               - Car/Motorcycle driving time ( 20minutes) from Thagara Township\n\n(C)",
       "compound_area": null,
-      "total_elephants": null,
+      "total_elephants": 4,
       "male_elephants": 4,
       "female_elephants": 8,
+      "opening_hours": null,
+      "fees": {
+        "entrance_fee_local_mmk": 1000,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": 3000,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
         "Elephant Riding",
         "Elephant Show",
-        "Photo",
         "Souvenir",
         "Trekking"
       ],
-      "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "contact_phones": [
+        "09 69514514",
+        "09 78451086",
+        "09 40163099"
+      ],
+      "languages_available": [
         "English",
         "Myanmar"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Phoe Kyar Elephant Camp",
-          "source_file": "PhoeKyar_ECBT Camp Information__PhoeKyar_ECBT_Camp_Information__EnglishVersion_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": "Taungngu Extraction",
-          "location_description": "Taungngu Township, Taungngu District,Bago Region within saira circle plot\nNo.82 , Thagarakopin Road Mile point No.(10/2) next to Thay Chaung .From the Yangon ­\nMandalay Expressway milepost (173/1)and the Nay pyi Taw- Yangon Expressway milepost\n(173/3) to the west , it is reached by following the road crossing the Thagra Kopin\nyoma(4Miles). It is(177)miles from Yangon and (32) miles from Nay Pyi Taw.\nLocated at estimated map reference(94A/3597410).",
-          "latitude": null,
-          "longitude": null,
-          "access": "- Car/Motorcycle driving time (1hour 20minutes) from Taungngu Township\n- Car/Motorcycle driving time (1hour 20minutes) from Nay Pyi Taw Township\n- Car/Motorcycle driving time ( 20minutes) from Thagara Township",
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": 4,
-          "female_elephants": 8,
-          "activities": [
-            "Conservation",
-            "Elephant Riding",
-            "Elephant Show",
-            "Photo",
-            "Souvenir",
-            "Trekking"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": [
-        {
-          "camp_name": "PhoeKyar_ECBT Camp Information - PhoeKyar_ECBT_Camp_Information - MyanmarVersion_",
-          "source_file": "PhoeKyar_ECBT Camp Information__PhoeKyar_ECBT_Camp_Information__MyanmarVersion_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": null,
-          "longitude": null,
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": null,
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "() \n\n                          ()\n      (/)   - \n  (/)   -   (/) \n     ()    \n ()     ()  \n\n (94A/3597410)  \n\n()    \n\n-    /   (     ) \n-  /     (     ) \n-  /     (   ) \n\n()  \n\n-     = . \n-     =  ()  () \n\n      = () \n\f        \n\n  (  )         \n  (  )\n                 \n                 \n\n           \n\n         (  : )   (  :  ) \n\n        -  (  :  )   (  :  ) \n\n         (  :  )   (  :  ) \n\n        -  \n\n  ()    -",
-          "language": "Myanmar"
-        }
       ]
     },
     {
       "camp_directory": "PyarSwal_ECBT Camp Information",
-      "camp_name": "PyarSwal_ECBT Camp Information - PyarSwal_ECBT_Camp_Information - Myanmar_Vs_English_",
+      "camp_name": "PyarSwal",
       "ministry": null,
       "extraction_agency": null,
       "location_description": null,
@@ -1136,118 +452,45 @@
       "total_elephants": null,
       "male_elephants": null,
       "female_elephants": null,
+      "opening_hours": null,
+      "fees": null,
       "activities": null,
       "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "languages_available": [
         "English"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "PyarSwal_ECBT Camp Information - PyarSwal_ECBT_Camp_Information - Myanmar_Vs_English_",
-          "source_file": "PyarSwal_ECBT Camp Information__PyarSwal_ECBT_Camp_Information__Myanmar_Vs_English_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": null,
-          "longitude": null,
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": null,
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "CamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner\n\fCamScanner",
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": []
+      ]
     },
     {
       "camp_directory": "SarniTaung_ECBT Camp Information",
       "camp_name": "Sarni Taung Elephant Conservation Camp",
       "ministry": null,
       "extraction_agency": null,
-      "location_description": "- About 6 Miles (9.6 km) away from the Ngapali Beach.\n- About 2 Miles (3.2 km) aways from Thandwe Township.\n- Google Map - Latitude 18.456816°N\n- Longitude 94.383428°E",
-      "latitude": "18.456816°N",
-      "longitude": "94.383428°E",
-      "access": "- It takes about 13 minutes to Sarni Taung Elephant Conservation\nCamp from Ngapali Beach by car or by motorbike.\n- It takes about 5 minutes to Sarni Taung Elephant Conservation\nCamp from Thandwe Township by car or by motorbike.",
-      "compound_area": "4",
+      "location_description": "- About 6 Miles (9.6 km) away from the Ngapali Beach.\n- About 2 Miles (3.2 km) aways from Thandwe Township.\n- Google Map - Latitude 18.456816°N\n\n                       - Longitude 94.383428°E",
+      "latitude": "18.456816",
+      "longitude": "94.383428",
+      "access": "to Camp\n\n- It takes about 13 minutes to Sarni Taung Elephant Conservation\n   Camp from Ngapali Beach by car or by motorbike.\n\n- It takes about 5 minutes to Sarni Taung Elephant Conservation\n   Camp from Thandwe Township by car or by motorbike.",
+      "compound_area": "4.36 Acres",
       "total_elephants": 5,
       "male_elephants": 1,
       "female_elephants": 4,
+      "opening_hours": "8 AM ­ 5:30 PM",
+      "fees": {
+        "entrance_fee_local_mmk": null,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": null,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Pre Wedding",
-        "Wedding",
-        "Conservation",
         "Elephant Riding",
-        "Photo",
-        "Photography"
+        "Video Recording",
+        "Elephant Buffet",
+        "Photography",
+        "Wedding"
       ],
       "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "languages_available": [
         "English",
         "Myanmar"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Sarni Taung Elephant Conservation Camp",
-          "source_file": "SarniTaung_ECBT Camp Information__SarniTaung_ECBT_Camp_Information__EnglishVersion_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": "- About 6 Miles (9.6 km) away from the Ngapali Beach.\n- About 2 Miles (3.2 km) aways from Thandwe Township.\n- Google Map - Latitude 18.456816°N\n- Longitude 94.383428°E",
-          "latitude": "18.456816°N",
-          "longitude": "94.383428°E",
-          "access": "- It takes about 13 minutes to Sarni Taung Elephant Conservation\nCamp from Ngapali Beach by car or by motorbike.\n- It takes about 5 minutes to Sarni Taung Elephant Conservation\nCamp from Thandwe Township by car or by motorbike.",
-          "compound_area": "4",
-          "total_elephants": 5,
-          "male_elephants": 1,
-          "female_elephants": 4,
-          "activities": [
-            "Pre Wedding",
-            "Wedding",
-            "Conservation",
-            "Elephant Riding",
-            "Photo",
-            "Photography"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "-   ()    ()   -\n     \n\n- Google Map - Latitude 18.456816°N\n                       - Longitude 94.383428°E\n\n       \n\n-   /  -  ()  \n-  /  -   ()  \n\n   \n\n-   =  . \n        ()   () \n-  =     ()\n\f                                     \n \n\n                                  \n\f    \n\n ()             \n ()   ,       , \n      ,       , \n\n     ()\n      \n\n      -  (:) - (:)\n\n      -  (:) - (:)\n\n      - (:) - (:)\n\n  - () \n\n()    - ()",
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": [
-        {
-          "camp_name": "Talalnal Elephant Conservation Camp",
-          "source_file": "SarniTaung_ECBT Camp Information__SarniTaung_ECBT_Camp_Information__MyanmarVersion_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": "- About 7 Miles (11.2 km) away from Thandwe Township.\n- Google Map - Latitude 18.425059°N\n- Longitude 94.465241°E",
-          "latitude": "18.425059°N",
-          "longitude": "94.465241°E",
-          "access": "- It takes about 45 minutes to Talalnal Elephant Conservation\nCamp from Thandwe Township by car or by motorbike.\n- It takes about 40 minutes to Talalnal Elephant Conservation\nCamp from Thandwe Township by boat along Thandwe Chaung.",
-          "compound_area": "2 Acres",
-          "total_elephants": 9,
-          "male_elephants": 2,
-          "female_elephants": 5,
-          "activities": [
-            "Pre Wedding",
-            "Wedding",
-            "Conservation",
-            "Boat",
-            "Elephant Riding",
-            "Photo",
-            "Photography"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "-     (    )     \n         \n\n-            \n           \n\n- Google Map - Latitude 18.425059°N\n                       - Longitude 94.465241°E\n\n        \n\n-    /   - () \n\n-    ()  - () \n\n    \n\n-   =     \n         / ()    ()  \n-     =   ()    () \n\f                                      \n\n\n                                          \n\f   \n\n ( )          \n ( )   ,      ,  \n       ,      ,  \n\n       () \n         \n\n       - ( :) - (:)\n\n       - ( :) - (:)",
-          "language": "Myanmar"
-        }
       ]
     },
     {
@@ -1255,79 +498,36 @@
       "camp_name": "Srikestra Elephant Conservation Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
       "extraction_agency": "Pyay Extraction Agency",
-      "location_description": "- Near Srikestra archaeological museum\n- Google Map Latitude (N) 18° 48' 36\"\nLongitude (E) 95° 17' 23\"\nWay and Duration for visitation\n- Car/Motorcycle driving time (30 minutes) from Pyay\nElephant Number\nCamp Elephant    - 1 male and 1 Female\nElephant Feeding\nElephant Riding\nVisit to Ancient Sri Ksetra\nPyu City\n(Short/Long Trip)\nFees for Elephant Riding                 Local      Foreigner\n- 5000 MMK   - 10000 MMK\nEntrance Riding fee for short trip\n(per head)                          - 10000 MMK  - 20000 MMK\nElephant Riding fee for long trip\n(per head)\nOpening hours                       - 9:30 AM to 5:00 PM\nElephant riding time                - 9:00 AM to 11:00 PM\n- 3:30 PM to 5:00 PM\nDuration of elephant riding         - About 20 minutes (short trip)\n- About 1 hour (long trip)\nServices in Srikestra Elephant Conservation Camp\nSeeing the elephant close under guideline by Oozie up, feed yourself, photo\nand video recording\nDonating elephants buffet\nTaking photography with elephants for your memorial or your pre-wedding\nElephant feeding\nElephant riding\nVisitor can also learn the ancient city of Pyu ( Srikestra)\nMore Informations                   - 09 890478007\n- 09 897991719\nU Than Tun Win (Manager)\nU Kyaw Zin Tun (Assistant Manager)\nFacebook Link:\nhttps://www.facebook.com/profile.php?id=100070486263734\nkyawzintun.kzt999@gmail.com",
-      "latitude": "18° 48'",
-      "longitude": "95° 17'",
+      "location_description": "- Near Srikestra archaeological museum\n   - Google Map Latitude (N) 18° 48' 36\"\n\n                          Longitude (E) 95° 17' 23\"\n\nWay and Duration for visitation\n\n   - Car/Motorcycle driving time (30 minutes) from Pyay\n\nElephant Number\n\nCamp Elephant    - 1 male and 1 Female\n\f                                                      Elephant Feeding\nElephant Riding\n\fVisit to Ancient Sri Ksetra\n           Pyu City\n\n     (Short/Long Trip)\n\fFees for Elephant Riding                 Local      Foreigner\n                                    - 5000 MMK   - 10000 MMK\nEntrance Riding fee for short trip\n(per head)                          - 10000 MMK  - 20000 MMK\nElephant Riding fee for long trip\n(per head)\n\nOpening hours                       - 9:30 AM to 5:00 PM\nElephant riding time                - 9:00 AM to 11:00 PM\n                                    - 3:30 PM to 5:00 PM\nDuration of elephant riding         - About 20 minutes (short trip)\n                                    - About 1 hour (long trip)\n\f        Services in Srikestra Elephant Conservation Camp\n\n Seeing the elephant close under guideline by Oozie up, feed yourself, photo\n   and video recording\n\n Donating elephants buffet\n Taking photography with elephants for your memorial or your pre-wedding\n Elephant feeding\n Elephant riding\n Visitor can also learn the ancient city of Pyu ( Srikestra)\n\fMore Informations                   - 09 890478007\n                                    - 09 897991719\nU Than Tun Win (Manager)\nU Kyaw Zin Tun (Assistant Manager)\n\n   Facebook Link:\nhttps://www.facebook.com/profile.php?id=100070486263734\n\n   kyawzintun.kzt999@gmail.com",
+      "latitude": "18",
+      "longitude": "95",
       "access": null,
       "compound_area": null,
       "total_elephants": null,
       "male_elephants": null,
       "female_elephants": null,
+      "opening_hours": "9:30 AM to 5:00 PM",
+      "fees": {
+        "entrance_fee_local_mmk": null,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": null,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
-        "Elephant Feeding",
         "Elephant Riding",
-        "Photo",
+        "Conservation",
+        "Video Recording",
         "Photography",
-        "Wedding"
+        "Wedding",
+        "Elephant Feeding"
       ],
-      "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "contact_phones": [
+        "09 89047800",
+        "09 89799171"
+      ],
+      "languages_available": [
         "English",
         "Myanmar"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Srikestra Elephant Conservation Camp",
-          "source_file": "Serikestra_ECBT Camp Information__Serikestra_ECBT_Camp_Information_EnglishVersion_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": "Pyay Extraction Agency",
-          "location_description": "- Near Srikestra archaeological museum\n- Google Map Latitude (N) 18° 48' 36\"\nLongitude (E) 95° 17' 23\"\nWay and Duration for visitation\n- Car/Motorcycle driving time (30 minutes) from Pyay\nElephant Number\nCamp Elephant    - 1 male and 1 Female\nElephant Feeding\nElephant Riding\nVisit to Ancient Sri Ksetra\nPyu City\n(Short/Long Trip)\nFees for Elephant Riding                 Local      Foreigner\n- 5000 MMK   - 10000 MMK\nEntrance Riding fee for short trip\n(per head)                          - 10000 MMK  - 20000 MMK\nElephant Riding fee for long trip\n(per head)\nOpening hours                       - 9:30 AM to 5:00 PM\nElephant riding time                - 9:00 AM to 11:00 PM\n- 3:30 PM to 5:00 PM\nDuration of elephant riding         - About 20 minutes (short trip)\n- About 1 hour (long trip)\nServices in Srikestra Elephant Conservation Camp\nSeeing the elephant close under guideline by Oozie up, feed yourself, photo\nand video recording\nDonating elephants buffet\nTaking photography with elephants for your memorial or your pre-wedding\nElephant feeding\nElephant riding\nVisitor can also learn the ancient city of Pyu ( Srikestra)\nMore Informations                   - 09 890478007\n- 09 897991719\nU Than Tun Win (Manager)\nU Kyaw Zin Tun (Assistant Manager)\nFacebook Link:\nhttps://www.facebook.com/profile.php?id=100070486263734\nkyawzintun.kzt999@gmail.com",
-          "latitude": "18° 48'",
-          "longitude": "95° 17'",
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": [
-            "Conservation",
-            "Elephant Feeding",
-            "Elephant Riding",
-            "Photo",
-            "Photography",
-            "Wedding"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": [
-        {
-          "camp_name": "Serikestra_ECBT Camp Information - Serikestra_ECBT_Camp_Information_MyanmarVersion_",
-          "source_file": "Serikestra_ECBT Camp Information__Serikestra_ECBT_Camp_Information_MyanmarVersion_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": null,
-          "longitude": null,
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": [
-            "Pre Wedding",
-            "Wedding"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "-      \n\n-    -    (N) 18° 45' 34\"\n\n     -   (E) 95° 17' 23\"\n\n       \n\n   - /     ()  \n\n     - / ()    () \n\n\n\f                                                      \n\n\f  \n     \n        (/)\n\f             \n       -    -  \n ( )   -    -  \n  ( )\n\n       -   (:)\n          (:)\n \n       -  (:)(:)\n       - (:) (:)\n       - () ()\n       - ()()\n\f                          \n\n   \n      \n\n    ()   \n   \n    Pre Wedding  \n\n         ( )",
-          "language": "Myanmar"
-        }
       ]
     },
     {
@@ -1335,58 +535,36 @@
       "camp_name": "Shan Yoma Elephant Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
       "extraction_agency": "Taunggyi Extraction Agency",
-      "location_description": "- About two furlongs from the milepost of (54/3) Taunggyi-Mekitila Highway Road\n- Inside the compartement(75,76,80,81,82) of Wetphyuye Reserve forest\n- Google Map   Latitude(N) 20° 44' 35.00\"\nLongitude(E) 96° 29' 48.00\"",
-      "latitude": "20° 44'",
-      "longitude": "96° 29'",
-      "access": "- Car/motorcycle driving time (1 hr) from Kalaw\n-\nCompund Area & Elephant Number\nCamp Area      - 507 Acres (including elephant's grazing area)\nCamp Elephants - 4 Male elphants and 7 female elephants (Total 11 elephants)\nElephant Buffet Feeding\nElephant Riding\nElephant Feeding\nFees for Camp Entrance & Elephant riding\nLocal                    Foreigner\n10000 MMK\nEntrance fee(per head)          - 1000 MMK               10000 MMK\nElephant Riding fee (per head)  - 3000 MMK\nChildren under the age of 5 years are allowed for free entry\nOpening hours                   - 9 AM to 5 PM (Every Day)\nElephant riding time            - 9 AM to 11 AM , 3 PM to 5 PM\nDistance of elephant riding     - about 2.5 furlongs\nDuration of elephant riding per time - about 20 minutes\nShan Yoma Elephant Conservation Camp's landscapes\nServices in Shan Yoma Elephant Camp\n- Studying facts and knowledge about Asian Elephants\n- Taking Photos and Videos of Elephants\n- Donating elephants Buffet\n- Bathing with the elephants\n- Feeding the elephants with rice and sugarcane\n- Guests can plant for own memorial\nMore Informations\nU Thein Zaw Oo (Assistant General Manager) - 09442076520\nU A Paing Ko (Assistant Manger)  - 09455184447\nwww.facebook.com/shanyomaelephantconvservationcamp/\ntaunggyi.agency@gmail.com\n-  -   /\n-         ()\n- Google Map  Latitude(N) 20° 44' 35.00\"\nLongitude(E) 96° 29' 48.00\"\n-\n-\n-    (    )\n-             - () ()   ()\n-                            -\n()         -                            -\n()\n-  () ()\n-  ()  ()\n() ()\n- .\n()\n-\n-\n-\n-\n-\n-\n-\n-\n(    )  -\n(   )\nwww.facebook.com/shanyomaelephantconvservationcamp/\ntaunggyi.agency@gmail.com",
+      "location_description": "- About two furlongs from the milepost of (54/3) Taunggyi-Mekitila Highway Road\n\n- Inside the compartement(75,76,80,81,82) of Wetphyuye Reserve forest\n\n- Google Map   Latitude(N) 20° 44' 35.00\"\n\n               Longitude(E) 96° 29' 48.00\"",
+      "latitude": "20",
+      "longitude": "96",
+      "access": "for visition\n\n- Car/motorcycle driving time (1 hr) from Kalaw\n-\n\nCompund Area & Elephant Number\n\nCamp Area      - 507 Acres (including elephant's grazing area)\n\nCamp Elephants - 4 Male elphants and 7 female elephants (Total 11 elephants)\n\f  Elephant Buffet Feeding\nElephant Riding\nElephant Feeding\n\fFees for Camp Entrance & Elephant riding\n\n                                Local                    Foreigner\n                                                         10000 MMK\nEntrance fee(per head)          - 1000 MMK               10000 MMK\n\nElephant Riding fee (per head)  - 3000 MMK\n\nChildren under the age of 5 years are allowed for free entry\n\nOpening hours                   - 9 AM to 5 PM (Every Day)\n\nElephant riding time            - 9 AM to 11 AM , 3 PM to 5 PM\n\nDistance of elephant riding     - about 2.5 furlongs\n\nDuration of elephant riding per time - about 20 minutes\n\f\fShan Yoma Elephant Conservation Camp's landscapes\n\fServices in Shan Yoma Elephant Camp\n\n    - Studying facts and knowledge about Asian Elephants\n    - Taking Photos and Videos of Elephants\n    - Donating elephants Buffet\n    - Bathing with the elephants\n    - Feeding the elephants with rice and sugarcane\n    - Guests can plant for own memorial\n\nMore Informations\n\nU Thein Zaw Oo (Assistant General Manager) - 09442076520\n\nU A Paing Ko (Assistant Manger)  - 09455184447\n\nwww.facebook.com/shanyomaelephantconvservationcamp/\n\ntaunggyi.agency@gmail.com\n\f  \n                        \n\n                    \n\n                 \n\f\n\n-  -   /      \n\n     \n\n-         ()   \n\n- Google Map  Latitude(N) 20° 44' 35.00\"\n\n              Longitude(E) 96° 29' 48.00\"\n\n     \n\n-                        \n    \n\n-\n\n   \n\n-    (    )\n\n-             - () ()   () \n\n                                           \n              -                            -  \n   ()         -                            -  \n()\n\n       \n\f        -  () ()\n        -  ()  ()\n\n         () ()\n        - .  \n()    \n        -  \n\f\f  \n\f   \n    -       \n    -         \n    -    \n    -      \n    -           \n    -          \n\n         -  \n (    )  - \n  (   )\n\n www.facebook.com/shanyomaelephantconvservationcamp/\ntaunggyi.agency@gmail.com",
       "compound_area": null,
       "total_elephants": null,
       "male_elephants": null,
       "female_elephants": null,
+      "opening_hours": "9 AM to 5 PM (Every Day)",
+      "fees": {
+        "entrance_fee_local_mmk": 1000,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": 3000,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
         "Elephant Riding",
-        "Elephant Feeding",
-        "Photo",
-        "Bathing"
+        "Conservation"
       ],
-      "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "contact_phones": [
+        "0944207652",
+        "0945518444"
+      ],
+      "languages_available": [
         "English"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Shan Yoma Elephant Camp",
-          "source_file": "ShanYoma_ECBT Camp Information__ShanYoma_ECBT_Camp_Information__Myanmar_Vs_English_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": "Taunggyi Extraction Agency",
-          "location_description": "- About two furlongs from the milepost of (54/3) Taunggyi-Mekitila Highway Road\n- Inside the compartement(75,76,80,81,82) of Wetphyuye Reserve forest\n- Google Map   Latitude(N) 20° 44' 35.00\"\nLongitude(E) 96° 29' 48.00\"",
-          "latitude": "20° 44'",
-          "longitude": "96° 29'",
-          "access": "- Car/motorcycle driving time (1 hr) from Kalaw\n-\nCompund Area & Elephant Number\nCamp Area      - 507 Acres (including elephant's grazing area)\nCamp Elephants - 4 Male elphants and 7 female elephants (Total 11 elephants)\nElephant Buffet Feeding\nElephant Riding\nElephant Feeding\nFees for Camp Entrance & Elephant riding\nLocal                    Foreigner\n10000 MMK\nEntrance fee(per head)          - 1000 MMK               10000 MMK\nElephant Riding fee (per head)  - 3000 MMK\nChildren under the age of 5 years are allowed for free entry\nOpening hours                   - 9 AM to 5 PM (Every Day)\nElephant riding time            - 9 AM to 11 AM , 3 PM to 5 PM\nDistance of elephant riding     - about 2.5 furlongs\nDuration of elephant riding per time - about 20 minutes\nShan Yoma Elephant Conservation Camp's landscapes\nServices in Shan Yoma Elephant Camp\n- Studying facts and knowledge about Asian Elephants\n- Taking Photos and Videos of Elephants\n- Donating elephants Buffet\n- Bathing with the elephants\n- Feeding the elephants with rice and sugarcane\n- Guests can plant for own memorial\nMore Informations\nU Thein Zaw Oo (Assistant General Manager) - 09442076520\nU A Paing Ko (Assistant Manger)  - 09455184447\nwww.facebook.com/shanyomaelephantconvservationcamp/\ntaunggyi.agency@gmail.com\n-  -   /\n-         ()\n- Google Map  Latitude(N) 20° 44' 35.00\"\nLongitude(E) 96° 29' 48.00\"\n-\n-\n-    (    )\n-             - () ()   ()\n-                            -\n()         -                            -\n()\n-  () ()\n-  ()  ()\n() ()\n- .\n()\n-\n-\n-\n-\n-\n-\n-\n-\n(    )  -\n(   )\nwww.facebook.com/shanyomaelephantconvservationcamp/\ntaunggyi.agency@gmail.com",
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": [
-            "Conservation",
-            "Elephant Riding",
-            "Elephant Feeding",
-            "Photo",
-            "Bathing"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": []
+      ]
     },
     {
       "camp_directory": "ShweSetTaw_ECBT Camp Information",
-      "camp_name": "ShweSetTaw_ECBT Camp Information - ShweSetTaw_ECBT_Camp_Information - Myanmar_Vs_English_",
+      "camp_name": "ShweSetTaw",
       "ministry": null,
       "extraction_agency": null,
       "location_description": null,
@@ -1397,181 +575,87 @@
       "total_elephants": null,
       "male_elephants": null,
       "female_elephants": null,
+      "opening_hours": null,
+      "fees": null,
       "activities": null,
       "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "languages_available": [
         "English"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "ShweSetTaw_ECBT Camp Information - ShweSetTaw_ECBT_Camp_Information - Myanmar_Vs_English_",
-          "source_file": "ShweSetTaw_ECBT Camp Information__ShweSetTaw_ECBT_Camp_Information__Myanmar_Vs_English_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": null,
-          "longitude": null,
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": null,
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "",
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": []
+      ]
     },
     {
       "camp_directory": "Wanet_ECBT Camp Information",
       "camp_name": "Wanet Elephant Conservation Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
-      "extraction_agency": "Myanmar Timber Enterprise",
-      "location_description": "- The Wanet Elephant Camp is located at 5 miles 5 furlongs on the road\nleading to YEL YWAR Hydro Power over the Mandalay - Pyin Oo Lwin\nExpressway 16 miles Transit gate.\n- Inside the compartment (24/25) of Kywat Naphar Reserve\n- Google Map Latitude (N) 21.7845552\nLongitude(E) 96.2973564",
+      "extraction_agency": null,
+      "location_description": "- The Wanet Elephant Camp is located at 5 miles 5 furlongs on the road\n      leading to YEL YWAR Hydro Power over the Mandalay - Pyin Oo Lwin\n      Expressway 16 miles Transit gate.\n\n   - Inside the compartment (24/25) of Kywat Naphar Reserve\n   - Google Map Latitude (N) 21.7845552\n\n                           Longitude(E) 96.2973564",
       "latitude": "21.7845552",
       "longitude": "96.2973564",
-      "access": "- Car/motorcycle driving time (1 hour) from Mandalay\n- Car/motorcycle driving time (1 hour) from Pyin Oo Lwin",
-      "compound_area": "80",
-      "total_elephants": null,
+      "access": "for visit\n\n   - Car/motorcycle driving time (1 hour) from Mandalay\n   - Car/motorcycle driving time (1 hour) from Pyin Oo Lwin",
+      "compound_area": "80.8 Acres (including for elephant's grazing area)",
+      "total_elephants": 5,
       "male_elephants": 5,
       "female_elephants": 5,
+      "opening_hours": "7:00 AM ­ 6:00 PM",
+      "fees": {
+        "entrance_fee_local_mmk": 1000,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": 3000,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
-        "Rafting",
+        "Elephant Riding",
         "Wedding",
-        "Photo",
-        "Elephant Riding"
+        "Rafting"
       ],
-      "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "contact_phones": [
+        "09 78111137",
+        "09 78650219"
+      ],
+      "languages_available": [
         "English",
         "Myanmar"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Wanet Elephant Conservation Camp",
-          "source_file": "Wanet_ECBT Camp Information__Wanet_ECBT_Camp_Information__EnglishVersion_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": "Myanmar Timber Enterprise",
-          "location_description": "- The Wanet Elephant Camp is located at 5 miles 5 furlongs on the road\nleading to YEL YWAR Hydro Power over the Mandalay - Pyin Oo Lwin\nExpressway 16 miles Transit gate.\n- Inside the compartment (24/25) of Kywat Naphar Reserve\n- Google Map Latitude (N) 21.7845552\nLongitude(E) 96.2973564",
-          "latitude": "21.7845552",
-          "longitude": "96.2973564",
-          "access": "- Car/motorcycle driving time (1 hour) from Mandalay\n- Car/motorcycle driving time (1 hour) from Pyin Oo Lwin",
-          "compound_area": "80",
-          "total_elephants": null,
-          "male_elephants": 5,
-          "female_elephants": 5,
-          "activities": [
-            "Conservation",
-            "Rafting",
-            "Wedding",
-            "Photo",
-            "Elephant Riding"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": [
-        {
-          "camp_name": "Wanet_ECBT Camp Information - Wanet_ECBT_Camp_Information - MyanmarVersion_",
-          "source_file": "Wanet_ECBT Camp Information__Wanet_ECBT_Camp_Information__MyanmarVersion_.txt",
-          "ministry": null,
-          "extraction_agency": null,
-          "location_description": null,
-          "latitude": "21.7845552",
-          "longitude": "96.2973564",
-          "access": null,
-          "compound_area": null,
-          "total_elephants": null,
-          "male_elephants": null,
-          "female_elephants": null,
-          "activities": [
-            "Pre Wedding",
-            "Wedding",
-            "Rafting"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": "- -      ()   \n\n                \n\n(/)  \n\n- Google Map  Latitude (N) 21.7845552\n\n              Longitude(E) 96.2973564\n\n       \n\n-   /         ()\n-    /        ()\n\n     \n\n-             = . \n                    (  )\n\n-    =         () ()\n                ()\n\f                                                            \n\n        \n(   /    )",
-          "language": "Myanmar"
-        }
       ]
     },
     {
       "camp_directory": "Wingabaw_ECBT Camp Information",
       "camp_name": "Wingabaw Elephant Conservation Camp",
       "ministry": "Ministry of Natural Resources and Environmental Conservation",
-      "extraction_agency": "Myanmar Timber Enterprise",
-      "location_description": "About four miles far from Yangon_Mandalay Highway Road,Phayagyi Town\nAbout one mile (25m) from the Mile Post 39/0 of Yangon-Mandalay Exprress Way.\nGoogle Map Latitude 17 °28'24.83\" N\nLongitude 96 °28'14.78\"E",
-      "latitude": "17",
-      "longitude": "96",
-      "access": "Not far from Bago,it will take 30 minutes from Bago\nNot far from Moe Yun Gyi Wetlands,it will take 35 miutes from Moe Yun Gyi Wetlands",
-      "compound_area": "70",
-      "total_elephants": null,
+      "extraction_agency": "Bago Region",
+      "location_description": "About four miles far from Yangon_Mandalay Highway Road,Phayagyi Town\n     About one mile (25m) from the Mile Post 39/0 of Yangon-Mandalay Exprress Way.\n\n        Google Map Latitude 17 °28'24.83\" N\n                         Longitude 96 °28'14.78\"E",
+      "latitude": "17.473563888888886",
+      "longitude": "96.47077222222222",
+      "access": "for visitation\n\n     Not far from Bago,it will take 30 minutes from Bago\n     Not far from Moe Yun Gyi Wetlands,it will take 35 miutes from Moe Yun Gyi Wetlands",
+      "compound_area": "70.5 Acre",
+      "total_elephants": 9,
       "male_elephants": 3,
       "female_elephants": 6,
+      "opening_hours": "7:00AM-6:00PM",
+      "fees": {
+        "entrance_fee_local_mmk": 1000,
+        "entrance_fee_foreigner_mmk": null,
+        "elephant_riding_fee_local_mmk": 5000,
+        "elephant_riding_fee_foreigner_mmk": null
+      },
       "activities": [
-        "Conservation",
         "Elephant Riding",
-        "Feeding Elephants",
-        "Bathing",
-        "Elephant Bathing",
-        "Shelter",
-        "Photo",
         "Elephant Show",
         "Relax",
+        "Shelter",
+        "Elephant Bathing",
         "Elephant Feeding",
         "Restaurant",
+        "Elephant Buffet",
+        "Donate",
         "Wedding"
       ],
-      "contact_phones": null,
-      "elephant_details": null,
-      "versions_available": [
+      "contact_phones": [
+        "095380192",
+        "0940042625"
+      ],
+      "languages_available": [
         "English"
-      ],
-      "raw_english_entries": [
-        {
-          "camp_name": "Wingabaw Elephant Conservation Camp",
-          "source_file": "Wingabaw_ECBT Camp Information__Wingabaw_ECBT_Camp_Information__Myanmar_Vs_English_.txt",
-          "ministry": "Ministry of Natural Resources and Environmental Conservation",
-          "extraction_agency": "Myanmar Timber Enterprise",
-          "location_description": "About four miles far from Yangon_Mandalay Highway Road,Phayagyi Town\nAbout one mile (25m) from the Mile Post 39/0 of Yangon-Mandalay Exprress Way.\nGoogle Map Latitude 17 °28'24.83\" N\nLongitude 96 °28'14.78\"E",
-          "latitude": "17",
-          "longitude": "96",
-          "access": "Not far from Bago,it will take 30 minutes from Bago\nNot far from Moe Yun Gyi Wetlands,it will take 35 miutes from Moe Yun Gyi Wetlands",
-          "compound_area": "70",
-          "total_elephants": null,
-          "male_elephants": 3,
-          "female_elephants": 6,
-          "activities": [
-            "Conservation",
-            "Elephant Riding",
-            "Feeding Elephants",
-            "Bathing",
-            "Elephant Bathing",
-            "Shelter",
-            "Photo",
-            "Elephant Show",
-            "Relax",
-            "Elephant Feeding",
-            "Restaurant",
-            "Wedding"
-          ],
-          "contact_phones": null,
-          "elephant_details": null,
-          "raw_text_preview": null,
-          "language": "English"
-        }
-      ],
-      "raw_myanmar_entries": []
+      ]
     }
   ]
 }
