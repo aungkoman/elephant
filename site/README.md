@@ -2,6 +2,10 @@
 
 ```sh
 npm create astro@latest -- --template minimal
+
+# deploy
+wrangler pages deploy dist/ --project-name elephant
+
 ```
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!

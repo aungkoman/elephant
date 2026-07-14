@@ -240,10 +240,7 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
 
         <!-- Contact card -->
         {(camp.contacts?.length > 0 || camp.facebook) && (
-          <div
-            class="rounded-3xl p-6 space-y-4 border border-[--color-forest-100] shadow-sm"
-            style="background-color: var(--color-forest-900); color: white;"
-          >
+          <div class="bg-forest-900 rounded-3xl p-6 space-y-4 shadow-sm">
             <h3 class="font-[Outfit] font-bold text-lg text-white lang-en-only">📞 Contact</h3>
             <h3 class="font-bold text-lg text-white lang-my-only font-myanmar">📞 ဆက်သွယ်ရန်</h3>
 
@@ -252,10 +249,7 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
                 {camp.contacts.slice(0, 4).map((phone: string) => (
                   <a
                     href={`tel:${phone}`}
-                    class="flex items-center gap-2 text-sm transition-colors"
-                    style="color: var(--color-forest-200);"
-                    onmouseover="this.style.color='var(--color-amber-300)'"
-                    onmouseout="this.style.color='var(--color-forest-200)'"
+                    class="flex items-center gap-2 text-sm text-forest-200 hover:text-amber-300 transition-colors"
                   >
                     <span>📱</span> {phone}
                   </a>
@@ -268,10 +262,7 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
                 href={camp.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="flex items-center gap-2 text-sm transition-colors break-all"
-                style="color: var(--color-forest-200);"
-                onmouseover="this.style.color='var(--color-amber-300)'"
-                onmouseout="this.style.color='var(--color-forest-200)'"
+                class="flex items-center gap-2 text-sm text-forest-200 hover:text-amber-300 transition-colors break-all"
               >
                 <span>👍</span>
                 <span class="lang-en-only">Facebook Page</span>
@@ -280,6 +271,7 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
             )}
           </div>
         )}
+
 
         <!-- Back button -->
         <a
