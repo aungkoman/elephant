@@ -1,0 +1,40 @@
+{
+  "slug": "nat-hmaw",
+  "name_en": "Nat Hmaw Elephant Conservation Camp",
+  "name_my": null,
+  "region": "Yangon",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": 18.759444,
+  "longitude": 95.213611,
+  "area": "4.2 Acres",
+  "elephants": {
+    "total": 2,
+    "male": 1,
+    "female": 2
+  },
+  "hours": "8:30 AM to 5:30 PM",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": 2000,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Elephant Show",
+    "Elephant Feeding",
+    "Elephant Buffet",
+    "Photography",
+    "Video Recording",
+    "Wedding",
+    "Conservation"
+  ],
+  "contacts": [
+    "09890478007",
+    "09897991719"
+  ],
+  "facebook": "https://www.facebook.com/profile.php?id=100070486263734",
+  "source_dir": "NatHmaw_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

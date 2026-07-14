@@ -1,0 +1,40 @@
+{
+  "slug": "kyun-taw",
+  "name_en": "Kyun Taw Elephant Conservation Camp",
+  "name_my": null,
+  "region": "Yangon",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": 18.794167,
+  "longitude": 95.220833,
+  "area": "78 Acres",
+  "elephants": {
+    "total": 1,
+    "male": 1,
+    "female": null
+  },
+  "hours": "8:00 AM to 5:30 PM",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": 5000,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Elephant Feeding",
+    "Elephant Buffet",
+    "Photography",
+    "Video Recording",
+    "Jungle Walk",
+    "Wedding",
+    "Conservation"
+  ],
+  "contacts": [
+    "09890478007",
+    "09897991719"
+  ],
+  "facebook": "https://www.facebook.com/profile.php?id=100070486263734",
+  "source_dir": "KyunTaw_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "wingabaw",
+  "name_en": "Wingabaw Elephant Conservation Camp",
+  "name_my": null,
+  "region": "Bago",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": 17.473564,
+  "longitude": 96.470772,
+  "area": "70.5 Acres",
+  "elephants": {
+    "total": 9,
+    "male": null,
+    "female": null
+  },
+  "hours": "7:00AM-6:00PM",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": 5000,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Elephant Bathing",
+    "Elephant Show",
+    "Elephant Feeding",
+    "Elephant Buffet",
+    "Wedding",
+    "Conservation",
+    "Restaurant",
+    "Relax"
+  ],
+  "contacts": [
+    "095380192",
+    "09400426251"
+  ],
+  "facebook": "https://www.facebook.com/profile.php?id=100057363942905&mibextid=ZbWKwL",
+  "source_dir": "Wingabaw_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

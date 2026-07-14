@@ -1,17 +1,246 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CampCard from '../components/CampCard.astro';
+import { readFileSync, readdirSync } from 'fs';
+import { join } from 'path';
 
+// Load all camp JSON files
+const campsDir = join(process.cwd(), 'src/content/camps');
+const campFiles = readdirSync(campsDir).filter(f => f.endsWith('.json'));
+const camps = campFiles.map(f => JSON.parse(readFileSync(join(campsDir, f), 'utf-8')));
+
+// Stats
+const totalElephants = camps.reduce((sum, c) => {
+  const t = c.elephants?.total ?? ((c.elephants?.male ?? 0) + (c.elephants?.female ?? 0));
+  return sum + (t || 0);
+}, 0);
+const regions = [...new Set(camps.map(c => c.region).filter(Boolean))];
+const allActivities = [...new Set(camps.flatMap(c => c.activities ?? []))].sort();
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="Myanmar ECBT National Network — Elephant Conservation Tourism">
+
+  <!-- ─── HERO ─────────────────────────────────────────────────────────── -->
+  <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[--color-forest-900]">
+
+    <!-- Animated background orbs -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-[--color-forest-700]/30 blur-3xl animate-pulse"></div>
+      <div class="absolute top-1/2 -right-32 w-80 h-80 rounded-full bg-[--color-amber-600]/20 blur-3xl animate-pulse" style="animation-delay:1s"></div>
+      <div class="absolute bottom-0 left-1/3 w-64 h-64 rounded-full bg-[--color-forest-500]/20 blur-3xl animate-pulse" style="animation-delay:2s"></div>
+    </div>
+
+    <!-- Floating elephants -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none select-none">
+      {[...Array(6)].map((_, i) => (
+        <span
+          class="absolute text-6xl opacity-5"
+          style={`
+            left:${10 + i * 15}%;
+            top:${20 + (i % 3) * 25}%;
+            animation: float ${4 + i}s ease-in-out infinite;
+            animation-delay:${i * 0.7}s;
+          `}
+        >🐘</span>
+      ))}
+    </div>
+
+    <style>{`
+      @keyframes float {
+        0%, 100% { transform: translateY(0) rotate(-2deg); }
+        50%       { transform: translateY(-20px) rotate(2deg); }
+      }
+    `}</style>
+
+    <!-- Hero content -->
+    <div class="relative z-10 text-center px-4 max-w-4xl mx-auto pt-24 pb-16">
+
+      <!-- Badge -->
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[--color-forest-400]/40 bg-[--color-forest-800]/60 text-[--color-forest-200] text-sm mb-8 backdrop-blur-sm">
+        <span class="w-2 h-2 rounded-full bg-[--color-amber-400] animate-pulse"></span>
+        <span class="lang-en-only">Myanmar's National Elephant Conservation Network</span>
+        <span class="lang-my-only font-myanmar">မြန်မာ့ အမျိုးသား ဆင်ထိန်းသိမ်းရေး ကွန်ရက်</span>
+      </div>
+
+      <!-- Main heading -->
+      <h1 class="font-[Outfit] font-extrabold text-5xl md:text-7xl text-white leading-tight mb-4 lang-en-only">
+        Experience<br/>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-[--color-amber-400] to-[--color-forest-400]">
+          Elephant Conservation
+        </span><br/>
+        Based Tourism
+      </h1>
+      <h1 class="font-extrabold text-4xl md:text-6xl text-white leading-tight mb-4 lang-my-only font-myanmar">
+        ဆင်ထိန်းသိမ်းရေးအခြေပြု<br/>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-[--color-amber-400] to-[--color-forest-400]">
+          ခရီးသွားလုပ်ငန်း
+        </span>
+      </h1>
+
+      <p class="text-[--color-forest-200] text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed lang-en-only">
+        Discover 20 authentic elephant conservation camps across Myanmar — from the Ayeyarwady Delta to the Shan Hills — where wildlife encounters meet meaningful conservation.
+      </p>
+      <p class="text-[--color-forest-200] text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed lang-my-only font-myanmar">
+        မြန်မာနိုင်ငံတဝှမ်းရှိ စစ်မှန်သော ဆင်ထိန်းသိမ်းရေးစခန်း ၂၀ ကို ရှာဖွေတွေ့ရှိပါ
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="#camps"
+          class="px-8 py-4 rounded-2xl bg-gradient-to-r from-[--color-amber-500] to-[--color-amber-600] text-white font-semibold text-lg hover:shadow-2xl hover:shadow-[--color-amber-500]/30 hover:-translate-y-1 transition-all duration-200"
+        >
+          <span class="lang-en-only">Explore All Camps</span>
+          <span class="lang-my-only font-myanmar">စခန်းများကြည့်ရှုရန်</span>
+          <span class="ml-2">🐘</span>
+        </a>
+        <a
+          href="#about"
+          class="px-8 py-4 rounded-2xl border border-white/20 text-white font-semibold text-lg hover:bg-white/10 transition-all duration-200 backdrop-blur-sm"
+        >
+          <span class="lang-en-only">Learn More</span>
+          <span class="lang-my-only font-myanmar">ပိုမိုသိရှိရန်</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 animate-bounce opacity-60">
+      <span class="text-white text-xs tracking-widest uppercase lang-en-only">scroll</span>
+      <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ─── STATS BAR ────────────────────────────────────────────────────── -->
+  <section class="bg-[--color-forest-800] py-8">
+    <div class="max-w-5xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
+      {[
+        { num: camps.length, label: 'Camps', my: 'စခန်းများ', icon: '🏕️' },
+        { num: totalElephants || '100+', label: 'Elephants', my: 'ဆင်များ', icon: '🐘' },
+        { num: regions.length, label: 'Regions', my: 'ဒေသများ', icon: '🗺️' },
+        { num: allActivities.length, label: 'Activities', my: 'လှုပ်ရှားမှုများ', icon: '🌟' },
+      ].map(s => (
+        <div>
+          <div class="text-3xl mb-1">{s.icon}</div>
+          <div class="font-[Outfit] font-bold text-3xl md:text-4xl text-[--color-amber-300]">{s.num}</div>
+          <div class="text-sm text-[--color-forest-200] mt-1 lang-en-only">{s.label}</div>
+          <div class="text-sm text-[--color-forest-200] mt-1 lang-my-only font-myanmar">{s.my}</div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- ─── CAMPS GRID ────────────────────────────────────────────────────── -->
+  <section id="camps" class="py-20 px-4">
+    <div class="max-w-7xl mx-auto">
+
+      <!-- Section header -->
+      <div class="text-center mb-12">
+        <h2 class="font-[Outfit] font-bold text-4xl md:text-5xl text-[--color-forest-900] mb-4 lang-en-only">
+          All <span class="text-[--color-forest-600]">20 Camps</span>
+        </h2>
+        <h2 class="font-bold text-4xl text-[--color-forest-900] mb-4 lang-my-only font-myanmar">
+          စခန်းများ <span class="text-[--color-forest-600]">၂၀</span>
+        </h2>
+        <p class="text-[--color-forest-500] max-w-xl mx-auto lang-en-only">
+          Filter by region or activity to find your perfect elephant encounter.
+        </p>
+      </div>
+
+      <!-- Filters -->
+      <div class="flex flex-wrap gap-3 justify-center mb-10" id="filter-bar">
+        <button
+          data-filter="all"
+          class="filter-btn active px-5 py-2 rounded-full text-sm font-medium border border-[--color-forest-300] hover:bg-[--color-forest-800] hover:text-white hover:border-transparent transition-all"
+          onclick="filterCamps('all')"
+        >
+          <span class="lang-en-only">All Regions</span>
+          <span class="lang-my-only font-myanmar">ဒေသအားလုံး</span>
+        </button>
+        {regions.map(r => (
+          <button
+            data-filter={r}
+            class="filter-btn px-5 py-2 rounded-full text-sm font-medium border border-[--color-forest-300] hover:bg-[--color-forest-800] hover:text-white hover:border-transparent transition-all"
+            onclick={`filterCamps('${r}')`}
+          >
+            {r}
+          </button>
+        ))}
+      </div>
+
+      <!-- Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="camps-grid">
+        {camps.map(camp => (
+          <div
+            data-region={camp.region ?? ''}
+            data-activities={(camp.activities ?? []).join(',')}
+            class="camp-item"
+          >
+            <CampCard camp={camp} />
+          </div>
+        ))}
+      </div>
+
+      <!-- No results message -->
+      <div id="no-results" class="hidden text-center py-16 text-[--color-forest-400]">
+        <div class="text-6xl mb-4">🔍</div>
+        <p class="text-xl lang-en-only">No camps found for this filter.</p>
+        <p class="text-xl lang-my-only font-myanmar">ထိုစစ်ထုတ်မှုအတွက် စခန်းများ မတွေ့ပါ</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ──────────────────────────────────────────────────────────── -->
+  <section id="about" class="py-20 bg-[--color-forest-900] text-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <div class="text-6xl mb-6">🌿</div>
+      <h2 class="font-[Outfit] font-bold text-4xl mb-6 lang-en-only">About ECBT Myanmar</h2>
+      <h2 class="font-bold text-4xl mb-6 lang-my-only font-myanmar">ECBT မြန်မာအကြောင်း</h2>
+      <p class="text-[--color-forest-200] text-lg leading-relaxed mb-6 lang-en-only">
+        The Elephant Conservation Based Tourism (ECBT) program is a national initiative by the Myanmar Ministry of Natural Resources and Environmental Conservation, working in partnership with the Myanma Timber Enterprise to protect and preserve the nation's Asian elephant population while creating sustainable livelihoods for local communities.
+      </p>
+      <p class="text-[--color-forest-200] text-lg leading-relaxed mb-6 lang-my-only font-myanmar">
+        ဆင်ထိန်းသိမ်းရေးအခြေပြု ခရီးသွားလုပ်ငန်း (ECBT) သည် မြန်မာနိုင်ငံ သဘာဝသယံဇာတနှင့် သဘာဝပတ်ဝန်းကျင် ထိန်းသိမ်းရေးဝန်ကြီးဌာနမှ ဦးဆောင်သော အမျိုးသားအစီအစဉ်တစ်ခုဖြစ်သည်
+      </p>
+      <a
+        href="#camps"
+        class="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-[--color-amber-500] text-white font-semibold hover:bg-[--color-amber-600] transition-colors"
+      >
+        <span class="lang-en-only">View All Camps</span>
+        <span class="lang-my-only font-myanmar">စခန်းများကြည့်ရှုရန်</span>
+        <span>🐘</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Filter script -->
+  <style>{`
+    .filter-btn.active {
+      background: #1a3a2a;
+      color: white;
+      border-color: transparent;
+    }
+  `}</style>
+
+  <script>
+    function filterCamps(region: string) {
+      const items = document.querySelectorAll<HTMLElement>('.camp-item');
+      let shown = 0;
+      items.forEach(item => {
+        const match = region === 'all' || item.dataset.region === region;
+        item.style.display = match ? '' : 'none';
+        if (match) shown++;
+      });
+      const noResults = document.getElementById('no-results');
+      if (noResults) noResults.style.display = shown === 0 ? '' : 'none';
+
+      document.querySelectorAll<HTMLElement>('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.filter === region);
+      });
+    }
+
+    // Expose globally for inline onclick
+    (window as any).filterCamps = filterCamps;
+  </script>
+</BaseLayout>

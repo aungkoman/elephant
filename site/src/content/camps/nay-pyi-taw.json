@@ -1,0 +1,34 @@
+{
+  "slug": "nay-pyi-taw",
+  "name_en": "Royal White Elephants Conservation Garden",
+  "name_my": null,
+  "region": "Naypyitaw",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": null,
+  "longitude": null,
+  "area": null,
+  "elephants": {
+    "total": null,
+    "male": null,
+    "female": null
+  },
+  "hours": null,
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": null,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Conservation"
+  ],
+  "contacts": [
+    "09400442146",
+    "0678024776",
+    "0678022877"
+  ],
+  "facebook": null,
+  "source_dir": "NayPyiTaw_RoyalWhiteElephant",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

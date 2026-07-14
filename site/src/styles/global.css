@@ -1,0 +1,85 @@
+﻿@import "tailwindcss";
+
+@theme {
+  --color-forest-950: #071510;
+  --color-forest-900: #0d1f16;
+  --color-forest-800: #1a3a2a;
+  --color-forest-700: #22503a;
+  --color-forest-600: #2e6b4f;
+  --color-forest-500: #3d8a65;
+  --color-forest-400: #5aab84;
+  --color-forest-300: #83c9a8;
+  --color-forest-200: #b3dfc9;
+  --color-forest-100: #e0f3eb;
+  --color-forest-50:  #f0faf5;
+
+  --color-amber-600: #c8860a;
+  --color-amber-500: #e09a12;
+  --color-amber-400: #f0b429;
+  --color-amber-300: #f6cc6b;
+  --color-amber-100: #fdf0c4;
+  --color-amber-50:  #fffbeb;
+
+  --color-cream: #fdf6e3;
+  --color-dark:  #0a1a10;
+
+  --font-heading: "Outfit", "Padauk", system-ui, sans-serif;
+  --font-body:    "Inter", "Padauk", system-ui, sans-serif;
+  --font-myanmar: "Padauk", "Noto Sans Myanmar", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-body);
+  background: var(--color-cream);
+  color: var(--color-forest-900);
+}
+
+/* Myanmar language toggle */
+html .lang-my-only { display: none; }
+html.lang-my .lang-en-only { display: none; }
+html.lang-my .lang-my-only { display: block; }
+
+/* Myanmar text rendering */
+.font-myanmar, .lang-my-only {
+  font-family: var(--font-myanmar);
+  line-height: 1.9;
+  word-break: break-word;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-forest-50); }
+::-webkit-scrollbar-thumb { background: var(--color-forest-400); border-radius: 3px; }
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+/* Selection */
+::selection {
+  background: var(--color-forest-400);
+  color: white;
+}
+
+/* Animated underline */
+.animated-underline {
+  position: relative;
+}
+.animated-underline::after {
+  content: '';
+  position: absolute;
+  left: 0; bottom: -2px;
+  width: 0; height: 2px;
+  background: var(--color-amber-500);
+  transition: width 0.3s ease;
+}
+.animated-underline:hover::after { width: 100%; }

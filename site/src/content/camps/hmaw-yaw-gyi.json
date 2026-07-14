@@ -1,0 +1,37 @@
+{
+  "slug": "hmaw-yaw-gyi",
+  "name_en": "Hmaw Yaw Gyi Elephant Conservation Camp",
+  "name_my": null,
+  "region": "Bago",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": 18.412344,
+  "longitude": 96.6821,
+  "area": "2.38 Acres",
+  "elephants": {
+    "total": 17,
+    "male": null,
+    "female": null
+  },
+  "hours": "7:00AM-6:00PM",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": 5000,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Elephant Bathing",
+    "Elephant Show",
+    "Elephant Buffet",
+    "Conservation"
+  ],
+  "contacts": [
+    "095380192",
+    "09440000412"
+  ],
+  "facebook": null,
+  "source_dir": "HmawYawGyi_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

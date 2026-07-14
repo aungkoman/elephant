@@ -1,0 +1,113 @@
+---
+import ActivityBadge from './ActivityBadge.astro';
+
+interface Camp {
+  slug: string;
+  name_en: string;
+  name_my: string | null;
+  region: string | null;
+  elephants: { total: number | null; male: number | null; female: number | null };
+  activities: string[] | null;
+  hours: string | null;
+  fees: { entrance_local_mmk?: number | null; riding_local_mmk?: number | null };
+  latitude: number | null;
+  longitude: number | null;
+}
+
+interface Props {
+  camp: Camp;
+  heroGradient?: string;
+}
+
+const { camp, heroGradient = 'from-forest-800 to-forest-600' } = Astro.props;
+
+const topActivities = (camp.activities ?? []).slice(0, 3);
+const elephantCount = camp.elephants?.total ?? (
+  (camp.elephants?.male ?? 0) + (camp.elephants?.female ?? 0)
+) || null;
+
+// Color palette for card hero backgrounds (cycles through)
+const GRADIENTS = [
+  'from-[#1a3a2a] to-[#2e6b4f]',
+  'from-[#1a2e3a] to-[#2e4f6b]',
+  'from-[#3a1a1a] to-[#6b2e2e]',
+  'from-[#2a1a3a] to-[#4f2e6b]',
+  'from-[#1a3a30] to-[#2e6b5a]',
+  'from-[#3a2e1a] to-[#6b562e]',
+];
+const gradIdx = camp.name_en.charCodeAt(0) % GRADIENTS.length;
+const grad = GRADIENTS[gradIdx];
+---
+
+<a
+  href={`/camps/${camp.slug}`}
+  class="group block rounded-3xl overflow-hidden bg-white border border-[--color-forest-100] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300"
+>
+  <!-- Hero -->
+  <div class={`relative h-48 bg-gradient-to-br ${grad} overflow-hidden`}>
+    <!-- Decorative elephant silhouette -->
+    <div class="absolute inset-0 flex items-center justify-center opacity-10 text-[9rem] select-none pointer-events-none">
+      🐘
+    </div>
+
+    <!-- Region badge -->
+    {camp.region && (
+      <div class="absolute top-3 left-3">
+        <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-black/30 text-white backdrop-blur-sm">
+          📍 {camp.region}
+        </span>
+      </div>
+    )}
+
+    <!-- Elephant count -->
+    {elephantCount && (
+      <div class="absolute top-3 right-3">
+        <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-[--color-amber-500]/90 text-white">
+          🐘 {elephantCount}
+        </span>
+      </div>
+    )}
+
+    <!-- Name overlay at bottom -->
+    <div class="absolute bottom-0 left-0 right-0 px-4 py-3 bg-gradient-to-t from-black/70 to-transparent">
+      <h2 class="font-[Outfit] font-bold text-white text-base leading-snug group-hover:text-[--color-amber-300] transition-colors lang-en-only line-clamp-2">
+        {camp.name_en}
+      </h2>
+      <h2 class="font-bold text-white text-base leading-snug group-hover:text-[--color-amber-300] transition-colors lang-my-only font-myanmar line-clamp-2">
+        {camp.name_my ?? camp.name_en}
+      </h2>
+    </div>
+  </div>
+
+  <!-- Card body -->
+  <div class="p-4 space-y-3">
+
+    <!-- Activities -->
+    {topActivities.length > 0 && (
+      <div class="flex flex-wrap gap-1.5">
+        {topActivities.map(a => <ActivityBadge activity={a} size="sm" />)}
+        {(camp.activities?.length ?? 0) > 3 && (
+          <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs bg-[--color-forest-100] text-[--color-forest-500]">
+            +{camp.activities!.length - 3} more
+          </span>
+        )}
+      </div>
+    )}
+
+    <!-- Info row -->
+    <div class="flex items-center justify-between text-xs text-[--color-forest-500]">
+      {camp.hours && (
+        <span class="flex items-center gap-1">
+          <span>🕐</span>
+          <span class="lang-en-only truncate max-w-[120px]">{camp.hours}</span>
+          <span class="lang-my-only font-myanmar">ဖွင့်ချိန်ရှိ</span>
+        </span>
+      )}
+      <span class="ml-auto flex items-center gap-1 text-[--color-forest-700] font-semibold group-hover:text-[--color-amber-600] transition-colors">
+        <span class="lang-en-only">Explore</span>
+        <span class="lang-my-only font-myanmar">ကြည့်ရှုရန်</span>
+        <span class="group-hover:translate-x-1 transition-transform">→</span>
+      </span>
+    </div>
+  </div>
+</a>

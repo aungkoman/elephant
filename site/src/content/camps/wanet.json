@@ -1,0 +1,36 @@
+{
+  "slug": "wanet",
+  "name_en": "Wanet Elephant Conservation Camp",
+  "name_my": null,
+  "region": "Mandalay",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": 21.784555,
+  "longitude": 96.297356,
+  "area": "80.8 Acres",
+  "elephants": {
+    "total": 10,
+    "male": null,
+    "female": null
+  },
+  "hours": "7:00 AM – 6:00 PM",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": null,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Rafting",
+    "Wedding",
+    "Conservation"
+  ],
+  "contacts": [
+    "09781111374",
+    "09786502190"
+  ],
+  "facebook": "https://www.facebook.com/profile.php?id=100064898881474",
+  "source_dir": "Wanet_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

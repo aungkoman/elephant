@@ -1,0 +1,40 @@
+{
+  "slug": "myaing-hay-won",
+  "name_en": "Myaing Hay Won Elephant Conservation Camp",
+  "name_my": null,
+  "region": "Yangon",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": 17.293096,
+  "longitude": 96.001615,
+  "area": "33 Acres",
+  "elephants": {
+    "total": 10,
+    "male": null,
+    "female": null
+  },
+  "hours": "7:00 AM – 6:00 PM",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": 3000,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Elephant Bathing",
+    "Elephant Show",
+    "Elephant Feeding",
+    "Photography",
+    "Video Recording",
+    "Conservation",
+    "Relax"
+  ],
+  "contacts": [
+    "092054330",
+    "09799322554"
+  ],
+  "facebook": null,
+  "source_dir": "MyaingHayWon_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

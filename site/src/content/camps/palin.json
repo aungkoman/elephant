@@ -1,0 +1,40 @@
+{
+  "slug": "palin",
+  "name_en": "Palin Elephant Camp",
+  "name_my": null,
+  "region": "Mandalay",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": 21.215839,
+  "longitude": 94.972842,
+  "area": "4.18 Acres",
+  "elephants": {
+    "total": 6,
+    "male": null,
+    "female": null
+  },
+  "hours": "8:00 AM – 5:00 PM",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": 5000,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Elephant Bathing",
+    "Elephant Feeding",
+    "Elephant Buffet",
+    "Photography",
+    "Boat",
+    "Rafting",
+    "Conservation"
+  ],
+  "contacts": [
+    "095280452",
+    "0979382053"
+  ],
+  "facebook": "https://www.facebook.com/Palin.Bagan",
+  "source_dir": "Palin_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

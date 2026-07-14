@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Page Not Found">
+  <section class="min-h-screen flex items-center justify-center bg-[--color-forest-900] text-white px-4 pt-20">
+    <div class="text-center">
+      <div class="text-8xl mb-6 animate-bounce">🐘</div>
+      <h1 class="font-[Outfit] font-bold text-6xl mb-4 text-[--color-amber-400]">404</h1>
+      <p class="text-xl text-[--color-forest-200] mb-8 lang-en-only">Oops! This elephant wandered off.</p>
+      <p class="text-xl text-[--color-forest-200] mb-8 lang-my-only font-myanmar">ဤစာမျက်နှာကို မတွေ့ပါ</p>
+      <a href="/"
+        class="px-8 py-4 rounded-2xl bg-[--color-amber-500] text-white font-semibold hover:bg-[--color-amber-600] transition-colors"
+      >
+        <span class="lang-en-only">Back to Home</span>
+        <span class="lang-my-only font-myanmar">မူလစာမျက်နှာ</span>
+      </a>
+    </div>
+  </section>
+</BaseLayout>

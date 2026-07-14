@@ -1,0 +1,39 @@
+{
+  "slug": "mokka",
+  "name_en": "Mokkha Waterfall Elephant Conservation Camp",
+  "name_my": null,
+  "region": "Yangon",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": 18.002447,
+  "longitude": 95.512157,
+  "area": "3 Acres",
+  "elephants": {
+    "total": 14,
+    "male": null,
+    "female": null
+  },
+  "hours": "7:00 AM – 6:00 PM",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": 3000,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Elephant Show",
+    "Elephant Buffet",
+    "Photography",
+    "Video Recording",
+    "Conservation",
+    "Relax"
+  ],
+  "contacts": [
+    "092054330",
+    "09799322554"
+  ],
+  "facebook": "https://www.facebook.com/share/14NQXxPEBZ/",
+  "source_dir": "Mokka_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

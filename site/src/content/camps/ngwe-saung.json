@@ -1,0 +1,41 @@
+{
+  "slug": "ngwe-saung",
+  "name_en": "Ngwe Saung Elephant Conservation Camp",
+  "name_my": null,
+  "region": "Ayeyarwady",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": 16.81067,
+  "longitude": 94.49272,
+  "area": "60 Acres",
+  "elephants": {
+    "total": 5,
+    "male": null,
+    "female": null
+  },
+  "hours": "6 AM – 6:00 PM",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": 5000,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Elephant Show",
+    "Elephant Feeding",
+    "Elephant Buffet",
+    "Photography",
+    "Video Recording",
+    "Wedding",
+    "Conservation",
+    "Relax"
+  ],
+  "contacts": [
+    "09429585396",
+    "092050081"
+  ],
+  "facebook": "https://www.facebook.com/profile.php?id=6156754577660mibextid=ZbWKwL",
+  "source_dir": "NgweSaung_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

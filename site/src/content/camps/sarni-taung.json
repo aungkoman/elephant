@@ -1,0 +1,40 @@
+{
+  "slug": "sarni-taung",
+  "name_en": "Sarni Taung Elephant Conservation Camp",
+  "name_my": null,
+  "region": "Rakhine",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": 18.456816,
+  "longitude": 94.383428,
+  "area": "4.36 Acres",
+  "elephants": {
+    "total": 1,
+    "male": 1,
+    "female": 4
+  },
+  "hours": "8 AM – 5:30 PM",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": null,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Elephant Buffet",
+    "Photography",
+    "Video Recording",
+    "Wedding",
+    "Pre Wedding",
+    "Conservation"
+  ],
+  "contacts": [
+    "0944530179",
+    "0940008059",
+    "0942176741"
+  ],
+  "facebook": null,
+  "source_dir": "SarniTaung_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

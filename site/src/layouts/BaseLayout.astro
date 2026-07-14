@@ -1,0 +1,70 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+  campSlug?: string;
+}
+
+const {
+  title,
+  description = 'Explore Myanmar\'s national Elephant Conservation Based Tourism (ECBT) network — 20 camps across the country offering authentic wildlife experiences.',
+  image = '/og-default.jpg',
+  campSlug,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en" class="lang-en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Google Fonts: Outfit (EN headings) + Inter (EN body) + Padauk (Myanmar) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;800&family=Padauk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>{title} | Myanmar ECBT Network</title>
+  </head>
+
+
+  <body class="min-h-screen flex flex-col bg-[--color-cream]">
+    <Header campSlug={campSlug} />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+
+    <!-- Language toggle logic -->
+    <script>
+      const html = document.documentElement;
+      const stored = localStorage.getItem('ecbt-lang') || 'en';
+      if (stored === 'my') html.classList.replace('lang-en', 'lang-my');
+
+      window.setLang = (lang: string) => {
+        html.className = html.className.replace(/lang-(en|my)/, `lang-${lang}`);
+        localStorage.setItem('ecbt-lang', lang);
+        const btn = document.getElementById('lang-toggle-btn');
+        if (btn) btn.textContent = lang === 'en' ? 'မြန်မာ' : 'English';
+      };
+    </script>
+  </body>
+</html>

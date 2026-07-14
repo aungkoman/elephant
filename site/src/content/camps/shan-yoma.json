@@ -1,0 +1,36 @@
+{
+  "slug": "shan-yoma",
+  "name_en": "Shan Yoma Elephant Camp",
+  "name_my": null,
+  "region": "Shan",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": 20.733333,
+  "longitude": 96.483333,
+  "area": "507 Acres",
+  "elephants": {
+    "total": 7,
+    "male": 4,
+    "female": 7
+  },
+  "hours": "9 AM to 5 PM (Every Day)",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": 3000,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Elephant Feeding",
+    "Elephant Buffet",
+    "Conservation"
+  ],
+  "contacts": [
+    "09442076520",
+    "09455184447"
+  ],
+  "facebook": null,
+  "source_dir": "ShanYoma_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

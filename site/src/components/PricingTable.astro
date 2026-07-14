@@ -1,0 +1,76 @@
+---
+interface Fees {
+  entrance_local_mmk?: number | null;
+  entrance_foreigner_mmk?: number | null;
+  riding_local_mmk?: number | null;
+  riding_foreigner_mmk?: number | null;
+}
+
+interface Props {
+  fees: Fees;
+}
+
+const { fees } = Astro.props;
+
+const fmt = (n: number | null | undefined) =>
+  n ? `${n.toLocaleString()} MMK` : '—';
+
+const hasData = fees.entrance_local_mmk || fees.entrance_foreigner_mmk ||
+                fees.riding_local_mmk   || fees.riding_foreigner_mmk;
+---
+
+{hasData ? (
+<div class="rounded-2xl overflow-hidden border border-[--color-forest-200] shadow-sm">
+  <table class="w-full text-sm">
+    <thead>
+      <tr class="bg-[--color-forest-800] text-white">
+        <th class="text-left px-4 py-3 font-semibold">
+          <span class="lang-en-only">Fee Type</span>
+          <span class="lang-my-only font-myanmar">ကြေးနှုန်းအမျိုးအစား</span>
+        </th>
+        <th class="text-right px-4 py-3 font-semibold">
+          <span class="lang-en-only">Local</span>
+          <span class="lang-my-only font-myanmar">ပြည်တွင်းသား</span>
+        </th>
+        <th class="text-right px-4 py-3 font-semibold">
+          <span class="lang-en-only">Foreigner</span>
+          <span class="lang-my-only font-myanmar">နိုင်ငံခြားသား</span>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {(fees.entrance_local_mmk || fees.entrance_foreigner_mmk) && (
+        <tr class="border-t border-[--color-forest-100] hover:bg-[--color-forest-50] transition-colors">
+          <td class="px-4 py-3 text-[--color-forest-700]">
+            <span class="lang-en-only">🎟️ Entrance (per person)</span>
+            <span class="lang-my-only font-myanmar">🎟️ ဝင်ကြေး (တစ်ဦးချင်း)</span>
+          </td>
+          <td class="px-4 py-3 text-right font-medium text-[--color-forest-800]">{fmt(fees.entrance_local_mmk)}</td>
+          <td class="px-4 py-3 text-right font-medium text-[--color-forest-800]">{fmt(fees.entrance_foreigner_mmk)}</td>
+        </tr>
+      )}
+      {(fees.riding_local_mmk || fees.riding_foreigner_mmk) && (
+        <tr class="border-t border-[--color-forest-100] hover:bg-[--color-forest-50] transition-colors">
+          <td class="px-4 py-3 text-[--color-forest-700]">
+            <span class="lang-en-only">🐘 Elephant Riding (per person)</span>
+            <span class="lang-my-only font-myanmar">🐘 ဆင်စီးကြေး (တစ်ဦးချင်း)</span>
+          </td>
+          <td class="px-4 py-3 text-right font-medium text-[--color-forest-800]">{fmt(fees.riding_local_mmk)}</td>
+          <td class="px-4 py-3 text-right font-medium text-[--color-forest-800]">{fmt(fees.riding_foreigner_mmk)}</td>
+        </tr>
+      )}
+    </tbody>
+  </table>
+  <p class="text-xs text-[--color-forest-400] px-4 py-2 bg-[--color-forest-50] lang-en-only">
+    * Monks, nuns and children under 5 may enter free. Prices subject to change.
+  </p>
+  <p class="text-xs text-[--color-forest-400] px-4 py-2 bg-[--color-forest-50] lang-my-only font-myanmar">
+    * သံဃာတော်များ၊ ဘုန်းတော်ကြီးများနှင့် အသက် ၅ နှစ်အောက် ကလေးများ အခမဲ့ဝင်ခွင့် ရှိနိုင်သည်။
+  </p>
+</div>
+) : (
+  <p class="text-[--color-forest-500] italic text-sm">
+    <span class="lang-en-only">Pricing information not available. Please contact the camp directly.</span>
+    <span class="lang-my-only font-myanmar">ကြေးနှုန်းအချက်အလက် မရရှိနိုင်ပါ။ စခန်းကို တိုက်ရိုက်ဆက်သွယ်ပါ။</span>
+  </p>
+)}

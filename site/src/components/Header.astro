@@ -1,0 +1,80 @@
+---
+interface Props {
+  campSlug?: string;
+}
+const { campSlug } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+
+<header
+  id="main-header"
+  class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+  style="background: transparent;"
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 md:h-20">
+
+      <!-- Logo -->
+      <a href="/" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-[--color-forest-400] to-[--color-forest-700] flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+          <span class="text-xl">🐘</span>
+        </div>
+        <div class="leading-tight">
+          <div class="font-[Outfit] font-bold text-white text-sm md:text-base tracking-tight">Myanmar ECBT</div>
+          <div class="text-[--color-forest-200] text-[10px] md:text-xs tracking-widest uppercase opacity-80 lang-en-only">National Network</div>
+          <div class="text-[--color-forest-200] text-[10px] md:text-xs tracking-wide opacity-80 lang-my-only font-myanmar">အမျိုးသားကွန်ရက်</div>
+        </div>
+      </a>
+
+      <!-- Nav links -->
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+        <a href="/" class={`animated-underline text-white/90 hover:text-white transition-colors ${currentPath === '/' ? 'text-[--color-amber-300]' : ''}`}>
+          <span class="lang-en-only">Home</span>
+          <span class="lang-my-only font-myanmar">မူလစာမျက်နှာ</span>
+        </a>
+        <a href="/#camps" class="animated-underline text-white/90 hover:text-white transition-colors">
+          <span class="lang-en-only">All Camps</span>
+          <span class="lang-my-only font-myanmar">စခန်းများ</span>
+        </a>
+        <a href="/#about" class="animated-underline text-white/90 hover:text-white transition-colors">
+          <span class="lang-en-only">About</span>
+          <span class="lang-my-only font-myanmar">အကြောင်း</span>
+        </a>
+      </nav>
+
+      <!-- Language toggle -->
+      <button
+        id="lang-toggle-btn"
+        onclick="window.setLang(document.documentElement.className.includes('lang-my') ? 'en' : 'my')"
+        class="px-4 py-2 rounded-full text-sm font-semibold border border-white/30 text-white hover:bg-white/20 transition-all duration-200 hover:scale-105"
+        aria-label="Switch language"
+      >
+        မြန်မာ
+      </button>
+    </div>
+  </div>
+</header>
+
+<script>
+  // Scroll-based header styling
+  const header = document.getElementById('main-header');
+  const updateHeader = () => {
+    if (!header) return;
+    if (window.scrollY > 60) {
+      header.style.background = 'rgba(13, 31, 22, 0.96)';
+      header.style.backdropFilter = 'blur(16px)';
+      header.style.boxShadow = '0 4px 24px rgba(0,0,0,0.3)';
+    } else {
+      header.style.background = 'transparent';
+      header.style.backdropFilter = 'none';
+      header.style.boxShadow = 'none';
+    }
+  };
+  window.addEventListener('scroll', updateHeader, { passive: true });
+  updateHeader();
+
+  // Update toggle button text based on stored preference
+  const stored = localStorage.getItem('ecbt-lang') || 'en';
+  const btn = document.getElementById('lang-toggle-btn');
+  if (btn && stored === 'my') btn.textContent = 'English';
+</script>

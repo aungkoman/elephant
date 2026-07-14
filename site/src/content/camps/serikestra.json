@@ -1,0 +1,38 @@
+{
+  "slug": "serikestra",
+  "name_en": "Srikestra Elephant Conservation Camp",
+  "name_my": null,
+  "region": "Bago",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": 18.81,
+  "longitude": 95.289722,
+  "area": null,
+  "elephants": {
+    "total": 1,
+    "male": 1,
+    "female": 1
+  },
+  "hours": "9:30 AM to 5:00 PM",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": 10000,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Elephant Feeding",
+    "Photography",
+    "Video Recording",
+    "Wedding",
+    "Conservation"
+  ],
+  "contacts": [
+    "09890478007",
+    "09897991719"
+  ],
+  "facebook": "https://www.facebook.com/profile.php?id=100070486263734",
+  "source_dir": "Serikestra_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "phoe-kyar",
+  "name_en": "Phoe Kyar Elephant Camp",
+  "name_my": null,
+  "region": "Bago",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": null,
+  "longitude": null,
+  "area": "15.27 Acres",
+  "elephants": {
+    "total": 12,
+    "male": null,
+    "female": null
+  },
+  "hours": "8:00 AM – 8:30 PM",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": 3000,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Elephant Show",
+    "Trekking",
+    "Conservation",
+    "Souvenir"
+  ],
+  "contacts": [
+    "09401630992",
+    "09695145149",
+    "09784510864"
+  ],
+  "facebook": null,
+  "source_dir": "PhoeKyar_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}

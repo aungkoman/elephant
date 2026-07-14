@@ -1,0 +1,43 @@
+{
+  "slug": "nga-laik",
+  "name_en": "Ngalaik Sa Khan Thar Elephant Conservation Camp",
+  "name_my": null,
+  "region": "Yangon",
+  "ministry": "Ministry of Natural Resources and Environmental Conservation",
+  "latitude": 19.876121,
+  "longitude": 96.004958,
+  "area": "573 Acres",
+  "elephants": {
+    "total": 21,
+    "male": null,
+    "female": null
+  },
+  "hours": "8 AM – 5:30 PM",
+  "fees": {
+    "entrance_local_mmk": null,
+    "entrance_foreigner_mmk": null,
+    "riding_local_mmk": 3000,
+    "riding_foreigner_mmk": null
+  },
+  "activities": [
+    "Elephant Riding",
+    "Elephant Show",
+    "Elephant Feeding",
+    "Elephant Buffet",
+    "Photography",
+    "Video Recording",
+    "Jungle Walk",
+    "Boat",
+    "Wedding",
+    "Conservation",
+    "Relax"
+  ],
+  "contacts": [
+    "095021362",
+    "09890711961"
+  ],
+  "facebook": null,
+  "source_dir": "NgaLaik_ECBT Camp Information",
+  "has_en_pdf": true,
+  "has_my_pdf": true
+}
