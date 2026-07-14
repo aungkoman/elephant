@@ -8,12 +8,36 @@ import { join } from 'path';
 
 export async function getStaticPaths() {
   const campsDir = join(process.cwd(), 'src/content/camps');
-  const files = readdirSync(campsDir).filter(f => f.endsWith('.json'));
-  return files.map(f => {
+  const allFiles = readdirSync(campsDir).filter(f => f.endsWith('.json'));
+
+  // Build rich data lookup from 001.json
+  const richLookup: Record<string, any> = {};
+  const raw001 = JSON.parse(readFileSync(join(campsDir, '001.json'), 'utf-8').replace(/^\uFEFF/, ''));
+  if (Array.isArray(raw001)) {
+    raw001.forEach((c: any) => {
+      const key = (c.name?.en ?? '').toLowerCase().replace(/[^a-z]/g, '');
+      richLookup[key] = c;
+    });
+  }
+
+  // Only slug-named files become pages
+  const slugFiles = allFiles.filter(f => f !== '001.json');
+  return slugFiles.map(f => {
     const camp = JSON.parse(readFileSync(join(campsDir, f), 'utf-8'));
-    return { params: { slug: camp.slug }, props: { camp } };
+    const nameKey = (camp.name_en ?? '').toLowerCase().replace(/[^a-z]/g, '');
+    const rich = richLookup[nameKey];
+    const merged = {
+      ...camp,
+      name_my: rich?.name?.my ?? camp.name_my ?? null,
+      description_en: rich?.description?.en ?? null,
+      description_my: rich?.description?.my ?? null,
+      services_en: rich?.services?.en ?? null,
+      services_my: rich?.services?.my ?? null,
+    };
+    return { params: { slug: camp.slug }, props: { camp: merged } };
   });
 }
+
 
 const { camp } = Astro.props;
 
@@ -84,21 +108,22 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
       <!-- Quick stats pills -->
       <div class="flex flex-wrap gap-3 mt-4">
         {elephantCount && (
-          <span class="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-white/15 text-white text-sm font-medium backdrop-blur-sm">
+          <span class="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-black/40 text-white text-sm font-medium backdrop-blur-sm border border-white/20">
             🐘 <span class="lang-en-only">{elephantCount} Elephants</span>
             <span class="lang-my-only font-myanmar">{elephantCount} ဆင်</span>
           </span>
         )}
         {camp.hours && (
-          <span class="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-white/15 text-white text-sm font-medium backdrop-blur-sm">
+          <span class="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-black/40 text-white text-sm font-medium backdrop-blur-sm border border-white/20">
             🕐 {camp.hours}
           </span>
         )}
         {camp.fees?.entrance_local_mmk && (
-          <span class="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[--color-amber-500]/80 text-white text-sm font-medium">
+          <span class="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-black/50 text-[--color-amber-300] text-sm font-semibold backdrop-blur-sm border border-[--color-amber-500]/40">
             🎟️ {camp.fees.entrance_local_mmk.toLocaleString()} MMK
           </span>
         )}
+
       </div>
     </div>
   </section>
@@ -109,6 +134,26 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
 
       <!-- Left column -->
       <div class="lg:col-span-2 space-y-10">
+
+        <!-- Description (from 001.json rich data) -->
+        {camp.description_en && (
+          <div>
+            <h2 class="font-[Outfit] font-bold text-2xl text-[--color-forest-900] mb-4 lang-en-only">
+              📖 About This Camp
+            </h2>
+            <h2 class="font-bold text-2xl text-[--color-forest-900] mb-4 lang-my-only font-myanmar">
+              📖 စခန်းအကြောင်း
+            </h2>
+            <p class="text-[--color-forest-700] leading-relaxed text-base lang-en-only">
+              {camp.description_en}
+            </p>
+            {camp.description_my && (
+              <p class="text-[--color-forest-700] leading-relaxed text-base lang-my-only font-myanmar">
+                {camp.description_my}
+              </p>
+            )}
+          </div>
+        )}
 
         <!-- Activities -->
         {(camp.activities ?? []).length > 0 && (
@@ -124,6 +169,35 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
             </div>
           </div>
         )}
+
+        <!-- Services (from 001.json) -->
+        {camp.services_en && camp.services_en.length > 0 && (
+          <div>
+            <h2 class="font-[Outfit] font-bold text-2xl text-[--color-forest-900] mb-4 lang-en-only">
+              ✨ Services & Highlights
+            </h2>
+            <h2 class="font-bold text-2xl text-[--color-forest-900] mb-4 lang-my-only font-myanmar">
+              ✨ ဝန်ဆောင်မှုများ
+            </h2>
+            <ul class="space-y-2 lang-en-only">
+              {camp.services_en.map((s: string) => (
+                <li class="flex items-start gap-2 text-[--color-forest-700]">
+                  <span class="text-[--color-forest-500] mt-0.5">✔</span> {s}
+                </li>
+              ))}
+            </ul>
+            {camp.services_my && (
+              <ul class="space-y-2 lang-my-only font-myanmar">
+                {camp.services_my.map((s: string) => (
+                  <li class="flex items-start gap-2 text-[--color-forest-700]">
+                    <span class="text-[--color-forest-500] mt-0.5">✔</span> {s}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        )}
+
 
         <!-- Pricing -->
         <div>

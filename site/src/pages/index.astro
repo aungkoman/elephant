@@ -7,7 +7,42 @@ import { join } from 'path';
 // Load all camp JSON files
 const campsDir = join(process.cwd(), 'src/content/camps');
 const campFiles = readdirSync(campsDir).filter(f => f.endsWith('.json'));
-const camps = campFiles.map(f => JSON.parse(readFileSync(join(campsDir, f), 'utf-8')));
+
+// Parse each file: handle both single-object and array formats
+const allParsed = campFiles.flatMap(f => {
+  const raw = JSON.parse(readFileSync(join(campsDir, f), 'utf-8'));
+  return Array.isArray(raw) ? raw : [raw];
+});
+
+// Build a lookup from the rich 001.json data (keyed by partial name match)
+const richData: Record<string, any> = {};
+allParsed.filter(c => c.camp_id).forEach(c => {
+  // Key by normalized camp name for lookup
+  const key = (c.name?.en ?? '').toLowerCase().replace(/[^a-z]/g, '');
+  richData[key] = c;
+});
+
+// Load individual slug-named camp files as primary source
+const camps = campFiles
+  .filter(f => f !== '001.json')
+  .map(f => {
+    const camp = JSON.parse(readFileSync(join(campsDir, f), 'utf-8'));
+    // Try to find matching rich data from 001.json
+    const nameKey = (camp.name_en ?? '').toLowerCase().replace(/[^a-z]/g, '');
+    const rich = richData[nameKey];
+    // Merge: rich 001.json fields take priority for descriptions and myanmar names
+    return {
+      ...camp,
+      name_my: rich?.name?.my ?? camp.name_my ?? null,
+      description_en: rich?.description?.en ?? null,
+      description_my: rich?.description?.my ?? null,
+      services_en: rich?.services?.en ?? null,
+      services_my: rich?.services?.my ?? null,
+      // Prefer richer pricing if available
+      fees: camp.fees ?? {},
+    };
+  });
+
 
 // Stats
 const totalElephants = camps.reduce((sum, c) => {

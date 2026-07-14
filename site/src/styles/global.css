@@ -1,4 +1,4 @@
-﻿@import "tailwindcss";
+@import "tailwindcss";
 
 @theme {
   --color-forest-950: #071510;
@@ -39,10 +39,10 @@ html {
   color: var(--color-forest-900);
 }
 
-/* Myanmar language toggle */
-html .lang-my-only { display: none; }
-html.lang-my .lang-en-only { display: none; }
-html.lang-my .lang-my-only { display: block; }
+/* Myanmar language toggle — use 'revert' so spans stay inline, divs stay block */
+html .lang-my-only { display: none !important; }
+html.lang-my .lang-en-only { display: none !important; }
+html.lang-my .lang-my-only { display: revert !important; }
 
 /* Myanmar text rendering */
 .font-myanmar, .lang-my-only {
@@ -50,6 +50,7 @@ html.lang-my .lang-my-only { display: block; }
   line-height: 1.9;
   word-break: break-word;
 }
+
 
 /* Scrollbar */
 ::-webkit-scrollbar { width: 6px; }

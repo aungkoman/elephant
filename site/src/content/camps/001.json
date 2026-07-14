@@ -1,0 +1,941 @@
+[
+    {
+        "camp_id": "ECBT_001",
+        "name": {
+            "en": "Ngwe Saung Elephant Conservation Camp",
+            "my": "ငွေဆောင်းဆင်ထိန်းသိမ်းစောင့်ရှောက်ရေးစခန်း"
+        },
+        "description": {
+            "en": "Located near Ngwe Saung Beach, this camp spans 60 acres and focuses on forest conservation and education. It features a unique suspension bridge and an elephant museum where visitors can study the nature of tropical forests while interacting with elephants in a scenic stream-side environment.",
+            "my": "ငွေဆောင်းကမ်းခြေအနီးတွင် တည်ရှိပြီး ဧရိယာ ၆၀ ဧက ကျယ်ဝန်းကာ သစ်တောထိန်းသိမ်းရေးနှင့် ပညာပေးရေးကို အဓိကထားပါသည်။ ထူးခြားသော ကြိုးတံတားနှင့် ဆင်ပြတိုက်တို့ ပါရှိပြီး ဧည့်သည်များသည် ချောင်းဘေး ရှုခင်းသာယာသော ပတ်ဝန်းကျင်တွင် ဆင်များနှင့်အတူ အပူပိုင်းသစ်တော သဘာဝကို လေ့လာနိုင်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Pathein, Ayeyarwady",
+                "my": "ပုသိမ်၊ ဧရာဝတီတိုင်းဒေသကြီး"
+            },
+            "address": {
+                "en": "Near Pwat Taw Mu Village, Milepost 19/0 Pathein-Ngwe Saung Rd",
+                "my": "ပုသိမ်-ငွေဆောင်းကားလမ်း၊ မိုင်တိုင်(၁၉/၀)၊ ပွတ်တော်မူကျေးရွာအနီး"
+            },
+            "coordinates": {
+                "lat": 16.81067,
+                "long": 94.49272
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 6000
+            },
+            "riding": {
+                "local_mmk": 5000,
+                "foreign_mmk": 12000
+            }
+        },
+        "services": {
+            "en": [
+                "Elephant Museum",
+                "Elephant Show",
+                "Suspension Bridge",
+                "Guest House"
+            ],
+            "my": [
+                "ဆင်ပြတိုက်",
+                "ဆင်သရုပ်ပြပွဲ",
+                "ကြိုးတံတား",
+                "တည်းခိုဆောင်"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_002",
+        "name": {
+            "en": "Moe Ma Kha Elephant Camp",
+            "my": "မိုးမခဆင်စခန်း"
+        },
+        "description": {
+            "en": "Moe Ma Kha is a charming camp located just 4 miles from Ngwe Saung. It is popular for its proximity to Lover's Island and offers interactive experiences such as bathing with elephants and watching cultural performances like the Pathein Umbrella show.",
+            "my": "မိုးမခဆင်စခန်းသည် ငွေဆောင်းမြို့မှ ၄ မိုင်ခန့်အကွာတွင် တည်ရှိသော သာယာလှပသည့် စခန်းတစ်ခု ဖြစ်ပါသည်။ ချစ်သူများကျွန်းနှင့် နီးကပ်စွာ တည်ရှိပြီး ဆင်များနှင့်အတူ ရေချိုးခြင်း၊ ပုသိမ်ထီးအလှပြပွဲကဲ့သို့သော ယဉ်ကျေးမှု ဖျော်ဖြေရေးများကို ကြည့်ရှုနိုင်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Ngwe Saung, Ayeyarwady",
+                "my": "ငွေဆောင်း၊ ဧရာဝတီတိုင်းဒေသကြီး"
+            },
+            "address": {
+                "en": "Near Bhuu Kwal Village, 4 miles from Ngwe Saung",
+                "my": "ဘူးကွဲရွာအနီး၊ ငွေဆောင်းမြို့မှ ၄ မိုင်အကွာ"
+            },
+            "coordinates": {
+                "lat": 16.807790,
+                "long": 94.409148
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 6000
+            },
+            "riding": {
+                "local_mmk": 5000,
+                "foreign_mmk": 12000
+            }
+        },
+        "services": {
+            "en": [
+                "Elephant Bathing",
+                "Pathein Umbrella Show",
+                "Lover's Island Access"
+            ],
+            "my": [
+                "ဆင်ရေချိုးပေးခြင်း",
+                "ပုသိမ်ထီးကိုင်အလှပြခြင်း",
+                "ချစ်သူများကျွန်းအနီး"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_003",
+        "name": {
+            "en": "Srikestra Elephant Conservation Camp",
+            "my": "သီရိခေတ္တရာဆင်စခန်း"
+        },
+        "description": {
+            "en": "Situated near the Srikestra Archaeological Museum, this camp offers a unique blend of nature and history. Visitors can take elephant treks to explore the ancient Pyu City ruins, making it a must-visit for history enthusiasts.",
+            "my": "သီရိခေတ္တရာ ရှေးဟောင်းသုတေသန ပြတိုက်အနီးတွင် တည်ရှိပြီး သဘာဝနှင့် သမိုင်းကြောင်းကို ပေါင်းစပ်ထားသော စခန်းဖြစ်ပါသည်။ ဧည့်သည်များသည် ရှေးဟောင်းပျူမြို့ဟောင်း အကြွင်းအကျန်များကို ဆင်စီး၍ လေ့လာနိုင်သောကြောင့် သမိုင်းဝါသနာရှင်များအတွက် မဖြစ်မနေ သွားရောက်သင့်သော နေရာဖြစ်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Pyay, Bago",
+                "my": "ပြည်၊ ပဲခူးတိုင်းဒေသကြီး"
+            },
+            "address": {
+                "en": "Near Srikestra Archaeological Museum",
+                "my": "သီရိခေတ္တရာရှေးဟောင်းဇုန်ပြတိုက်အနီး"
+            },
+            "coordinates": {
+                "lat": 18.81,
+                "long": 95.29
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 0,
+                "foreign_mmk": 0
+            },
+            "riding_short": {
+                "local_mmk": 5000,
+                "foreign_mmk": 10000
+            },
+            "riding_long": {
+                "local_mmk": 10000,
+                "foreign_mmk": 20000
+            }
+        },
+        "services": {
+            "en": [
+                "Ancient Pyu City Tour",
+                "Elephant Feeding",
+                "Trekking"
+            ],
+            "my": [
+                "ပျူမြို့ဟောင်းလေ့လာရေး",
+                "ဆင်စာကျွေးခြင်း",
+                "တောတွင်းခရီးရှည်"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_004",
+        "name": {
+            "en": "Kyun Taw Elephant Conservation Camp",
+            "my": "ကျွန်းတောဆင်စခန်း"
+        },
+        "description": {
+            "en": "Kyun Taw is famous for its 78-acre lush environment featuring massive 160-year-old teak trees. It is an ideal spot for jungle walks and studying traditional teak plantations while observing the camp's elephants.",
+            "my": "ကျွန်းတောဆင်စခန်းသည် ဧရိယာ ၇၈ ဧက ကျယ်ဝန်းပြီး နှစ်ပေါင်း ၁၆၀ ကျော် သက်တမ်းရှိသော ကျွန်းပင်ကြီးများကြောင့် ကျော်ကြားပါသည်။ တောတွင်းလမ်းလျှောက်ခြင်းနှင့် ရှေးဟောင်းကျွန်းစိုက်ခင်းများကို လေ့လာရင်း ဆင်များ၏ သဘာဝကို ကြည့်ရှုနိုင်ရန် အကောင်းဆုံးနေရာ ဖြစ်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Pyay, Bago",
+                "my": "ပြည်၊ ပဲခူးတိုင်းဒေသကြီး"
+            },
+            "address": {
+                "en": "Alongside Yangon-Pyay Highway, 1 mile from Pyay",
+                "my": "ရန်ကုန်-ပြည်လမ်းမကြီးဘေး၊ ပြည်မြို့မှ ၁ မိုင်အကွာ"
+            },
+            "coordinates": {
+                "lat": 18.794,
+                "long": 95.221
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 500,
+                "foreign_mmk": 30000
+            },
+            "riding_short": {
+                "local_mmk": 5000,
+                "foreign_mmk": 30000
+            }
+        },
+        "services": {
+            "en": [
+                "160-year-old Teak Trees",
+                "Jungle Walk",
+                "Teak Plantation Study"
+            ],
+            "my": [
+                "နှစ် ၁၆၀ ကျော်ကျွန်းပင်ကြီးများ",
+                "တောတွင်းလမ်းလျှောက်ခြင်း",
+                "ကျွန်းစိုက်ခင်းလေ့လာရေး"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_005",
+        "name": {
+            "en": "Phoe Kyar Elephant Camp",
+            "my": "ဖိုးကျားဆင်စခန်း"
+        },
+        "description": {
+            "en": "Located in the Bago Yoma mountain range, Phoe Kyar is one of the premier elephant camps for eco-tourism. It offers complete services including luxury jungle resorts for overnight stays, baby elephant shows, and extensive jungle trekking options.",
+            "my": "ပဲခူးရိုးမ တောင်တန်းပေါ်တွင် တည်ရှိသော ဖိုးကျားဆင်စခန်းသည် ဂေဟစနစ်ခရီးသွားလုပ်ငန်းအတွက် ထိပ်တန်းစခန်းတစ်ခု ဖြစ်ပါသည်။ ညအိပ်တည်းခိုနိုင်သော တောတွင်းအပန်းဖြေစခန်းများ၊ ဆင်ကလေးများ၏ ဖျော်ဖြေပွဲများနှင့် တောတွင်းခရီးရှည် ထွက်နိုင်သော ဝန်ဆောင်မှုများ ပြည့်စုံစွာ ရရှိနိုင်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Taungngu, Bago",
+                "my": "တောင်ငူ၊ ပဲခူးတိုင်းဒေသကြီး"
+            },
+            "address": {
+                "en": "Thagarakopin Road, Milepost 10/2",
+                "my": "သာဂရကိုးပင်လမ်း၊ မိုင်တိုင် ၁၀/၂"
+            },
+            "coordinates": {
+                "grid_ref": "94A/3597410"
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 10000
+            },
+            "riding": {
+                "local_mmk": 3000,
+                "foreign_mmk": 10000
+            }
+        },
+        "services": {
+            "en": [
+                "Overnight Resorts",
+                "Elephant Museum",
+                "Baby Elephant Show"
+            ],
+            "my": [
+                "ညအိပ်တည်းခိုဆောင်",
+                "ဆင်ပြတိုက်",
+                "ဆင်ကလေးများပြပွဲ"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_006",
+        "name": {
+            "en": "Mokkha Waterfall Elephant Conservation Camp",
+            "my": "မုက္ခာရေတံခွန်ဆင်စခန်း"
+        },
+        "description": {
+            "en": "Set against the backdrop of the Mokkha Dam and waterfall, this camp offers a refreshing nature experience. Visitors can bathe with elephants in the waterfall and stay at jungle resorts, enjoying the cool forest climate and local menus.",
+            "my": "မုက္ခာဆည်နှင့် ရေတံခွန်ကို အခြေခံ၍ တည်ရှိသော ဤစခန်းသည် လန်းဆန်းသော သဘာဝအတွေ့အကြုံကို ပေးစွမ်းပါသည်။ ဧည့်သည်များသည် ရေတံခွန်တွင် ဆင်များနှင့်အတူ ရေချိုးနိုင်ပြီး တောတွင်း အပန်းဖြေစခန်းများ၌ တည်းခိုရင်း ဒေသစာသောက်ဖွယ်ရာများကို သုံးဆောင်နိုင်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Minhla, Bago",
+                "my": "မင်းလှ၊ ပဲခူးတိုင်းဒေသကြီး"
+            },
+            "address": {
+                "en": "Near Mokkha Dam, Minhla-Seinkantlant Rd",
+                "my": "မုက္ခာဆည်အနီး၊ မင်းလှ-စိန်ကန့်လန့်လမ်း"
+            },
+            "coordinates": {
+                "lat": 18.002,
+                "long": 95.512
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 500,
+                "foreign_mmk": 10000
+            },
+            "riding": {
+                "local_mmk": 3000,
+                "foreign_mmk": 10000
+            }
+        },
+        "services": {
+            "en": [
+                "Waterfall Bathing",
+                "Jungle Resorts",
+                "Traditional Souvenirs"
+            ],
+            "my": [
+                "ရေတံခွန်တွင်ရေချိုးခြင်း",
+                "တောတွင်းအပန်းဖြေစခန်း",
+                "ရိုးရာလက်ဆောင်ပစ္စည်းများ"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_007",
+        "name": {
+            "en": "Nat Hmaw Elephant Conservation Camp",
+            "my": "နတ်မှော်ဆင်စခန်း"
+        },
+        "description": {
+            "en": "Nat Hmaw is a family-friendly camp known for its beautiful sunflower and aster gardens. In addition to elephant activities, it features a children's playground and pre-wedding photography services among the flowers.",
+            "my": "နတ်မှော်ဆင်စခန်းသည် လှပသော နေကြာနှင့် မေမြို့ပန်းစိုက်ခင်းများကြောင့် မိသားစုများ အပန်းဖြေရန် သင့်တော်သော နေရာတစ်ခု ဖြစ်ပါသည်။ ဆင်များနှင့် ပတ်သက်သော လှုပ်ရှားမှုများအပြင် ကလေးကစားကွင်းနှင့် ပန်းခင်းများအတွင်း မင်္ဂလာဦးဓာတ်ပုံရိုက်ကူးရေး ဝန်ဆောင်မှုများလည်း ရှိပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Pyay, Bago",
+                "my": "ပြည်၊ ပဲခူးတိုင်းဒေသကြီး"
+            },
+            "address": {
+                "en": "Milepost 174/3 Yangon-Pyay Highway",
+                "my": "ရန်ကုန်-ပြည်လမ်း၊ မိုင်တိုင် ၁၇၄/၃"
+            },
+            "coordinates": {
+                "lat": 18.759,
+                "long": 95.213
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 500,
+                "foreign_mmk": 10000
+            },
+            "riding": {
+                "local_mmk": 2000,
+                "foreign_mmk": 10000
+            }
+        },
+        "services": {
+            "en": [
+                "Sunflower Allotment",
+                "Children Playground",
+                "Elephant Museum"
+            ],
+            "my": [
+                "နေကြာပန်းစိုက်ခင်း",
+                "ကလေးကစားကွင်း",
+                "ဆင်ပြတိုက်"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_008",
+        "name": {
+            "en": "Shan Yoma Elephant Camp",
+            "my": "ရှမ်းရိုးမဆင်စခန်း"
+        },
+        "description": {
+            "en": "Located in the Wetphyuye Reserve Forest near Taunggyi, Shan Yoma emphasizes conservation through its memorial tree-planting program. Guests can feed elephants with rice and sugarcane and learn about Asian elephant facts in the cool Shan highlands.",
+            "my": "တောင်ကြီးမြို့အနီး ဝက်ဖြူရေကြိုးဝိုင်းအတွင်း တည်ရှိပြီး အမှတ်တရ သစ်ပင်စိုက်ပျိုးရေး အစီအစဉ်ဖြင့် သဘာဝပတ်ဝန်းကျင် ထိန်းသိမ်းရေးကို အလေးထားသော စခန်းဖြစ်ပါသည်။ ရှမ်းကုန်းပြင်မြင့်၏ အေးမြသော ရာသီဥတုတွင် ဆင်များကို စပါးနှင့် ကြံများ ကျွေးမွေးရင်း အာရှဆင်များအကြောင်း လေ့လာနိုင်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Taunggyi, Shan",
+                "my": "တောင်ကြီး၊ ရှမ်းပြည်နယ်"
+            },
+            "address": {
+                "en": "Milepost 54/3 Taunggyi-Meiktila Rd",
+                "my": "တောင်ကြီး-မိတ္ထီလာလမ်း၊ မိုင်တိုင် ၅၄/၃"
+            },
+            "coordinates": {
+                "lat": 20.743,
+                "long": 96.496
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 10000
+            },
+            "riding": {
+                "local_mmk": 3000,
+                "foreign_mmk": 10000
+            }
+        },
+        "services": {
+            "en": [
+                "Wetphyuye Reserve Forest",
+                "Memorial Tree Planting",
+                "Elephant Bathing"
+            ],
+            "my": [
+                "ဝက်ဖြူရေကြိုးဝိုင်း",
+                "အမှတ်တရသစ်ပင်စိုက်ခြင်း",
+                "ဆင်ရေချိုးခြင်း"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_009",
+        "name": {
+            "en": "Wanet Elephant Conservation Camp",
+            "my": "ဝါးနက်ဆင်ထိန်းသိမ်းစောင့်ရှောက်ရေးစခန်း"
+        },
+        "description": {
+            "en": "Situated on the road to the Yeywa Hydropower plant, Wanet offers a mix of scenic beauty and educational tours. It is well-known for its teak plantation tours and is a popular spot for pre-wedding photography and children's recreation.",
+            "my": "ရဲရွာရေအားလျှပ်စစ်စက်ရုံသွားလမ်းတွင် တည်ရှိပြီး ရှုခင်းအလှအပနှင့် ပညာပေးခရီးစဉ်များကို ပေါင်းစပ်ပေးထားပါသည်။ ကျွန်းစိုက်ခင်း လေ့လာရေးခရီးစဉ်များကြောင့် လူသိများပြီး မင်္ဂလာဦးဓာတ်ပုံရိုက်ကူးသူများနှင့် ကလေးများအတွက် ကစားကွင်းများဖြင့် စည်ကားသော နေရာဖြစ်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Mandalay/Pyin Oo Lwin",
+                "my": "မန္တလေး/ပြင်ဦးလွင်"
+            },
+            "address": {
+                "en": "Mile 5 Furlong 5 on Yeywa Hydropower Rd",
+                "my": "ရဲရွာရေအားလျှပ်စစ်သွားလမ်း၊ ၅ မိုင် ၅ ဖာလုံ"
+            },
+            "coordinates": {
+                "lat": 21.784,
+                "long": 96.297
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 10000
+            },
+            "riding_short": {
+                "local_mmk": 3000,
+                "foreign_mmk": 10000
+            },
+            "riding_long": {
+                "local_mmk": 5000,
+                "foreign_mmk": 10000
+            }
+        },
+        "services": {
+            "en": [
+                "Teak Plantation Tour",
+                "Pre-wedding Shooting",
+                "Elephant Museum"
+            ],
+            "my": [
+                "ကျွန်းစိုက်ခင်းလေ့လာရေး",
+                "မင်္ဂလာဦးဓာတ်ပုံရိုက်ခြင်း",
+                "ဆင်ပြတိုက်"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_010",
+        "name": {
+            "en": "Ngalaik Sa Khan Thar Elephant Conservation Camp",
+            "my": "ငလိုက်စခန်းသာဆင်ထိန်းသိမ်းစောင့်ရှောက်ရေးစခန်း"
+        },
+        "description": {
+            "en": "Ngalaik is one of the most developed camps in Naypyitaw, featuring a 327-foot Canopy Walk and a nearly 5,000-foot Jungle Walk. Visitors can enjoy boat rides on the Ngalaik Dam, cross the floating bridge, and explore diverse plantations of Teak and Pine.",
+            "my": "ငလိုက်ဆည်အနီးတွင် တည်ရှိပြီး ၃၂၇ ပေရှည်သော ရွက်အုပ်ဖြတ်လျှောက်လမ်းနှင့် ၄၈၁၇ ပေရှည်သော တောတွင်းဖြတ်လျှောက်လမ်းတို့ကြောင့် ထင်ရှားပါသည်။ ဧည့်သည်များသည် ဆည်အတွင်း စက်လှေစီးခြင်း၊ ရေပေါ်တံတားကို ဖြတ်သန်းခြင်းနှင့် ကျွန်း၊ ထင်းရှူးစိုက်ခင်းများကို လေ့လာနိုင်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Naypyitaw",
+                "my": "နေပြည်တော်"
+            },
+            "address": {
+                "en": "Milepost 217/0 Yangon-Mandalay Highway",
+                "my": "ရန်ကုန်-မန္တလေးအမြန်လမ်း၊ မိုင်တိုင် ၂၁၇/၀"
+            },
+            "coordinates": {
+                "lat": 19.876,
+                "long": 96.004
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 2000,
+                "foreign_mmk": 10000
+            },
+            "riding": {
+                "local_mmk": 3000,
+                "foreign_mmk": 10000
+            }
+        },
+        "services": {
+            "en": [
+                "Canopy Walk (327 ft)",
+                "Floating Bridge",
+                "Boat Ride in Dam"
+            ],
+            "my": [
+                "ရွက်အုပ်ဖြတ်လျှောက်လမ်း",
+                "ရေပေါ်တံတား",
+                "ဆည်အတွင်းစက်လှေစီးခြင်း"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_011",
+        "name": {
+            "en": "Palin Elephant Camp",
+            "my": "ပုလင်းဆင်စခန်း"
+        },
+        "description": {
+            "en": "Located on the banks of the Ayeyarwaddy River near Bagan, Palin offers stunning sunset views and river activities. It features a 136-foot River View Bridge and a floating barge, providing a peaceful environment to watch elephants bathe in the river.",
+            "my": "ပုဂံအနီး ဧရာဝတီမြစ်ကမ်းဘေးတွင် တည်ရှိပြီး လှပသော နေဝင်ဆည်းဆာနှင့် မြစ်ကမ်းနား ရှုခင်းများကို ခံစားနိုင်ပါသည်။ ၁၃၆ ပေရှည်သော မြစ်ရှုခင်းကြည့်တံတားနှင့် ရေပေါ်ဖောင်တို့ ပါရှိကာ မြစ်အတွင်း ဆင်များ ရေချိုးသည်ကို ကြည့်ရှုရင်း အပန်းဖြေနိုင်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Nyaung Oo, Bagan",
+                "my": "ညောင်ဦး၊ ပုဂံ"
+            },
+            "address": {
+                "en": "Bank of Ayeyarwaddy River, Near Palin Village",
+                "my": "ဧရာဝတီမြစ်ကမ်းဘေး၊ ပုလင်းရွာအနီး"
+            },
+            "coordinates": {
+                "lat": 21.215,
+                "long": 94.972
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 10000
+            },
+            "riding": {
+                "local_mmk": 5000,
+                "foreign_mmk": 10000
+            }
+        },
+        "services": {
+            "en": [
+                "River Sunset View",
+                "Floating Barge",
+                "River View Bridge"
+            ],
+            "my": [
+                "မြစ်ကမ်းနားနေဝင်ဆည်းဆာ",
+                "ရေပေါ်ဖောင်",
+                "မြစ်ရှုခင်းကြည့်တံတား"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_012",
+        "name": {
+            "en": "Hmaw Yaw Gyi Elephant Conservation Camp",
+            "my": "မှော်ယောကြီးဆင်စခန်း"
+        },
+        "description": {
+            "en": "Hmaw Yaw Gyi is famous for its twin baby elephants and engaging performance shows. Located in the Bago Region, it offers a deep dive into the livelihood of mahouts and provides a friendly environment to interact with a large herd of 17 elephants.",
+            "my": "မှော်ယောကြီးဆင်စခန်းသည် အမွှာဆင်ကလေးများနှင့် စိတ်ဝင်စားဖွယ် ဆင်သရုပ်ပြပွဲများကြောင့် ကျော်ကြားပါသည်။ ပဲခူးတိုင်းတွင် တည်ရှိပြီး ဆင်ဦးစီးများ၏ ဘဝနေထိုင်မှုကို လေ့လာနိုင်ကာ စုစုပေါင်း ဆင် ၁၇ ကောင်နှင့်အတူ ရင်းနှီးစွာ ထိတွေ့နိုင်သော ပတ်ဝန်းကျင်ကို ဖန်တီးပေးထားပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Bago",
+                "my": "ပဲခူးတိုင်းဒေသကြီး"
+            },
+            "address": {
+                "en": "West of Milepost 105/4 Yangon-Mandalay Expressway",
+                "my": "ရန်ကုန်-မန္တလေးအမြန်လမ်း၊ မိုင်တိုင် ၁၀၁/၄ အနောက်ဘက်"
+            },
+            "coordinates": {
+                "lat": 18.412,
+                "long": 96.682
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 10000
+            },
+            "riding": {
+                "local_mmk": 5000,
+                "foreign_mmk": 20000
+            }
+        },
+        "services": {
+            "en": [
+                "Twin Baby Elephants",
+                "Elephant Performance Show",
+                "Mahout Life Study"
+            ],
+            "my": [
+                "အမွှာဆင်ကလေးများ",
+                "ဆင်သရုပ်ပြပွဲ",
+                "ဆင်ဦးစီးဘဝလေ့လာရေး"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_013",
+        "name": {
+            "en": "Myaing Hay Won Elephant Conservation Camp",
+            "my": "မြိုင်ဟေဝန်ဆင်စခန်း"
+        },
+        "description": {
+            "en": "Tucked away in the Okkan Reserve, Myaing Hay Won serves as a center for wild elephant study. Using trained 'Conji' elephants, the Emergency Response Unit monitors wild elephant populations, offering visitors a rare opportunity to observe these majestic animals in their natural habitat.",
+            "my": "ဥက္ကံကြိုးဝိုင်းအတွင်း တည်ရှိသော မြိုင်ဟေဝန်သည် တောဆင်ရိုင်းများကို လေ့လာရာ ဗဟိုဌာနတစ်ခု ဖြစ်ပါသည်။ 'ကွန်ဂျီ' ဟုခေါ်သော လေ့ကျင့်ပေးထားသည့် ဆင်များကို အသုံးပြု၍ အရေးပေါ်တုံ့ပြန်ရေးအဖွဲ့က တောဆင်ရိုင်းများကို စောင့်ကြည့်လေ့လာကြပြီး ဧည့်သည်များအနေဖြင့် သဘာဝအတိုင်း နေထိုင်သော ဆင်ရိုင်းများကို မြင်တွေ့နိုင်သော အခွင့်အရေး ရရှိပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Taikyi, Yangon",
+                "my": "တိုက်ကြီး၊ ရန်ကုန်တိုင်းဒေသကြီး"
+            },
+            "address": {
+                "en": "Okkan Reserve, Milepost 60 Yangon-Pyay Rd",
+                "my": "ဥက္ကံကြိုးဝိုင်း၊ ရန်ကုန်-ပြည်လမ်း၊ မိုင်တိုင် ၆၀"
+            },
+            "coordinates": {
+                "lat": 17.293,
+                "long": 96.001
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 10000
+            },
+            "riding": {
+                "local_mmk": 5000,
+                "foreign_mmk": 10000
+            },
+            "overnight": {
+                "local_mmk": 10000,
+                "foreign_mmk": 20000
+            }
+        },
+        "services": {
+            "en": [
+                "Wild Elephant Study via Conji",
+                "Emergency Response Unit",
+                "Jungle Resorts"
+            ],
+            "my": [
+                "တောဆင်လေ့လာရေး",
+                "အရေးပေါ်တုံ့ပြန်ရေးအဖွဲ့",
+                "တောတွင်းအပန်းဖြေစခန်း"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_014",
+        "name": {
+            "en": "Khai Kam Elephant Camp",
+            "my": "ခိုင်ကမ်းဆင်စခန်း"
+        },
+        "description": {
+            "en": "Set in the mountainous landscapes of Chin State, Khai Kam offers breathtaking views and a fresh climate. It focuses on traditional interactions, where visitors can bathe with elephants and enjoy local delicacies while overlooking the scenic hills.",
+            "my": "ချင်းပြည်နယ်၏ တောင်တန်းရှုခင်းများအကြား တည်ရှိသော ခိုင်ကမ်းဆင်စခန်းသည် လှပသော မြင်ကွင်းနှင့် လတ်ဆတ်သော ရာသီဥတုကို ပေးစွမ်းပါသည်။ ဆင်များနှင့်အတူ ရေချိုးခြင်း၊ တောင်တန်းရှုခင်းများကို ကြည့်ရှုရင်း ဒေသစာသောက်ဖွယ်ရာများကို သုံးဆောင်နိုင်ခြင်းတို့ကြောင့် ထူးခြားသော အတွေ့အကြုံကို ရရှိစေပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Kalay, Chin State",
+                "my": "ကလေး၊ ချင်းပြည်နယ်"
+            },
+            "address": {
+                "en": "15 miles from Kalay, 6 miles from Khai Kam",
+                "my": "ကလေးမြို့မှ ၁၅ မိုင်၊ ခိုင်ကမ်းမြို့မှ ၆ မိုင်"
+            },
+            "coordinates": {
+                "lat": 23.247,
+                "long": 93.894
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 10000
+            },
+            "riding": {
+                "local_mmk": 3000,
+                "foreign_mmk": 10000
+            }
+        },
+        "services": {
+            "en": [
+                "Mountainous Scenery",
+                "Elephant Bathing",
+                "Traditional Food"
+            ],
+            "my": [
+                "တောင်တန်းရှုခင်းများ",
+                "ဆင်ရေချိုးခြင်း",
+                "ဒေသအစားအသောက်များ"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_015",
+        "name": {
+            "en": "Wingabaw Elephant Conservation Camp",
+            "my": "ဝါးဂယက်ဗောဆင်စခန်း"
+        },
+        "description": {
+            "en": "Wingabaw is a popular destination near Phayagyi known for its twin baby elephants and educational elephant museum. The camp provides overnight guest house facilities and a lively atmosphere with regular elephant performance shows.",
+            "my": "ဘုရားကြီးမြို့အနီးတွင် တည်ရှိသော ဝါးဂယက်ဗောဆင်စခန်းသည် အမွှာဆင်ကလေးများနှင့် ပညာပေးဆင်ပြတိုက်ကြောင့် လူသိများပါသည်။ ညအိပ်တည်းခိုနိုင်သော ဧည့်ရိပ်သာများ ရှိပြီး ပုံမှန်ပြုလုပ်လေ့ရှိသော ဆင်သရုပ်ပြပွဲများကြောင့် စည်ကားလှပသော စခန်းတစ်ခု ဖြစ်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Phayagyi, Bago",
+                "my": "ဘုရားကြီး၊ ပဲခူးတိုင်းဒေသကြီး"
+            },
+            "address": {
+                "en": "1 mile from Milepost 39/0 Yangon-Mandalay Expressway",
+                "my": "ရန်ကုန်-မန္တလေးအမြန်လမ်း၊ မိုင်တိုင် ၃၉/၀ မှ ၁ မိုင်"
+            },
+            "coordinates": {
+                "lat": 17.473,
+                "long": 96.470
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 10000
+            },
+            "riding": {
+                "local_mmk": 5000,
+                "foreign_mmk": 20000
+            }
+        },
+        "services": {
+            "en": [
+                "Twin Baby Elephants",
+                "Elephant Museum",
+                "Night-stay Guest House"
+            ],
+            "my": [
+                "အမွှာဆင်ကလေးများ",
+                "ဆင်ပြတိုက်",
+                "ညအိပ်တည်းခိုဆောင်"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_016",
+        "name": {
+            "en": "1000 Bodhi Elephant Conservation Camp",
+            "my": "ဗောဓိတထောင်ဆင်ထိန်းသိမ်းစောင့်ရှောက်ရေးစခန်း"
+        },
+        "description": {
+            "en": "Located within the grounds of the famous Bodhi Ta Htaung Pagoda in Monywa, this camp combines religious pilgrimage with nature study. It offers a peaceful environment for family visits, complete with a playground and opportunities to see elephants in a sacred setting.",
+            "my": "မုံရွာမြို့ရှိ ကျော်ကြားလှသော ဗောဓိတထောင် ဘုရားဝန်းအတွင်း တည်ရှိပြီး ဘုရားဖူးခရီးစဉ်နှင့် သဘာဝပတ်ဝန်းကျင် လေ့လာရေးကို ပေါင်းစပ်ပေးထားပါသည်။ မိသားစုများ အပန်းဖြေရန် အေးချမ်းသော ပတ်ဝန်းကျင်ရှိပြီး ကလေးကစားကွင်းနှင့် ဘုရားဝန်းအတွင်း ဆင်များကို ကြည့်ရှုနိုင်သော အခွင့်အရေးများ ရရှိနိုင်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Monywa, Sagaing",
+                "my": "မုံရွာ၊ စစ်ကိုင်းတိုင်းဒေသကြီး"
+            },
+            "address": {
+                "en": "Near Bodhi Ta Htaung Pagoda, Monywa",
+                "my": "ဗောဓိတထောင်ဘုရားဝန်းအတွင်း၊ မုံရွာ"
+            },
+            "coordinates": {
+                "lat": 22.112,
+                "long": 95.286
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 10000
+            },
+            "riding": {
+                "local_mmk": 5000,
+                "foreign_mmk": 10000
+            }
+        },
+        "services": {
+            "en": [
+                "Pagoda Visitation",
+                "Nature Study",
+                "Children Playground"
+            ],
+            "my": [
+                "ဘုရားဖူးရင်းလေ့လာနိုင်ခြင်း",
+                "သဘာဝပတ်ဝန်းကျင်လေ့လာရေး",
+                "ကလေးကစားကွင်း"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_017",
+        "name": {
+            "en": "Sarni Taung Elephant Conservation Camp",
+            "my": "စာနီတောင်ဆင်ထိန်းသိမ်းစောင့်ရှောက်ရေးစခန်း"
+        },
+        "description": {
+            "en": "Close to Ngapali Beach, Sarni Taung is perfect for travelers looking to experience Rakhine culture. The camp serves traditional Rakhine food, offers memorial tree planting, and provides insights into the unique bond between mahouts and their elephants.",
+            "my": "ငပလီကမ်းခြေနှင့် နီးကပ်စွာ တည်ရှိပြီး ရခိုင်ယဉ်ကျေးမှုကို ခံစားလိုသော ခရီးသွားများအတွက် အကောင်းဆုံးနေရာ ဖြစ်ပါသည်။ ရခိုင်ရိုးရာ အစားအသောက်များကို သုံးဆောင်နိုင်ပြီး အမှတ်တရ သစ်ပင်စိုက်ပျိုးခြင်းနှင့် ဆင်ဦးစီးများ၏ ဘဝနေထိုင်မှုများကို လေ့လာနိုင်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Thandwe, Rakhine",
+                "my": "သံတွဲ၊ ရခိုင်ပြည်နယ်"
+            },
+            "address": {
+                "en": "6 miles from Ngapali, 2 miles from Thandwe",
+                "my": "ငပလီမှ ၆ မိုင်၊ သံတွဲမှ ၂ မိုင်"
+            },
+            "coordinates": {
+                "lat": 18.456,
+                "long": 94.383
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 15000
+            },
+            "riding": {
+                "local_mmk": 5000,
+                "foreign_mmk": 15000
+            }
+        },
+        "services": {
+            "en": [
+                "Rakhine Traditional Food",
+                "Memorial Tree Planting",
+                "Mahout Lifestyle Study"
+            ],
+            "my": [
+                "ရခိုင်ရိုးရာအစားအသောက်",
+                "အမှတ်တရသစ်ပင်စိုက်ခြင်း",
+                "ဆင်ဦးစီးဘဝလေ့လာရေး"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_018",
+        "name": {
+            "en": "Shwe Set Taw Elephant Conservation Camp",
+            "my": "ရွှေစက်တော်မန်းချောင်းဆင်စခန်း"
+        },
+        "description": {
+            "en": "Located near the sacred Shwesettaw Pagoda, this camp is known for its riverside activities on the Man Chaung. It is a major pilgrimage stop where visitors can enjoy water activities, stay in overnight resorts, and participate in elephant bathing.",
+            "my": "တန်ခိုးကြီး ရွှေစက်တော်ဘုရားအနီးတွင် တည်ရှိပြီး မန်းချောင်းအတွင်း ရေကစားခြင်းနှင့် အပန်းဖြေခြင်းတို့ကြောင့် ကျော်ကြားပါသည်။ ဘုရားဖူးခရီးစဉ်များတွင် အဓိကဝင်ရောက်ရာ နေရာဖြစ်ပြီး ညအိပ်တည်းခိုနိုင်သော အပန်းဖြေစခန်းများရှိကာ ဆင်များနှင့်အတူ ရေကစားနိုင်သော အခွင့်အရေးများ ရရှိပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Minbu, Magway",
+                "my": "မင်းဘူး၊ မကွေးတိုင်းဒေသကြီး"
+            },
+            "address": {
+                "en": "Milepost 5/0-5/3 Shwesettaw Pagoda Rd",
+                "my": "ရွှေစက်တော်ဘုရားလမ်း၊ မိုင်တိုင် ၅/၀-၅/၃"
+            },
+            "coordinates": {
+                "lat": 20.086,
+                "long": 94.549
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 10000
+            },
+            "riding": {
+                "local_mmk": 5000,
+                "foreign_mmk": 10000
+            }
+        },
+        "services": {
+            "en": [
+                "Man Chaung River Activities",
+                "Pagoda Visitation",
+                "Overnight Resorts"
+            ],
+            "my": [
+                "မန်းချောင်းအတွင်းရေကစားခြင်း",
+                "ဘုရားဖူးလေ့လာရေး",
+                "ညအိပ်တည်းခိုဆောင်"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_019",
+        "name": {
+            "en": "Talalnal Elephant Conservation Camp",
+            "my": "တလယ်နယ်ဆင်စခန်း"
+        },
+        "description": {
+            "en": "Talalnal offers a secluded escape near Thandwe, accessible by a scenic boat trip along the Talalnal Creek. It is a prime spot for nature photography and provides a quiet environment to interact with elephants and observe mahout lifestyles.",
+            "my": "သံတွဲမြို့အနီးတွင် တည်ရှိပြီး တလယ်နယ်ချောင်းတစ်လျှောက် စက်လှေစီး၍ သွားရောက်နိုင်သော သီးသန့်ဆန်သည့် စခန်းတစ်ခု ဖြစ်ပါသည်။ သဘာဝဓာတ်ပုံရိုက်ကူးရေးအတွက် အလွန်ကောင်းမွန်ပြီး ဆင်များနှင့် ဆင်ဦးစီးများ၏ နေထိုင်မှုပုံစံကို အေးချမ်းစွာ လေ့လာနိုင်သော နေရာဖြစ်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Thandwe, Rakhine",
+                "my": "သံတွဲ၊ ရခိုင်ပြည်နယ်"
+            },
+            "address": {
+                "en": "7 miles from Thandwe, along Talalnal Creek",
+                "my": "သံတွဲမြို့မှ ၇ မိုင်၊ တလယ်နယ်ချောင်းဘေး"
+            },
+            "coordinates": {
+                "lat": 18.425,
+                "long": 94.465
+            }
+        },
+        "pricing": {
+            "entrance": {
+                "local_mmk": 1000,
+                "foreign_mmk": 15000
+            },
+            "riding": {
+                "local_mmk": 5000,
+                "foreign_mmk": 15000
+            }
+        },
+        "services": {
+            "en": [
+                "Boat Trip Access",
+                "Nature Photography",
+                "Mahout Interaction"
+            ],
+            "my": [
+                "စက်လှေဖြင့်လာရောက်နိုင်ခြင်း",
+                "သဘာဝဓာတ်ပုံရိုက်ခြင်း",
+                "ဆင်ဦးစီးများနှင့်ရင်းနှီးမှု"
+            ]
+        }
+    },
+    {
+        "camp_id": "ECBT_020",
+        "name": {
+            "en": "Royal White Elephant Conservation Garden",
+            "my": "ရတနာဆင်ဖြူတော်ထိန်းသိမ်းစောင့်ရှောက်ရေးဥယျာဉ်"
+        },
+        "description": {
+            "en": "Home to the revered Royal White Elephants of Myanmar, this garden is located at the foot of the Uppatassanti Pagoda in Naypyitaw. Visitors can observe several white elephants, each possessing unique physical traits such as pearl eyes and golden-white hair, which are traditionally considered symbols of peace and prosperity.",
+            "my": "နေပြည်တော်၊ ဥပ္ပါတသန္တိ စေတီတော်ခြေရင်းတွင် တည်ရှိပြီး မြန်မာနိုင်ငံ၏ တန်ဖိုးထားအပ်သော ရတနာဆင်ဖြူတော်များ ရှိရာနေရာ ဖြစ်ပါသည်။ ပုလဲရောင်မျက်လုံးနှင့် ရွှေဖြူရောင်အမွှေးအမျှင်များကဲ့သို့သော ထူးခြားသည့် ကြန်အင်လက္ခဏာများနှင့် ပြည့်စုံသည့် ဆင်ဖြူတော်များကို ဖူးမြော်လေ့လာနိုင်သော နေရာဖြစ်ပါသည်။"
+        },
+        "location": {
+            "region": {
+                "en": "Naypyitaw",
+                "my": "နေပြည်တော်"
+            },
+            "address": {
+                "en": "Uppatassanti Pagoda, Naypyitaw",
+                "my": "ဥပ္ပါတသန္တိစေတီတော်၊ နေပြည်တော်"
+            }
+        },
+        "services": {
+            "en": [
+                "White Elephant Observation",
+                "Spiritual Tours",
+                "Photography"
+            ],
+            "my": [
+                "ဆင်ဖြူတော်များဖူးမြော်ခြင်း",
+                "ဘာသာရေးနှင့်ယဉ်ကျေးမှု",
+                "ဓာတ်ပုံရိုက်ကူးခြင်း"
+            ]
+        }
+    }
+]
