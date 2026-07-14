@@ -49,5 +49,27 @@
   ],
   "region_my": "ပြည်၊ ပဲခူးတိုင်းဒေသကြီး",
   "address_en": "Near Srikestra Archaeological Museum",
-  "address_my": "သီရိခေတ္တရာရှေးဟောင်းဇုန်ပြတိုက်အနီး"
+  "address_my": "သီရိခေတ္တရာရှေးဟောင်းဇုန်ပြတိုက်အနီး",
+  "images": [
+    "/images/camps/serikestraecbt-camp-informationenglishversion-1.jpeg",
+    "/images/camps/serikestraecbt-camp-informationenglishversion-10.jpeg",
+    "/images/camps/serikestraecbt-camp-informationenglishversion-2.jpeg",
+    "/images/camps/serikestraecbt-camp-informationenglishversion-3.jpeg",
+    "/images/camps/serikestraecbt-camp-informationenglishversion-4.jpeg",
+    "/images/camps/serikestraecbt-camp-informationenglishversion-5.jpeg",
+    "/images/camps/serikestraecbt-camp-informationenglishversion-6.jpeg",
+    "/images/camps/serikestraecbt-camp-informationenglishversion-7.jpeg",
+    "/images/camps/serikestraecbt-camp-informationenglishversion-8.jpeg",
+    "/images/camps/serikestraecbt-camp-informationenglishversion-9.jpeg",
+    "/images/camps/serikestraecbt-camp-informationmyanmarversion-1.jpeg",
+    "/images/camps/serikestraecbt-camp-informationmyanmarversion-10.jpeg",
+    "/images/camps/serikestraecbt-camp-informationmyanmarversion-2.jpeg",
+    "/images/camps/serikestraecbt-camp-informationmyanmarversion-3.jpeg",
+    "/images/camps/serikestraecbt-camp-informationmyanmarversion-4.jpeg",
+    "/images/camps/serikestraecbt-camp-informationmyanmarversion-5.jpeg",
+    "/images/camps/serikestraecbt-camp-informationmyanmarversion-6.jpeg",
+    "/images/camps/serikestraecbt-camp-informationmyanmarversion-7.jpeg",
+    "/images/camps/serikestraecbt-camp-informationmyanmarversion-8.jpeg",
+    "/images/camps/serikestraecbt-camp-informationmyanmarversion-9.jpeg"
+  ]
 }

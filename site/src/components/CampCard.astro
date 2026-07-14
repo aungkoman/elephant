@@ -12,6 +12,7 @@ interface Camp {
   fees: { entrance_local_mmk?: number | null; riding_local_mmk?: number | null };
   latitude: number | null;
   longitude: number | null;
+  images?: string[];
 }
 
 interface Props {
@@ -45,10 +46,13 @@ const grad = GRADIENTS[gradIdx];
 >
   <!-- Hero -->
   <div class={`relative h-48 bg-gradient-to-br ${grad} overflow-hidden`}>
-    <!-- Decorative elephant silhouette -->
-    <div class="absolute inset-0 flex items-center justify-center opacity-10 text-[9rem] select-none pointer-events-none">
-      🐘
-    </div>
+    {camp.images && camp.images.length > 0 ? (
+      <img src={camp.images[0]} alt={camp.name_en} class="absolute inset-0 w-full h-full object-cover" />
+    ) : (
+      <div class="absolute inset-0 flex items-center justify-center opacity-10 text-[9rem] select-none pointer-events-none">
+        🐘
+      </div>
+    )}
 
     <!-- Region badge -->
     {camp.region && (

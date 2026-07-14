@@ -42,10 +42,13 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
   <!-- ─── HERO ─────────────────────────────────────────────────────────── -->
   <section
     class="relative min-h-[55vh] flex items-end overflow-hidden pt-20"
-    style={`background: linear-gradient(135deg, ${g1} 0%, ${g2} 100%)`}
+    style={camp.images && camp.images.length > 0 ? `background-image: url('${camp.images[0]}'); background-size: cover; background-position: center;` : `background: linear-gradient(135deg, ${g1} 0%, ${g2} 100%)`}
   >
     <!-- Decorative -->
     <div class="absolute inset-0 overflow-hidden pointer-events-none select-none">
+      {camp.images && camp.images.length > 0 && (
+        <div class="absolute inset-0 bg-black/50"></div>
+      )}
       <div class="absolute right-8 top-1/2 -translate-y-1/2 text-[14rem] opacity-[0.07] leading-none">🐘</div>
       <div class="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-white/5 blur-3xl"></div>
     </div>
@@ -204,6 +207,31 @@ const pageDescription = `Visit ${camp.name_en} in ${camp.region ?? 'Myanmar'} �
             </p>
           </div>
         )}
+
+        <!-- Gallery -->
+        {camp.images && camp.images.length > 1 && (
+          <div class="mt-12">
+            <h2 class="font-[Outfit] font-bold text-2xl text-[--color-forest-900] mb-4 lang-en-only">
+              📸 Gallery
+            </h2>
+            <h2 class="font-bold text-2xl text-[--color-forest-900] mb-4 lang-my-only font-myanmar">
+              📸 ဓာတ်ပုံများ
+            </h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+              {camp.images.slice(1, 10).map((img: string) => (
+                <a href={img} target="_blank" rel="noopener noreferrer" class="block aspect-video overflow-hidden rounded-xl bg-forest-50 hover:opacity-90 transition-opacity">
+                  <img src={img} alt={`${camp.name_en} Image`} class="w-full h-full object-cover" loading="lazy" />
+                </a>
+              ))}
+            </div>
+            {camp.images.length > 10 && (
+              <p class="text-sm text-forest-500 mt-4 italic lang-en-only">
+                Showing 9 of {camp.images.length - 1} gallery photos.
+              </p>
+            )}
+          </div>
+        )}
+
 
       </div>
 
